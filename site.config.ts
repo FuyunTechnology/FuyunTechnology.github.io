@@ -16,7 +16,7 @@ export default defineSiteConfig({
   },
   description: '编辑博客还是太难了',
   favicon: '',
-  social: [git
+  social: [
     {
       name: 'RSS',
       link: '/atom.xml',
