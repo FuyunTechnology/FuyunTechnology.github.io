@@ -27,6 +27,9 @@ importers:
         specifier: 0.23.4
         version: 0.23.4(vue@3.5.16(typescript@5.8.3))
     devDependencies:
+      '@iconify-json/line-md':
+        specifier: ^1.2.8
+        version: 1.2.8
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -466,6 +469,9 @@ packages:
 
   '@iconify-json/ant-design@1.2.5':
     resolution: {integrity: sha512-SYxhrx1AFq2MBcXk77AERYz2mPhLQes1F0vtvG64+dJZWyge9studXo7MiR8PPeLjRjZdWRrReRbxiwdRMf70Q==}
+
+  '@iconify-json/line-md@1.2.8':
+    resolution: {integrity: sha512-jWFsu6OZ1xAd4U0MLc/dgawC8nCbSn+a+WjTv+luiihpb6rrGLMw+Vy3wQ01hGf77v+fwt8sTvwm6K9zN3r4vQ==}
 
   '@iconify-json/logos@1.2.4':
     resolution: {integrity: sha512-XC4If5D/hbaZvUkTV8iaZuGlQCyG6CNOlaAaJaGa13V5QMYwYjgtKk3vPP8wz3wtTVNVEVk3LRx1fOJz+YnSMw==}
@@ -4047,6 +4053,10 @@ snapshots:
   '@humanwhocodes/retry@0.4.3': {}
 
   '@iconify-json/ant-design@1.2.5':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/line-md@1.2.8':
     dependencies:
       '@iconify/types': 2.0.0
 

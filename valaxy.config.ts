@@ -44,7 +44,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       {
         name: '喜欢的艺术家',
         url: '/Artist/',
-        icon: 'i-ri-women-line',
+        icon: 'i-line-md-cookie-filled',
         color: 'hotpink',
       },
       {
@@ -62,7 +62,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         name: 'i-ri-heart-line',
         animated: true,
         color: '#d69b54',
-        url: 'https://yuumi.link',	//图标链接
+        url: 'https://fuyuntechnology.github.io/posts/hello-valaxy',	//图标链接
         title: '回到首页'		//鼠标悬停注释
       },
       beian: {
@@ -73,9 +73,9 @@ export default defineValaxyConfig<UserThemeConfig>({
   },
  
  addons: [
-    addonLightGallery(),   //添加相册插件
-    addonComponents(),  //添加通用组件
-    addonFace({
+    addonLightGallery(),   //导入相册插件
+    addonComponents(),  //导入通用组件
+    addonFace({  //导入表情包插件
       // 配置
       defaultSuffix: 'png'
     }),

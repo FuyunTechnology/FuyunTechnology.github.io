@@ -6,8 +6,8 @@ export default defineSiteConfig({
   title: '浮芸的云端',
   subtitle: 'Fuyun-blog',
   author: {
-    name: '浮芸',
-    avatar: '头像地址',
+    name: '仰望星空',
+    avatar: "https://cdn.yuumi.link/images/settings/favicon.png",
      status:
     {
       emoji: '😐',
@@ -31,7 +31,7 @@ export default defineSiteConfig({
     },
     {
       name: 'GitHub',
-      link: 'https://bgithub.xyz/FuyunTechnology',
+      link: 'https://github.com/FuyunTechnology',
       icon: 'i-ri-github-line',
       color: '#6e5494',
     },
@@ -62,7 +62,7 @@ export default defineSiteConfig({
   ],
 
     search: {
-    enable: true,
+    enable: false,
     type: 'engine',
   },
 
@@ -93,7 +93,7 @@ mediumZoom: { enable: true },
   },
 
   sponsor: {
-    enable: true,
+    enable: false,
     title: '看在收集了这么多软件的份上,给点钱吧',
     methods: [
       {
