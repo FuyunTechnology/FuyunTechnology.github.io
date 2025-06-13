@@ -62,7 +62,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         name: 'i-ri-heart-line',
         animated: true,
         color: '#d69b54',
-        url: 'https://fuyuntechnology.github.io/posts/hello-valaxy',	//图标链接
+        url: 'https://fuyuntechnology.github.io/',	//图标链接
         title: '回到首页'		//鼠标悬停注释
       },
       beian: {

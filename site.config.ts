@@ -4,19 +4,19 @@ export default defineSiteConfig({
   url: 'https://valaxy.site/',
   lang: 'zh-CN',
   title: '浮芸的云端',
-  subtitle: 'Fuyun-blog',
+  subtitle: 'Roof above the floating cloud',
   author: {
     name: '仰望星空',
-    avatar: "https://cdn.yuumi.link/images/settings/favicon.png",
+    avatar: "https://raw.githubusercontent.com/FuyunTechnology/FuyunTechnology.github.io/refs/heads/main/public/Watch%20the%20star.png",
      status:
     {
-      emoji: '😐',
-      message: '真不想上学'
+      emoji: '💡',
+      message: '我有一计!'
   }
   },
   description: '编辑博客还是太难了',
-  favicon: '站点图标地址',
-  social: [
+  favicon: '',
+  social: [git
     {
       name: 'RSS',
       link: '/atom.xml',
@@ -32,7 +32,7 @@ export default defineSiteConfig({
     {
       name: 'GitHub',
       link: 'https://github.com/FuyunTechnology',
-      icon: 'i-ri-github-line',
+      icon: 'i-line-md-github-loop',
       color: '#6e5494',
     },
     {

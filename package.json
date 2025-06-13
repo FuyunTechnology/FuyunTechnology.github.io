@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "@iconify-json/line-md": "^1.2.8",
+    "@iconify-json/svg-spinners": "^1.2.2",
     "typescript": "^5.8.3"
   }
 }
