@@ -2,14 +2,26 @@
 title: 关于我
 ---
 
-I am developing [Valaxy](https://github.com/YunYouJun/valaxy) - Next Generation Static Blog Framework.
+如果你认识站长，那你打开这篇文章是不小心或者是找乐子的吧.
 
-If you like it, you can sponsor me in [GitHub](https://github.com/sponsors/YunYouJun) or [www.yunyoujun.cn/sponsors/](https://www.yunyoujun.cn/sponsors/).
+嗯，作为一个~~网络上~~的“社交恐~~怖~~惧分子”，那么这份自述文件就肯定会写得非常~~详细~~小心的，那么综上所述，站长的自述文件是...
 
----
+~~姓名:~~         网名：浮芸       笔名：浮芸
 
-我正在开发 [Valaxy](https://github.com/YunYouJun/valaxy) - 下一代静态博客框架。
+身份:高中生
 
-如果你喜欢它，你可以在 [GitHub](https://github.com/sponsors/YunYouJun) 或 [www.yunyoujun.cn/sponsors/](https://www.yunyoujun.cn/sponsors/) 赞助我。
+爱好：收集软件，网站
 
-Check out the [Valaxy | GitHub](https://github.com/YunYouJun/valaxy) for more details.
+属性：I人吗？~~理想:(现在还是零编程基础的小白)~~
+
+特长：~~写诗（感觉没有）~~
+
+现状：站长的精神状况特良好
+
+网瘾：估计谈不上，但有点，毕竟，
+
+第五人格，启动！
+
+嗯，如果你认识站长，并且也染上了第五人格，下方为我的ID，密码为班级号，
+
+请加一下吧！放假一个人玩太无聊了~~（都找不到人猎马了）~~
