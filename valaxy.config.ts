@@ -25,8 +25,8 @@ export default defineValaxyConfig<UserThemeConfig>({
 
         bg_image: {
       enable: true,
-      url: '/photo/bg/atri.webp',
-      dark: '/photo/bg/bg.webp',
+      url: 'https://raw.bgithub.xyz/FuyunTechnology/FuyunTechnology.github.io/refs/heads/main/public/Huhv%EF%BC%9A%E4%BA%91100769206.png',
+      dark: 'https://raw.bgithub.xyz/FuyunTechnology/FuyunTechnology.github.io/refs/heads/main/public/%E7%94%BB%E5%B8%88JW%EF%BC%9A%E5%A4%A9%E7%A9%BA%E9%AD%94%E6%B3%9578868588.png',
       opacity: 0.7
     },
 
