@@ -20,19 +20,28 @@ export default defineSiteConfig({
     {
       name: 'RSS',
       link: '/atom.xml',
-      icon: 'i-ri-rss-line',
+      icon: 'i-line-md-rss',
       color: 'orange',
     },
+    /**
+   * 按以下格式添加社媒方式
+    {
+      name: '媒体和图标名称',
+      link: '图标链接',
+      icon: '图标名字',
+      color: '图标颜色,请使用16进制格式',
+    },
+   */
     {
       name: 'QQ  3404889047',
-      link: 'https://qm.qq.com/cgi-bin/qm/qr?k=kZJzggTTCf4SpvEQ8lXWoi5ZjhAx0ILZ&jump_from=webapi',
+      link: '',
       icon: 'i-ri-qq-line',
       color: '#12B7F5',
     },
     {
       name: 'GitHub',
       link: 'https://github.com/FuyunTechnology',
-      icon: 'i-line-md-github-loop',
+      icon: 'i-line-md-github',
       color: '#6e5494',
     },
     {
@@ -48,22 +57,16 @@ export default defineSiteConfig({
       color: '#0088CC',
     },
     {
-      name: 'E-Mail',
-      link: 'mailto:me@yunyoujun.cn',
+      name: 'E-Mail(暂时还没有合适的)',
+      link: '',
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },
-    {
-      name: 'Travelling',
-      link: 'https://www.travellings.cn/go.html',
-      icon: 'i-ri-train-line',
-      color: 'var(--va-c-text)',
-    },
   ],
 
-    search: {
-    enable: false,
-    type: 'engine',
+    search: {  //是否启用搜索
+    enable: false,  //ture或false
+    type: 'engine',  //engine或aligoge
   },
 
   encrypt: {

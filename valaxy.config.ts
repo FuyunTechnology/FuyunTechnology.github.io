@@ -59,7 +59,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       since: 2025,  //网站运行时间
       icon: {
         enable: true,  //是否启用
-        name: 'i-ri-heart-line',
+        name: 'i-line-md-cloud-alt-print-filled-loop',
         animated: true,
         color: '#d69b54',
         url: 'https://fuyuntechnology.github.io/',	//图标链接
