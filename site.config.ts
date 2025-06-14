@@ -7,7 +7,7 @@ export default defineSiteConfig({
   subtitle: 'Roof above the floating cloud',
   author: {
     name: '仰望星空',
-    avatar: "https://raw.githubusercontent.com/FuyunTechnology/FuyunTechnology.github.io/refs/heads/main/public/Watch%20the%20star.png",
+    avatar: "https://bgithub.xyz/FuyunTechnology/FuyunTechnology.github.io/blob/main/public/Watch%20the%20star.png",
      status:
     {
       emoji: '💡',
@@ -15,7 +15,7 @@ export default defineSiteConfig({
   }
   },
   description: '编辑博客还是太难了',
-  favicon: '',
+  favicon: 'https://raw.bgithub.xyz/FuyunTechnology/FuyunTechnology.github.io/refs/heads/main/public/Illustration.png',
   social: [
     {
       name: 'RSS',
