@@ -1,6 +1,6 @@
 ---
 layout: albums
-title: 相册
+title: 相册  暂未编辑
 icon: i-ri-gallery-line
 nav: false		# 关闭页面导航
 comment: false	# 关闭评论
