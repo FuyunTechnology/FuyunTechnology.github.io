@@ -3,6 +3,7 @@ import { defineValaxyConfig } from 'valaxy'
 import { addonLightGallery } from 'valaxy-addon-lightgallery'
 import { addonComponents } from 'valaxy-addon-components'
 import { addonFace } from 'valaxy-addon-face'
+import { addonWaline } from 'valaxy-addon-waline'
 
 // add icons what you will need
 const safelist = [

@@ -18,6 +18,7 @@
     "valaxy-addon-face": "^0.2.0",
     "valaxy-addon-lightgallery": "^0.0.4",
     "valaxy-addon-meting": "^0.1.4",
+    "valaxy-addon-waline": "^0.2.1",
     "valaxy-theme-yun": "0.23.4"
   },
   "devDependencies": {
