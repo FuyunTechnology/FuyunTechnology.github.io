@@ -25,8 +25,8 @@ export default defineValaxyConfig<UserThemeConfig>({
 
         bg_image: {
       enable: true,
-      url: 'https://bgithub.xyz/FuyunTechnology/FuyunTechnology.github.io/blob/main/image/site/White-background.png',
-      dark: 'https://bgithub.xyz/FuyunTechnology/FuyunTechnology.github.io/blob/main/image/site/black-background.png',
+      url: 'https://raw.bgithub.xyz/FuyunTechnology/FuyunTechnology.github.io/refs/heads/main/image/site/White-background.png',
+      dark: 'https://raw.bgithub.xyz/FuyunTechnology/FuyunTechnology.github.io/refs/heads/main/image/site/black-background.png',
       opacity: 0.7
     },
 
