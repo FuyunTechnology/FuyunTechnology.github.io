@@ -82,5 +82,50 @@ export default defineValaxyConfig<UserThemeConfig>({
     // 如果不配置:'valaxy-addon-face'
   ],
   
+   markdown: {
+    // default material-theme-palenight
+    // theme: 'material-theme-palenight',
+    theme: {
+      // light: 'material-theme-lighter',
+      light: 'github-light',
+      // dark: 'material-theme-darker',
+      dark: 'github-dark',
+    },
+
+    blocks: {
+      tip: {
+        icon: 'i-carbon-thumbs-up',
+        text: 'ヒント',
+        langs: {
+          'zh-CN': 'Tip:小提示',
+        },
+      },
+      warning: {
+        icon: 'i-carbon-warning-alt',
+        text: 'warming:请注意',
+      },
+      danger: {
+        icon: 'i-carbon-warning',
+        text: 'caution:危险警告',
+      },
+      info: {
+        text: 'información',
+      },
+    },
+
+    codeTransformers: [
+      // We use `[!code` in demo to prevent transformation, here we revert it back.
+      {
+        postprocess(code) {
+          return code.replace(/\[!!code/g, '[!code')
+        },
+      },
+    ],
+
+    config(md) {
+      // md.use(xxx)
+    }
+  },
+  
   unocss: { safelist },
 })

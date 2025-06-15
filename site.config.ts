@@ -77,7 +77,7 @@ export default defineSiteConfig({
     // salt
   },
 
-mediumZoom: { enable: true },
+mediumZoom: { enable: true },  //开启图片预览
 
   /**
    * 开启阅读统计
