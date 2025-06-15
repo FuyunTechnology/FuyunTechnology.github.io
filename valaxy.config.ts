@@ -6,7 +6,7 @@ import { addonFace } from 'valaxy-addon-face'
 
 // add icons what you will need
 const safelist = [
-  'i-ri-home-line',
+  'i-line-md-home',
 ]
 
 /**
@@ -39,19 +39,19 @@ export default defineValaxyConfig<UserThemeConfig>({
       {
         name: '我的小伙伴们',
         url: '/links/',
-        icon: 'i-ri-genderless-line',
+        icon: 'i-line-md-emoji-smile-wink',
         color: 'dodgerblue',
       },
       {
         name: '喜欢的艺术家',
         url: '/Artist/',
-        icon: 'i-line-md-cookie-filled',
+        icon: 'i-line-md-heart-filled',
         color: 'hotpink',
       },
       {
         name: '相册',
         url: '/albums/',
-        icon: 'i-ri-gallery-line',
+        icon: 'i-line-md-image-filled',
         color: '#43abee',
       },
     ],
@@ -95,18 +95,18 @@ export default defineValaxyConfig<UserThemeConfig>({
 
     blocks: {
       tip: {
-        icon: 'i-carbon-thumbs-up',
+        icon: 'i-line-md-thumbs-up-filled',
         text: 'ヒント',
         langs: {
           'zh-CN': 'Tip:小提示',
         },
       },
       warning: {
-        icon: 'i-carbon-warning-alt',
+        icon: 'i-line-md-alert',
         text: 'warming:请注意',
       },
       danger: {
-        icon: 'i-carbon-warning',
+        icon: 'i-line-md-brake-alert-twotone',
         text: 'caution:危险警告',
       },
       info: {
