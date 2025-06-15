@@ -3,8 +3,8 @@ import { defineSiteConfig } from 'valaxy'
 export default defineSiteConfig({
   url: 'https://valaxy.site/',
   lang: 'zh-CN',
-  title: '浮芸的云端',
-  subtitle: 'Roof above the floating cloud',
+  title: '星海之上',
+  subtitle: 'Roof above the sea star',
   author: {
     name: '仰望星空',
     avatar: "https://raw.bgithub.xyz/FuyunTechnology/FuyunTechnology.github.io/refs/heads/main/public/Watch%20the%20star.png",
