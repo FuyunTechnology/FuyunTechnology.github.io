@@ -31,7 +31,8 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
 
      colors: {
-      primary: '#F9DD7A'
+      primary: '#4B9BE1'
+
     },
 
     pages: [
