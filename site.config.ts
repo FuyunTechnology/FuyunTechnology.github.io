@@ -7,7 +7,7 @@ export default defineSiteConfig({
   subtitle: 'Roof above the sea star',  //站点名字描述
   author: {
     name: '仰望星空',  //站长名字
-    avatar: "https://raw.bgithub.xyz/FuyunTechnology/FuyunTechnology.github.io/refs/heads/main/image/site/Avatar.png",  //站长头像
+    avatar: "https://media.githubusercontent.com/media/FuyunTechnology/FuyunTechnology.github.io/main/image/site/Avatar.png",  //站长头像
      status:  //状态
     {
       emoji: '💡',  //在这里填写emoji
@@ -15,7 +15,7 @@ export default defineSiteConfig({
   }
   },
   description: '编辑博客还是太难了',  //站点描述
-  favicon: 'https://raw.bgithub.xyz/FuyunTechnology/FuyunTechnology.github.io/refs/heads/main/image/site/Site%20Icon.png',  //站点图标
+  favicon: 'https://media.githubusercontent.com/media/FuyunTechnology/FuyunTechnology.github.io/main/image/site/Site%20Icon.png',  //站点图标
   social: [
    /**
      * 按以下格式添加社媒方式

@@ -24,8 +24,8 @@ export default defineValaxyConfig<UserThemeConfig>({
 
         bg_image: {  //网站的背景图片,粘贴链接
       enable: true,
-      url: 'https://raw.bgithub.xyz/FuyunTechnology/FuyunTechnology.github.io/refs/heads/main/image/site/White-background.png',  //亮色模式背景图片
-      dark: 'https://raw.bgithub.xyz/FuyunTechnology/FuyunTechnology.github.io/refs/heads/main/image/site/black-background.png',  //暗色模式背景图片
+      url: 'https://media.githubusercontent.com/media/FuyunTechnology/FuyunTechnology.github.io/main/image/site/White-background.png',  //亮色模式背景图片
+      dark: 'https://media.githubusercontent.com/media/FuyunTechnology/FuyunTechnology.github.io/main/image/site/black-background.png',  //暗色模式背景图片
       opacity: 0.7
     },
 
