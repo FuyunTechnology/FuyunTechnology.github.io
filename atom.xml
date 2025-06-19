@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>星海之上</title><subtitle>编辑博客还是太难了</subtitle><id>https://valaxy.site/</id><updated>2025-06-19T13:20:26.799Z</updated><generator uri="https://github.com/KazariEX/zfeed" version="0.2.3">ZFeed</generator><logo>https://media.githubusercontent.com/media/FuyunTechnology/FuyunTechnology.github.io/main/image/site/Avatar.png</logo><icon>https://valaxy.site/favicon.svg</icon><rights>CC BY-NC-SA 4.0 2025 © 仰望星空</rights><link rel="alternate" href="https://valaxy.site/" /><link rel="self" href="https://valaxy.site/atom.xml" type="application/atom+xml" /><author><name>仰望星空</name><email>i@valaxy.site</email><uri>https://valaxy.site</uri></author><entry><title>关于个人搭建静态博客站点的经验与各种坑 （Valaxy篇）</title><id>https://valaxy.site/posts/blog-creat</id><link rel="alternate" href="https://valaxy.site/posts/blog-creat" /><updated>2025-06-15T14:35:43.000Z</updated><published>2025-06-19T13:19:42.137Z</published><content type="html"><![CDATA[<p>[[toc]]</p>
+<h1>引子:</h1>
+<p>有些人可能会很好奇，站长站长，请问这个站点是你怎样搭建起来的呀？” 那么这篇文章对你可就大有帮助了，不用担心你会不会听懂，这你就尽管放心。 这篇文章主要是面向小白的</p>
+<br/><p>访问 <a href="https://valaxy.site/posts/blog-creat" target="_blank">https://valaxy.site/posts/blog-creat</a> 阅读全文。</p>]]></content><author><name>仰望星空</name><email>i@valaxy.site</email><uri>https://valaxy.site</uri></author></entry><entry><title>迷思</title><id>https://valaxy.site/posts/Reminding deeply</id><link rel="alternate" href="https://valaxy.site/posts/Reminding deeply" /><updated>2025-06-16T00:00:00.000Z</updated><published>2025-06-19T13:19:42.136Z</published><content type="html"><![CDATA[<p>你在沉思</p>
+<p>你的思想</p>
+<p>也在时间的洪流中</p>
+<p>停滞</p>
+<hr>
+<p>你在细数流逝</p>
+<p>是谁离去</p>
+<p>谁又开始</p>
+<hr>
+<p>你在思想中度日</p>
+<p>春来秋至</p>
+<p>茶饭不</p>
+<br/><p>访问 <a href="https://valaxy.site/posts/Reminding deeply" target="_blank">https://valaxy.site/posts/Reminding deeply</a> 阅读全文。</p>]]></content><author><name>仰望星空</name><email>i@valaxy.site</email><uri>https://valaxy.site</uri></author></entry><entry><title>Hello, Valaxy!</title><id>https://valaxy.site/posts/hello-valaxy</id><link rel="alternate" href="https://valaxy.site/posts/hello-valaxy" /><updated>2022-04-01T00:00:00.000Z</updated><published>2022-04-01T00:00:00.000Z</published><content type="html"><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify `valaxy</p>
+<br/><p>访问 <a href="https://valaxy.site/posts/hello-valaxy" target="_blank">https://valaxy.site/posts/hello-valaxy</a> 阅读全文。</p>]]></content><author><name>仰望星空</name><email>i@valaxy.site</email><uri>https://valaxy.site</uri></author></entry></feed>
