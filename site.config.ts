@@ -9,6 +9,8 @@ export default defineSiteConfig({
   
   subtitle: 'Roof above the sea star',  //站点名字描述
   
+  description: '编辑博客还是太难了',  //站点描述
+
   author: {
     name: '仰望星空',  //站长名字
     avatar: "https://media.githubusercontent.com/media/FuyunTechnology/FuyunTechnology.github.io/main/image/site/Avatar.png",  //站长头像
@@ -18,7 +20,6 @@ export default defineSiteConfig({
       message: '我有一计!'  //鼠标悬停时显示的文字
   }
   },
-  description: '编辑博客还是太难了',  //站点描述
   favicon: 'https://media.githubusercontent.com/media/FuyunTechnology/FuyunTechnology.github.io/main/image/site/Site%20Icon.png',  //站点图标
   social: [
    /**
@@ -118,12 +119,20 @@ mediumZoom: { enable: true },  //开启图片预览
     },
   },
 
-  sponsor: {
-    enable: false,
-    title: '看在收集了这么多软件的份上,给点钱吧',
-    methods: [
+  sponsor: {  //赞助功能
+    enable: false,  //赞助开关
+    title: '看在收集了这么多软件的份上,给点钱吧',  //赞助描述
+    methods: [  //赞助方式
+      /**按以下格式添加赞助方式
+       * {
+        name: '赞助方式',  
+        url: '赞助图片,收款码链接',
+        color: '图标颜色,16进制',
+        icon: '赞助图标',
+      },
+      */
       {
-        name: '支付宝',
+        name: '支付宝',  
         url: 'https://cdn.yunyoujun.cn/img/donate/alipay-qrcode.jpg',
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',

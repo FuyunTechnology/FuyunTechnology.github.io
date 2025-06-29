@@ -7,7 +7,6 @@ titleTemplate: '%s-你真的学会了吗?😐'
 categories: 教程
 tags:
   - valaxy
-  - 项目
   - Blog
 ---
 

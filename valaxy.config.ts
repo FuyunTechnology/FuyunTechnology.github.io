@@ -31,7 +31,6 @@ export default defineValaxyConfig<UserThemeConfig>({
 
      colors: {
       primary: '#4B9BE1'  //网站的主题色,用16进制代码
-
     },
 
     pages: [  //在这里添加你的界面
@@ -73,6 +72,7 @@ export default defineValaxyConfig<UserThemeConfig>({
         url: 'https://fuyuntechnology.github.io/',	//图标链接
         title: '回到首页'		//鼠标悬停注释
       },
+      
       beian: {  //备案
         enable: true,  //是否启用
         icp: '备案号:xxxx 真的备案了吗',	// 备案信息
