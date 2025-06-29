@@ -4,6 +4,11 @@ title: 关于个人搭建静态博客站点的经验与各种坑 （Valaxy篇）
 date: 2025-06-15 14:35:43
 comment: true
 titleTemplate: '%s-你真的学会了吗?😐'
+categories: 教程
+tags:
+  - valaxy
+  - 项目
+  - Blog
 ---
 
 [[toc]]
@@ -25,20 +30,19 @@ titleTemplate: '%s-你真的学会了吗?😐'
  在本地布署前，请先准备以下工具软件：Git， Visual Studio code，Node.js 
 
 ::: details 小白看过来：
->
-> 什么是Git？Git是一款命令提示符工具，你要在里面输入指令完成某些操作
->
-> Visual studio code：它是一款编辑代码的专业软件，建议人手一个.
->
-> Node.js：这个站长也不太懂，但框架的运行需要他。 
->
-> ### 关于安装：
->
-> 在安装它们时，请不要调试，同意协议，选默大认选项一直下一步就行了。
->
-> ###  Visual studio code纯英文，看不懂咋办
->
-> 打开它，在左侧侧栏找到扩展图标 （第5个）打开，在那个页面搜Chinese（Simply），安装插件，并同意右下角的 语言更改提示.这样，就是中文界面啦。
+>**Git:**Git是一款命令提示符工具，你要在里面输入指令完成某些操作
+> 
+>**Visual studio code：**它是一款编辑代码的专业软件，建议人手一个.
+> 
+>**Node.js：**这个站长也不太懂，但框架的运行需要他。 
+> 
+>**关于安装：**
+> 
+>在安装它们时，请不要调试，同意协议，选默大认选项一直下一步就行了。
+> 
+>**Visual studio code纯英文，看不懂咋办:**
+> 
+>打开它，在左侧侧栏找到扩展图标 （第5个）打开，在那个页面搜Chinese（Simply），安装插件，并同意右下角的 语言更改提示.这样，就是中文界面啦。
 
 :::
 
@@ -50,14 +54,14 @@ titleTemplate: '%s-你真的学会了吗?😐'
 
 安装依赖pnpm:
 
-```
+```cmd/powershell
 npm i -g pnpm
 ```
 
 创建valaxy项目:
 
-```
-pnpm create valaxy
+```cmd/powershell
+cmd/power shellpnpm create valaxy
 ```
 
 在第二串指令打出后,会提示选择代理,这里需要使用上下箭头选中,`Enter`选择.这里我们选择`pnpm`代理,会快一点.
@@ -83,19 +87,19 @@ pnpm create valaxy
 
 站点的预览命令:
 
-```
+```cmd/powershell
 pnpm dev
 ```
 
 升级命令（按空格选择，按上下键切换，按 A 全选，按回车开始更新）：
 
-```
+```cmd/powershell
 pnpm up --latest -i
 ```
 
 如果出现了一些bug，可以考虑删除 node_modules 文件夹，再使用以下命令重新安装依赖：
 
-```
+```cmd/powershell
 pnpm install
 ```
 

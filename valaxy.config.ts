@@ -23,9 +23,9 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
 
         bg_image: {  //网站的背景图片,粘贴链接
-      enable: true,
+      enable: true,  //是否启用背景图片
       url: 'https://media.githubusercontent.com/media/FuyunTechnology/FuyunTechnology.github.io/main/image/site/White-background.png',  //亮色模式背景图片
-      dark: 'https://media.githubusercontent.com/media/FuyunTechnology/FuyunTechnology.github.io/main/image/site/black-background.png',  //暗色模式背景图片
+      dark: 'https://media.githubusercontent.com/media/FuyunTechnology/FuyunTechnology.github.io/main/image/site/Black-background.png',  //暗色模式背景图片
       opacity: 0.7
     },
 
@@ -35,7 +35,7 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
 
     pages: [  //在这里添加你的界面
-      //仿照一下格式添加
+      //仿照以下格式添加,排除"*"和"/"(他们起注释作用)
       /*{
        *name: '页面名字',
        *url: '/页面链接/',
@@ -67,7 +67,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       since: 2025,  //网站运行时间
       icon: {
         enable: true,  //是否启用
-        name: 'line-md:sun-rising-filled-loop',  //图标名字
+        name: 'i-line-md-sun-rising-filled-loop',  //图标名字
         animated: true,  //是否启用
         color: '#d69b54',  //图标颜色
         url: 'https://fuyuntechnology.github.io/',	//图标链接
@@ -100,10 +100,10 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
 
     blocks: {
-      tip: {  //名字
-        icon: 'i-line-md-compass-loop',  //图标
-        text: 'Tip:小提示',  //文字
-        langs: {  //语言
+      tip: {  //名字,不可改变
+        icon: 'i-line-md-compass-loop',  //图标,自由选择
+        text: 'Tip:小提示',  //文字,可改变
+        langs: {  //语言,选填
           'zh-CN': 'Tip:小提示',
         },
       },
@@ -116,12 +116,12 @@ export default defineValaxyConfig<UserThemeConfig>({
         text: 'caution:危险警告',
       },
       info: {
-        icon:'line-md:cloud-alt-print-filled-loop',
+        icon:'i-line-md-cloud-alt-print-twotone-loop',
         text: 'información:更多信息',
       },
     },
 
-    codeTransformers: [
+    codeTransformers: [  //代码转换器,不可更改
       // We use `[!code` in demo to prevent transformation, here we revert it back.
       {
         postprocess(code) {

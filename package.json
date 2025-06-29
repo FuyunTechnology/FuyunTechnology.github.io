@@ -1,5 +1,5 @@
 {
-  "name": "Fuyun-blog-Valaxy",
+  "name": "Fuyun-blog-valaxy",
   "type": "module",
   "version": "0.0.0",
   "private": true,
@@ -8,6 +8,7 @@
     "build:spa": "valaxy build",
     "build:ssg": "valaxy build --ssg",
     "dev": "valaxy",
+    "fuse": "valaxy fuse",
     "rss": "valaxy rss",
     "serve": "vite preview"
   },
@@ -15,7 +16,9 @@
     "valaxy": "0.23.5",
     "valaxy-addon-components": "^0.1.0",
     "valaxy-addon-face": "^0.2.0",
+    "valaxy-addon-lightgallery": "^0.0.4",
     "valaxy-addon-vercount": "^0.0.6",
+    "valaxy-addon-waline": "^0.2.1",
     "valaxy-theme-yun": "0.23.5"
   },
   "devDependencies": {

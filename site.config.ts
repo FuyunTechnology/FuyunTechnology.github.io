@@ -2,23 +2,27 @@ import { defineSiteConfig } from 'valaxy'
 
 export default defineSiteConfig({
   url: 'https://valaxy.site/',
-  lang: 'zh-CN',
+  
+  lang: 'zh-CN',  //默认语言
+  
   title: '星海之上',  //站点名字
+  
   subtitle: 'Roof above the sea star',  //站点名字描述
+  
   author: {
     name: '仰望星空',  //站长名字
     avatar: "https://media.githubusercontent.com/media/FuyunTechnology/FuyunTechnology.github.io/main/image/site/Avatar.png",  //站长头像
      status:  //状态
     {
       emoji: '💡',  //在这里填写emoji
-      message: '我有一计!'  //鼠标悬停时现实的文字
+      message: '我有一计!'  //鼠标悬停时显示的文字
   }
   },
   description: '编辑博客还是太难了',  //站点描述
   favicon: 'https://media.githubusercontent.com/media/FuyunTechnology/FuyunTechnology.github.io/main/image/site/Site%20Icon.png',  //站点图标
   social: [
    /**
-     * 按以下格式添加社媒方式
+     * 按以下格式添加社媒方式,排除"*"和"/"(他们起注释作用)
     {
       name: '媒体和图标名称',
       link: '图标链接',
@@ -65,9 +69,27 @@ export default defineSiteConfig({
     },
   ],
 
-    search: {  //是否启用搜索
-    enable: false,  //ture或false
-    type: 'engine',  //engine或aligoge
+   search: {  //搜索相关
+    enable: true,  //启用搜索
+    type: 'fuse',  //搜索样式,有 "engine" "algolia" "fuse",选填一个
+  },
+  fuse: {  //fuse配置
+    options: {
+      keys: ['title', 'tags', 'categories', 'excerpt', 'content'],
+      /**
+       * @default 0.6
+       * @see https://www.fusejs.io/api/options.html#threshold
+       * 设置匹配阈值，越低越精确
+       */
+      // threshold: 0.6,
+      /**
+       * @default false
+       * @see https://www.fusejs.io/api/options.html#ignoreLocation
+       * 忽略位置
+       * 这对于搜索文档全文内容有用，若无需全文搜索，则无需设置此项
+       */
+      ignoreLocation: true,
+    },
   },
 
   encrypt: {
