@@ -102,22 +102,31 @@ export default defineValaxyConfig<UserThemeConfig>({
     blocks: {
       tip: {  //名字,不可改变
         icon: 'i-line-md-compass-loop',  //图标,自由选择
-        text: 'Tip:小提示',  //文字,可改变
+        text: 'Tip:',  //文字,可改变
         langs: {  //语言,选填
-          'zh-CN': 'Tip:小提示',
+          'zh-CN': '小提示:',
         },
       },
       warning: {
         icon: 'i-line-md-bell-alert-twotone-loop',
-        text: 'warming:请注意',
+        text: 'Warming:',
+        langs: {  //语言,选填
+          'zh-CN': '请注意!',
+        },
       },
       danger: {
         icon: 'i-line-md-hazard-lights-loop',
-        text: 'caution:危险警告',
+        text: 'Danger:',
+        langs: {  //语言,选填
+          'zh-CN': '危险警告',
+        },
       },
       info: {
         icon:'i-line-md-cloud-alt-print-twotone-loop',
-        text: 'información:更多信息',
+        text: 'Informatiom:',
+        langs: {  //语言,选填
+          'zh-CN': '更多信息:',
+        },
       },
     },
 

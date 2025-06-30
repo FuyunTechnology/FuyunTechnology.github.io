@@ -23,15 +23,15 @@ tags:
 
 
 
-# *Frontmatter*
+# Frontmatter
 
-### 正文部分:
+**正文部分:**
 
 Valaxy文章的配置主要是由<u>Frontmatter</u>来进行控制的,下面便来介绍一下如何配置:
 
 
 
-### Frontmatter的格式
+## Frontmatter的格式
 
 要对Frontmatter进行配置,首先要遵循以下几点:
 
@@ -88,13 +88,13 @@ updated: string | number | Date
 文章语言:
 
 ```
-lang: string
+lang: string  //Zh或US
 ```
 
 是否隐藏:
 
 ```
-hide: false
+hide: string  //enable或index或hide
 ```
 
 文章作者:
@@ -118,7 +118,7 @@ copyright: boolean
 文章背景:
 
 ```
-cover: string
+cover: string  //
 ```
 
 是否显示目录:

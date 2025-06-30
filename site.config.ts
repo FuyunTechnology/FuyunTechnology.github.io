@@ -7,7 +7,7 @@ export default defineSiteConfig({
   
   title: '星海之上',  //站点名字
   
-  subtitle: 'Roof above the sea star',  //站点名字描述
+  subtitle: 'Roof above the sea star',  //站点副标题
   
   description: '编辑博客还是太难了',  //站点描述
 
