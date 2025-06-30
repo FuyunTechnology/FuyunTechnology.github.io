@@ -1,0 +1,59 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "星海之上",
+  "home_page_url": "https://valaxy.site/",
+  "feed_url": "https://valaxy.site/feed.json",
+  "description": "编辑博客还是太难了",
+  "icon": "https://media.githubusercontent.com/media/FuyunTechnology/FuyunTechnology.github.io/main/image/site/Avatar.png",
+  "favicon": "https://valaxy.site/favicon.svg",
+  "authors": [
+    {
+      "name": "仰望星空",
+      "url": "https://valaxy.site"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://valaxy.site/posts/Reminding deeply",
+      "url": "https://valaxy.site/posts/Reminding deeply",
+      "title": "迷思",
+      "content_html": "<p>你在沉思</p>\n<p>你的思想</p>\n<p>也在时间的洪流中</p>\n<p>停滞</p>\n<hr>\n<p>你在细数流逝</p>\n<p>是谁离去</p>\n<p>谁又开始</p>\n<hr>\n<p>你在思想中度日</p>\n<p>春来秋至</p>\n<p>茶饭不</p>\n<br/><p>访问 <a href=\"https://valaxy.site/posts/Reminding deeply\" target=\"_blank\">https://valaxy.site/posts/Reminding deeply</a> 阅读全文。</p>",
+      "date_published": "2025-06-30T05:04:44.958Z",
+      "date_modified": "2025-06-16T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "仰望星空",
+          "url": "https://valaxy.site"
+        }
+      ]
+    },
+    {
+      "id": "https://valaxy.site/posts/Template",
+      "url": "https://valaxy.site/posts/Template",
+      "title": "关于博客文章里的一部分常用配置",
+      "content_html": "<h1>引子:</h1>\n<p>在<u>完成博客网站的搭建和部署</u>之后,当然是在里面<strong>发布文章</strong>啦,那么在Valaxy里面有什么文章配置设置吗?答案是有的.当然,在使用时,我们要万分注意一些使用要点,不然很</p>\n<br/><p>访问 <a href=\"https://valaxy.site/posts/Template\" target=\"_blank\">https://valaxy.site/posts/Template</a> 阅读全文。</p>",
+      "date_published": "2025-06-30T05:04:44.958Z",
+      "date_modified": "2025-06-29T00:00:00.000Z",
+      "authors": [
+        {
+          "name": "仰望星空",
+          "url": "https://valaxy.site"
+        }
+      ]
+    },
+    {
+      "id": "https://valaxy.site/posts/blog-creat",
+      "url": "https://valaxy.site/posts/blog-creat",
+      "title": "关于个人搭建静态博客站点的经验与各种坑 （Valaxy篇）",
+      "content_html": "<p>[[toc]]</p>\n<h1>引子:</h1>\n<p>有些人可能会很好奇，站长站长，请问这个站点是你怎样搭建起来的呀？” 那么这篇文章对你可就大有帮助了，不用担心你会不会听懂，这你就尽管放心。 这篇文章主要是面向小白的</p>\n<br/><p>访问 <a href=\"https://valaxy.site/posts/blog-creat\" target=\"_blank\">https://valaxy.site/posts/blog-creat</a> 阅读全文。</p>",
+      "date_published": "2025-06-30T05:04:44.958Z",
+      "date_modified": "2025-06-15T14:35:43.000Z",
+      "authors": [
+        {
+          "name": "仰望星空",
+          "url": "https://valaxy.site"
+        }
+      ]
+    }
+  ]
+}
