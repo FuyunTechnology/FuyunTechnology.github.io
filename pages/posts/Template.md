@@ -10,10 +10,9 @@ copyright: false
 
 icon: i-line-md-cog-filled-loop
 
-categories: 教程
+categories: 博客教程
 tags:
   - valaxy
-  - Blog
 
 ---
 

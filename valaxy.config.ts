@@ -60,13 +60,19 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-line-md-image-filled',
         color: '#43abee',
       },
+      {
+        name: '不明图标',
+        url: '/surprise/',
+        icon: 'i-line-md-star-pulsating-filled-loop',
+        color: 'yellow',
+      },
     ],
 
 	footer: {  //脚注
       since: 2025,  //网站运行时间
       icon: {
         enable: true,  //是否启用
-        name: 'i-line-md-sun-rising-filled-loop',  //图标名字
+        name: 'i-line-md-moon-rising-filled-alt-loop',  //图标名字
         animated: true,  //是否启用
         color: '#d69b54',  //图标颜色
         url: 'https://fuyuntechnology.github.io/',	//图标链接
@@ -111,14 +117,14 @@ export default defineValaxyConfig<UserThemeConfig>({
         icon: 'i-line-md-bell-alert-twotone-loop',
         text: 'Warming:',
         langs: {  //语言,选填
-          'zh-CN': '请注意!',
+          'zh-CN': '请注意:',
         },
       },
       danger: {
         icon: 'i-line-md-hazard-lights-loop',
         text: 'Danger:',
         langs: {  //语言,选填
-          'zh-CN': '危险警告',
+          'zh-CN': '危险警告!',
         },
       },
       info: {
