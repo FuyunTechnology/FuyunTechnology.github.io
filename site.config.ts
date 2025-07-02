@@ -11,6 +11,10 @@ export default defineSiteConfig({
   
   description: '编辑博客还是太难了',  //站点描述
 
+  frontmatter: {
+    time_warning: false,  //是否启用时间警告
+  },
+
   author: {
     name: '仰望星空',  //站长名字
     avatar: "https://media.githubusercontent.com/media/FuyunTechnology/FuyunTechnology.github.io/main/image/site/Avatar.png",  //站长头像
