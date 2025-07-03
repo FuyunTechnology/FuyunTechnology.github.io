@@ -44,7 +44,7 @@ export default defineSiteConfig({
     },
     {
       name: 'QQ  3404889047',
-      link: '',
+      link: 'https://qun.qq.com/universal-share/share?ac=1&authKey=A9%2BrXFxkXkc3XCSNK7iBO0bkirxVjmHe7MfHxj6XI1COBry9sIMl%2BWwEr0cCaw2i&busi_data=eyJncm91cENvZGUiOiIzNjk0MTE2OTEiLCJ0b2tlbiI6IldXU2RDUDM5b0RDWTRLL2RaT0hZOXY0dnZTSjJqWEhtclQ1REpBNkp5MHlKQmdBaG9FelYyVXUrWmdPYkYzS0YiLCJ1aW4iOiIzNDA0ODg5MDQ3In0%3D&data=9UIxAslXBqDLmXF53Zx8iqQ86q9MUKPQGPofNJKY68C4x4HeObaRaX7Tt5KTBSJTZv8uNI0CSBOg_w88fzNTOA&svctype=4&tempid=h5_group_info',
       icon: 'i-ri-qq-line',
       color: '#12B7F5',
     },
