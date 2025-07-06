@@ -37,7 +37,7 @@ nav: false
 
 请加一下吧！放假一个人玩太无聊了（~~都找不到人猎马了~~）
 <!-- valaxy-encrypt-start:2400 -->
-昵称:淡淡浮云悠悠游
+昵称:淡淡浮云悠悠流
 
 ID:  
 <!-- valaxy-encrypt-end -->
