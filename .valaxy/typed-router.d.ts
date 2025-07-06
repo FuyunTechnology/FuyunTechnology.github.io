@@ -30,10 +30,11 @@ declare module 'vue-router/auto-routes' {
     '/links/': RouteRecordInfo<'/links/', '/links', Record<never, never>, Record<never, never>>,
     '/page/[page]': RouteRecordInfo<'/page/[page]', '/page/:page', { page: ParamValue<true> }, { page: ParamValue<false> }>,
     '/posts/': RouteRecordInfo<'/posts/', '/posts', Record<never, never>, Record<never, never>>,
-    '/posts/blog-creat': RouteRecordInfo<'/posts/blog-creat', '/posts/blog-creat', Record<never, never>, Record<never, never>>,
-    '/posts/Files of ClaasIsland': RouteRecordInfo<'/posts/Files of ClaasIsland', '/posts/Files of ClaasIsland', Record<never, never>, Record<never, never>>,
-    '/posts/Reminding deeply': RouteRecordInfo<'/posts/Reminding deeply', '/posts/Reminding deeply', Record<never, never>, Record<never, never>>,
-    '/posts/Template': RouteRecordInfo<'/posts/Template', '/posts/Template', Record<never, never>, Record<never, never>>,
+    '/posts/article/Files of ClaasIsland': RouteRecordInfo<'/posts/article/Files of ClaasIsland', '/posts/article/Files of ClaasIsland', Record<never, never>, Record<never, never>>,
+    '/posts/blog/blog-creat': RouteRecordInfo<'/posts/blog/blog-creat', '/posts/blog/blog-creat', Record<never, never>, Record<never, never>>,
+    '/posts/blog/Template': RouteRecordInfo<'/posts/blog/Template', '/posts/blog/Template', Record<never, never>, Record<never, never>>,
+    '/posts/orthers/Homework': RouteRecordInfo<'/posts/orthers/Homework', '/posts/orthers/Homework', Record<never, never>, Record<never, never>>,
+    '/posts/poem/Reminding deeply': RouteRecordInfo<'/posts/poem/Reminding deeply', '/posts/poem/Reminding deeply', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 }
