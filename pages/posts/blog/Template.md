@@ -156,6 +156,12 @@ comment: boolean
 end: boolean
 ```
 
+是否显示前后文章导航:
+
+```
+nav: boolean
+```
+
 是否启用加密(password存在时默认为true):
 
 ```
