@@ -93,7 +93,7 @@ lang: string  //Zh或US
 是否隐藏:
 
 ```
-hide: string  //enable或index或hide
+hide: string  //false或index或true或all
 ```
 
 文章作者:

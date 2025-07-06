@@ -1,12 +1,20 @@
 ---
 layout: post
+
 title: 关于个人搭建静态博客站点的经验与各种坑 （Valaxy篇）
+
 date: 2025-06-15 14:35:43
+
 comment: true
+
 titleTemplate: '%s-你真的学会了吗?😐'
+
 categories: 博客教程
+
 tags:
   - valaxy
+
+top: 1
 ---
 
 [[toc]]

@@ -9,9 +9,15 @@ sponsor: false
 copyright: false
 
 categories: 杂项
+
 tags:
   - 学习方面
 
+hide: index
+
+password: 2400
+
+password_hint: 你在哪个班?
 ---
 
 - 每日记忆30个单词
