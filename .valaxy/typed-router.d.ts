@@ -34,8 +34,17 @@ declare module 'vue-router/auto-routes' {
     '/posts/blog/blog-creat': RouteRecordInfo<'/posts/blog/blog-creat', '/posts/blog/blog-creat', Record<never, never>, Record<never, never>>,
     '/posts/blog/Template': RouteRecordInfo<'/posts/blog/Template', '/posts/blog/Template', Record<never, never>, Record<never, never>>,
     '/posts/orthers/Homework': RouteRecordInfo<'/posts/orthers/Homework', '/posts/orthers/Homework', Record<never, never>, Record<never, never>>,
+    '/posts/poem/Distance': RouteRecordInfo<'/posts/poem/Distance', '/posts/poem/Distance', Record<never, never>, Record<never, never>>,
+    '/posts/poem/Fading clouds': RouteRecordInfo<'/posts/poem/Fading clouds', '/posts/poem/Fading clouds', Record<never, never>, Record<never, never>>,
     '/posts/poem/For mother': RouteRecordInfo<'/posts/poem/For mother', '/posts/poem/For mother', Record<never, never>, Record<never, never>>,
+    '/posts/poem/Lost': RouteRecordInfo<'/posts/poem/Lost', '/posts/poem/Lost', Record<never, never>, Record<never, never>>,
+    '/posts/poem/Memories and thought': RouteRecordInfo<'/posts/poem/Memories and thought', '/posts/poem/Memories and thought', Record<never, never>, Record<never, never>>,
+    '/posts/poem/Memory': RouteRecordInfo<'/posts/poem/Memory', '/posts/poem/Memory', Record<never, never>, Record<never, never>>,
+    '/posts/poem/Not that time': RouteRecordInfo<'/posts/poem/Not that time', '/posts/poem/Not that time', Record<never, never>, Record<never, never>>,
     '/posts/poem/Reminding deeply': RouteRecordInfo<'/posts/poem/Reminding deeply', '/posts/poem/Reminding deeply', Record<never, never>, Record<never, never>>,
+    '/posts/poem/star': RouteRecordInfo<'/posts/poem/star', '/posts/poem/star', Record<never, never>, Record<never, never>>,
+    '/posts/poem/waiting': RouteRecordInfo<'/posts/poem/waiting', '/posts/poem/waiting', Record<never, never>, Record<never, never>>,
+    '/posts/poem/Why': RouteRecordInfo<'/posts/poem/Why', '/posts/poem/Why', Record<never, never>, Record<never, never>>,
     '/tags/': RouteRecordInfo<'/tags/', '/tags', Record<never, never>, Record<never, never>>,
   }
 }

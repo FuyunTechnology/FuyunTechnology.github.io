@@ -206,3 +206,46 @@ medium_zoom: boolean
 
 ### markdown扩展后的警示框:
 
+#### Tip:小提示
+::: tip
+
+:::
+
+```
+::: tip
+
+:::
+```
+
+#### Information:更多信息
+::: info
+
+:::
+
+```
+::: info
+
+:::
+```
+
+#### warning:警告
+::: warning
+
+:::
+
+```
+::: warning
+
+:::
+```
+
+#### Danger:危险警告
+::: danger
+
+:::
+
+```
+::: danger
+
+:::
+```

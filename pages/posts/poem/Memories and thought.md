@@ -2,17 +2,15 @@
 
 layout: post
 
-title: 海岸
+title: 小径和蒲公英
 
-date: 2024-5-11
+date: 2024-6-21
 
 comment: true
-
-titleTemplate: '%s-母亲节快乐'
 
 categories: 诗歌
 
 tags:
   - 现代诗
+  - 次级诗稿
 ---
-
