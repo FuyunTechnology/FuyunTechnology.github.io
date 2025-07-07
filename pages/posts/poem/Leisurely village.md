@@ -2,17 +2,14 @@
 
 layout: post
 
-title: 海岸
+title: 小村
 
-date: 2025-5-11
+date: 2024-9-19
 
 comment: true
-
-titleTemplate: '%s-母亲节快乐'
 
 categories: 诗歌
 
 tags:
   - 现代诗
 ---
-
