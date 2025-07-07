@@ -18,6 +18,8 @@ hide: all
 password: 2400
 
 password_hint: 你在哪个班?
+
+nav: false
 ---
 
 ## 语文:
