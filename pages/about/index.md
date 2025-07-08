@@ -1,7 +1,7 @@
 ---
 title: 关于我
 date: Edit| 2025.6.15| day
-author: 浮芸
+author: 仰望星空
 toc: false
 aside: false
 nav: false

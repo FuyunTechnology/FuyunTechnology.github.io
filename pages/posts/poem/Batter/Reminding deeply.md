@@ -1,13 +1,16 @@
 ---
 layout: post
+
+author: 浮芸
 title: 迷思
 date: 2025-06-16
 comment: true
 titleTemplate: '%s-还有从前吗'
-categories: 诗歌
+categories: 
+  - 诗歌
+  - 次级诗稿
 tags:
   - 现代诗
-  - 次级诗稿
 ---
 
 

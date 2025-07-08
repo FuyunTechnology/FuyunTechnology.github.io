@@ -2,6 +2,8 @@
 
 layout: post
 
+author: 浮芸
+
 title: 黎明
 
 date: 2025-3-20
@@ -9,8 +11,9 @@ date: 2025-3-20
 comment: true
 
 categories: 
-- 诗歌
-- 歌词
+  - 诗歌
+  - 歌词
+  
 
 tags:
   - 现代诗
