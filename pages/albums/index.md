@@ -1,7 +1,7 @@
 ---
 layout: albums
 title: 相册  暂未编辑
-icon: i-ri-gallery-line
+icon: i-line-md-image-twotone
 nav: false		# 关闭页面导航
 comment: false	# 关闭评论
 toc: false		# 关闭文章目录
