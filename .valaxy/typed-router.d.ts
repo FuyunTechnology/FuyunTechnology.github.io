@@ -36,6 +36,7 @@ declare module 'vue-router/auto-routes' {
     '/posts/others/Homework': RouteRecordInfo<'/posts/others/Homework', '/posts/others/Homework', Record<never, never>, Record<never, never>>,
     '/posts/poem/Alone the clouds': RouteRecordInfo<'/posts/poem/Alone the clouds', '/posts/poem/Alone the clouds', Record<never, never>, Record<never, never>>,
     '/posts/poem/Cloud boat by the  time': RouteRecordInfo<'/posts/poem/Cloud boat by the  time', '/posts/poem/Cloud boat by the  time', Record<never, never>, Record<never, never>>,
+    '/posts/poem/Collapsing world': RouteRecordInfo<'/posts/poem/Collapsing world', '/posts/poem/Collapsing world', Record<never, never>, Record<never, never>>,
     '/posts/poem/Daylight': RouteRecordInfo<'/posts/poem/Daylight', '/posts/poem/Daylight', Record<never, never>, Record<never, never>>,
     '/posts/poem/Distance': RouteRecordInfo<'/posts/poem/Distance', '/posts/poem/Distance', Record<never, never>, Record<never, never>>,
     '/posts/poem/Fading clouds': RouteRecordInfo<'/posts/poem/Fading clouds', '/posts/poem/Fading clouds', Record<never, never>, Record<never, never>>,
