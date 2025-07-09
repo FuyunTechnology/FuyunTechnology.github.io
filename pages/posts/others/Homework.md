@@ -39,7 +39,7 @@ nav: false
 
 ## 成绩单:
 
-<img src="./Homework.assets/grads.jpg" style="zoom:50%;" />
+<img src="https://bgithub.xyz/FuyunTechnology/FuyunTechnology.github.io/blob/main/pages/posts/others/Homework.assets/grads.jpg" style="zoom:50%;" />
 
 ## 当天总任务:
 
