@@ -5,7 +5,7 @@ export default defineSiteConfig({
   
   lang: 'zh-CN',  //默认语言
   
-  title: '星海之上',  //站点名字
+  title: '芸端之上',  //站点名字
   
   subtitle: 'Roof above the sea star',  //站点副标题
   
@@ -18,7 +18,7 @@ export default defineSiteConfig({
   author: {
     name: '仰望星空',  //站长名字
     avatar: "https://media.githubusercontent.com/media/FuyunTechnology/FuyunTechnology.github.io/main/image/site/Avatar.png",  //站长头像
-     status:  //状态
+    status:  //状态
     {
       emoji: '💡',  //在这里填写emoji
       message: '我有一计!'  //鼠标悬停时显示的文字

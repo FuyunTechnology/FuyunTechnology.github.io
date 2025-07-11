@@ -2,6 +2,7 @@ import type { UserThemeConfig } from 'valaxy-theme-yun'  //引入主题yun
 import { defineValaxyConfig } from 'valaxy'  
 import { addonComponents } from 'valaxy-addon-components'  //引入插件通用插件
 import { addonFace } from 'valaxy-addon-face'  //引入表情包插件
+import { localIconLoader } from 'vitepress-plugin-group-icons'
 
 // add icons what you will need
 const safelist = [
@@ -86,6 +87,17 @@ export default defineValaxyConfig<UserThemeConfig>({
     },
   },
  
+  groupIcons: {
+    customIcon: {
+      // valaxy: 'https://valaxy.site/favicon.svg',
+      valaxy: localIconLoader(import.meta.url, './public/favicon.svg'),
+      nodejs: 'vscode-icons:file-type-node',
+      playwright: 'vscode-icons:file-type-playwright',
+      typedoc: 'vscode-icons:file-type-typedoc',
+      eslint: 'vscode-icons:file-type-eslint',
+    },
+  },
+
  addons: [
     addonComponents(),  //导入通用组件
     addonFace({  //导入表情包插件
