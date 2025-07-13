@@ -17,14 +17,14 @@ export default defineSiteConfig({
 
   author: {
     name: '仰望星空',  //站长名字
-    avatar: "https://media.githubusercontent.com/media/FuyunTechnology/FuyunTechnology.github.io/main/image/site/Avatar.png",  //站长头像
+    avatar: "https://cdn.jsdelivr.net/gh/FuyunTechnology/FuyunTechnology.github.io@master/image/site/Avatar.jpg",  //站长头像
     status:  //状态
     {
       emoji: '💡',  //在这里填写emoji
       message: '我有一计!'  //鼠标悬停时显示的文字
   }
   },
-  favicon: 'https://media.githubusercontent.com/media/FuyunTechnology/FuyunTechnology.github.io/main/image/site/Site%20Icon.png',  //站点图标
+  favicon: 'https://cdn.jsdelivr.net/gh/FuyunTechnology/FuyunTechnology.github.io@master/image/site/Site%20Icon.jpg',  //站点图标
   social: [
    /**
      * 按以下格式添加社媒方式,排除"*"和"/"(他们起注释作用)
