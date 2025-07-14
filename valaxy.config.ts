@@ -3,7 +3,7 @@ import { defineValaxyConfig } from 'valaxy'
 import { addonComponents } from 'valaxy-addon-components'  //引入插件通用插件
 import { addonFace } from 'valaxy-addon-face'  //引入表情包插件
 import { localIconLoader } from 'vitepress-plugin-group-icons'
-import { addonWaline } from "valaxy-addon-waline"
+// import { addonWaline } from "valaxy-addon-waline"
 // add icons what you will need
 const safelist = [
   'i-line-md-home',
@@ -105,14 +105,6 @@ export default defineValaxyConfig<UserThemeConfig>({
       defaultSuffix: 'png'
     }),
     // 如果不配置:'valaxy-addon-face'
-    addonWaline({
-      serverURL: "https://xxx.xxx",		// Waline服务链接
-      locale: {
-        placeholder: "填写qq邮箱或点击登录，可以展示个人头像",
-      },
-      comment: true,
-      pageview: true
-    }),
   ],
   
    markdown: {  //markdown扩展警示框
