@@ -1,6 +1,0 @@
-添加代码至仓库:
-git add .
-提交注释:
-git commit -m "注释"
-上传至仓库:
-git push -u origin main
