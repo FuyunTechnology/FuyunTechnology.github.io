@@ -60,7 +60,6 @@ export default defineUserConfig({
     article: '/article/',
 
     // 版权和协议
-    Copyright: 'CC-BY-NC-SA-4.0'，
     
     /**
      * 编译缓存，加快编译速度
