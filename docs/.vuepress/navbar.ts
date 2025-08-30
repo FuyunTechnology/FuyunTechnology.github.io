@@ -106,6 +106,6 @@ export default defineNavbarConfig([
   {
     text: '博客站点',
     icon: 'line-md:telegram',
-    link: 'http://localhost:4859/'
+    link: 'https://fuyunxinyu.github.io/'
   }
 ])

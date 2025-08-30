@@ -17,7 +17,7 @@ config:
         -
           theme: alt
           text: 访问我的博客
-          link: https://Fuyun.github.io
+          link: https://fuyunxinyu.github.io/
   -
     type: profile
     name: 浮芸星语空悠悠
