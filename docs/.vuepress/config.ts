@@ -185,7 +185,7 @@ export default defineUserConfig({
      * @see https://theme-plume.vuejs.press/guide/features/encryption/
      */
     encrypt: {
-      global: true,
+      global: false,
       admin: ['Fuyun13579'],
       rules: {
         // 可以是 md 文件的相对路径，对该文件加密
@@ -198,9 +198,9 @@ export default defineUserConfig({
         // '/article/f8dnci3/': '123456',
         // 如果是 `^` 开头，则匹配该正则表达式的页面也会加密
         // '^/(a|b)/': '123456',
-        encryptGlobalText: 'Only password can access this site', //全站加密提示
-        encryptPageText: 'Only password can access this page', //部分加密提示
-        encryptButtonText: 'Confirm', //加密按钮文本
+        encryptGlobalText: '站点还没改完，你还不能看', //全站加密提示
+        encryptPageText: '哦，这不是你能看的，请输入密码', //部分加密提示
+        encryptButtonText: '我就要看', //加密按钮文本
       },
     },
   }),
