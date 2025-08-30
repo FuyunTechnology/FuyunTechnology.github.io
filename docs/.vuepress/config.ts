@@ -60,6 +60,17 @@ export default defineUserConfig({
     article: '/article/',
 
     // 版权和协议
+    copyright: {
+     license: {
+         name: 'CC BY-NC-SA 4.0 ', // 许可证名称
+         url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans' // 许可证地址
+       },
+       author: {
+         name: 'Fuyun & FuyunTechnology', // 版权所有者名称
+         url: 'https://bgithub.xyz/FuyunTechnology' // 版权所有者地址
+       },
+       creation: 'original' // 创作方式
+       },
     
     /**
      * 编译缓存，加快编译速度
