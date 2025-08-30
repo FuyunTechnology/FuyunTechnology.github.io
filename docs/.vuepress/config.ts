@@ -59,6 +59,9 @@ export default defineUserConfig({
     /* 博客文章页面链接前缀 */
     article: '/article/',
 
+    // 版权和协议
+    Copyright: 'CC-BY-NC-SA-4.0'
+    
     /**
      * 编译缓存，加快编译速度
      * @see https://theme-plume.vuejs.press/config/basic/#cache
