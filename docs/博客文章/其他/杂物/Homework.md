@@ -185,37 +185,13 @@ config:
 ::: collapse
 - 8月27日
 
-  ::pajamas:highlight / #ba2a2aff::语文:
-  
-  ::pajamas:formula / #4fc618ff::数学:
-  
-  ::material-symbols:book-6-outline-rounded / #7e23cdff::英语:
-  
   ::pajamas:rocket-launch / #e36424ff::物理:划重点巩固练==L26,L27==页的A组习题
-
-  ::pajamas:issue-type-test-case / #2a6bbaff::化学:
-
-  ::pajamas:nature / #a91bb4ff::生物:
-
-  ::pajamas:mail / #ff5577ff::政治:
 
 - 8月28日
 
-  ::pajamas:highlight / #ba2a2aff::语文:
-
-  ::pajamas:formula / #4fc618ff::数学:
-
-  ::material-symbols:book-6-outline-rounded / #7e23cdff::英语:
-
-  ::pajamas:rocket-launch / #d77424ff::物理:
-
   ::pajamas:issue-type-test-case / #2a6bbaff::化学:==巩固练写到 **L6**==
-
-  ::pajamas:nature / #a91bb4ff::生物:
-
-  ::pajamas:mail / #ff5577ff::政治:
   
-- 8月29日
+- 9月-日
 
   ::pajamas:highlight / #ba2a2aff::语文:
 
@@ -248,5 +224,3 @@ config:
   ::pajamas:mail / #ff5577ff::政治:
 
 :::
-
-能帮忙关一下一体机屏幕吗
