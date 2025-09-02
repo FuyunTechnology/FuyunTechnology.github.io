@@ -33,7 +33,17 @@ export default defineThemeConfig({
    * 文章版权信息
    * @see https://theme-plume.vuejs.press/guide/features/copyright/
    */
-  copyright: 'CC BY-NC-SA 4.0',
+    copyright: {
+     license: {
+         name: 'CC BY-NC-SA 4.0 ', // 许可证名称
+         url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans' // 许可证地址
+       },
+       author: {
+         name: 'Fuyun & FuyunTechnology', // 版权所有者名称
+         url: 'https://bgithub.xyz/FuyunTechnology' // 版权所有者地址
+       },
+       creation: 'original' // 创作方式
+       },
 
   prevPage: true,   // 是否启用上一页链接
   nextPage: true,   // 是否启用下一页链接
@@ -42,7 +52,7 @@ export default defineThemeConfig({
   /* 站点页脚 */
   footer: {
     message: '由 <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a>驱动 & 使用主题 <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-    copyright: '你要注意版权问题',
+    copyright: '转载请注意版权问题',
   },
 
   /**

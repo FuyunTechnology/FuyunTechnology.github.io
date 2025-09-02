@@ -50,12 +50,14 @@ config:
 
 
 ::: card title="英语" icon="material-symbols:book-6-outline-rounded"
-### 听写任务:Unit2-==jaze~stream=={.important}[+听写]
+### 听写任务:Unit2-==!!jaze~stream!!{.blur}=={.danger}
+
+[+听写]
 
 
 [+听写]:
   ### ==单词一览=={.tip}:
-  ### jazz/arch/adaptation/communistinvader/consist/defend/solo/flow/mankind/spacecrafit/solar
+  ### 
 :::
 
 

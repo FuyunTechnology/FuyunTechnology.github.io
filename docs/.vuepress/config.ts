@@ -66,7 +66,7 @@ export default defineUserConfig({
          url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans' // 许可证地址
        },
        author: {
-         name: 'Fuyun & FuyunTechnology', // 版权所有者名称
+         name: 'FuyunTechnology & FuyunTechnology', // 版权所有者名称
          url: 'https://bgithub.xyz/FuyunTechnology' // 版权所有者地址
        },
        creation: 'original' // 创作方式
@@ -107,10 +107,16 @@ export default defineUserConfig({
      * Shiki 代码高亮
      * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
      */
-    codeHighlighter: {
-      twoslash: true, // 启用 twoslash
-      whitespace: true, // 启用 空格/Tab 高亮
-      lineNumbers: true, // 启用行号
+ codeHighlighter: {
+      themes: { light: 'vitesse-light', dark: 'vitesse-dark' },
+      notationDiff: true,
+      notationErrorLevel: true,
+      notationFocus: true,
+      notationHighlight: true,
+      notationWordHighlight: true,
+      highlightLines: true,
+      collapsedLines: true,
+      lineNumbers: true,
     },
 
     /* 文章字数统计、阅读时间，设置为 false 则禁用 */
