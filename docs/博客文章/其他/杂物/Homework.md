@@ -69,7 +69,9 @@ config:
 
 
 ::: card title="化学" icon="pajamas:issue-type-test-case"
-### ==巩固练写到 **L6**==
+1. ### ==巩固练写到 **L6**==
+
+2. ### 化学学法写到==16页=={.warming}
 :::
 
 

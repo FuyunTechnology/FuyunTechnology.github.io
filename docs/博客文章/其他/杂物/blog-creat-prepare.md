@@ -5,7 +5,7 @@ tags:
   - valaxy
 codeHeightLimit: 300
 createTime: 2025/09/01 07:15:01
-permalink: /博客文章/其他/杂物/blog-creat-prepare.html
+permalink: /博客文章/其他/杂物/Valaxy/Blog-creat-prepare.html
 outline: 'deep'
 ---
 

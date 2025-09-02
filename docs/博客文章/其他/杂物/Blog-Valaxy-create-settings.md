@@ -5,7 +5,7 @@ tags:
   - valaxy
 codeHeightLimit: 300
 createTime: 2025/09/01 07:15:01
-permalink: /博客文章/其他/杂物/Blog-Valaxy-create-settings.html
+permalink: /博客文章/其他/杂物/Valaxy/Blog-Valaxy-create-settings.html
 outline: 'deep'
 ---
 # Valaxy站点的编辑与自定义个性化:
@@ -19,6 +19,54 @@ outline: 'deep'
 为了方便管理,Valaxy人性化地将大部分基础配置都放在了两个文件之下:`valaxy.config.ts`和`site.config.ts`.
 
 在完成了本地部署的步骤之后,基本就只需要对这两个文件进行一些个性化的修改就行了
+
+::::: details 10元懒人配置使用教程
+:::: steps
+
+1. 打开存放我博客站点文件的==github仓库==
+   <RepoCard repo="Fuyunxinyu/Fuyunxinyu.github.io" />
+2. 点击`code`(使用汉化插件则是`代码`),然后`Download zip`(使用汉化插件则是`下载压缩包`)
+
+3. 下载完之后再解压压缩包,解压到合适的地方.
+
+    ::: danger
+    路径不得含有中文等其他字符
+    :::
+
+4. 在文件夹下打开`cmd`,输入以下指令:
+
+   安装依赖:
+   ```powershell
+   npm i -g pnpm
+   ```
+   
+   安装包体:
+   ```powershell
+   pnpm istall
+   ```
+   
+   安装插件:
+   ::: code-tabs
+   
+   @tab 通用组件
+   ```powershell
+   pnpm add valaxy-addon-components
+   ```
+   
+   @tab 相册组件
+   ```powershell
+   npm i valaxy-addon-lightgallery
+   ```
+   
+   @tab 统计组件
+   ```powershell
+   pnpm add valaxy-addon-vercount
+   ```
+   :::
+
+5. 打开文件`valaxy.config.ts`和`config.ts`,对照里面的注释,==自己进行修改==把
+::::
+:::::
 
 ### valaxy.config.ts:
 
@@ -99,7 +147,7 @@ outline: 'deep'
 
 @[code{16-17}](./code/valaxy.config.ts)
 
-#### theme config: (这里主要是与主题有关的配置)
+#### theme config:
 
 ##### 主题站点名(瞬时显示):
 
@@ -229,3 +277,10 @@ Valaxy拥有对文章加密的功能,不过需要谨慎使用,不要把重要数
 #### 赞助:
 在文章末显示赞助按钮,全局配置,会被文章配置覆盖
 @[code{138-170}](./code/site.config.ts)
+
+#### 完整的示例文件如下
+@[code](./code/site.config.ts)
+
+# 尾声
+
+到此,Valaxy的配置项也说得差不多了,下一步,就是进行==站点部署=={.tip}了
