@@ -159,7 +159,7 @@ outline: 'deep'
 
 在这里粘贴图片链接,一定要指向源文件(后缀为图片后缀名)
 
-@[code{26-39}](./code/valaxy.config.ts)
+@[code{26-33}](./code/valaxy.config.ts)
 
 ##### 站点主题色:
 
