@@ -50,7 +50,7 @@ config:
 
 
 ::: card title="英语" icon="material-symbols:book-6-outline-rounded"
-### 听写任务:Unit2-==!!jaze~stream!!{.blur}=={.danger}
+### 听写任务:Unit2-==!!!!{.blur}=={.danger}
 
 [+听写]
 

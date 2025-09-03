@@ -27,6 +27,11 @@ outline: 'deep'
    <RepoCard repo="Fuyunxinyu/Fuyunxinyu.github.io" />
 2. 点击`code`(使用汉化插件则是`代码`),然后`Download zip`(使用汉化插件则是`下载压缩包`)
 
+    ==下载速度慢请看这里=={.tip}[+镜像]
+
+[+镜像]:
+  点击此处跳转镜像网站:[镜像仓库](https://bgithub.xyz/Fuyunxinyu/fuyunxinyu.github.io)
+
 3. 下载完之后再解压压缩包,解压到合适的地方.
 
     ::: danger
