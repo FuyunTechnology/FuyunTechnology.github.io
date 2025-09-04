@@ -37,7 +37,7 @@ config:
 
 
 ::: card title="语文" icon="pajamas:highlight"
-
+### 以'==传承阅兵精神,争做时代新人=={.danger}'为主题,写一篇征文
 :::
 
 
@@ -50,13 +50,10 @@ config:
 
 
 ::: card title="英语" icon="material-symbols:book-6-outline-rounded"
-### 听写任务:Unit2-==!!!!{.blur}=={.danger}
-
-[+听写]
-
+1. ### 听写任务:Unit2-==!!!!{.blur}=={.danger}
+2.   ### ==单词一览=={.tip}:[+听写]
 
 [+听写]:
-  ### ==单词一览=={.tip}:
   ### 
 :::
 
@@ -195,21 +192,9 @@ config:
 
   ::pajamas:issue-type-test-case / #2a6bbaff::化学:==巩固练写到 **L6**==
   
-- 9月-日
+- 9月2日
 
-  ::pajamas:highlight / #ba2a2aff::语文:
-
-  ::pajamas:formula / #4fc618ff::数学:
-
-  ::material-symbols:book-6-outline-rounded / #7e23cdff::英语:
-
-  ::pajamas:rocket-launch / #d77424ff::物理:
-
-  ::pajamas:issue-type-test-case / #2a6bbaff::化学:
-
-  ::pajamas:nature / #a91bb4ff::生物:
-
-  ::pajamas:mail / #ff5577ff::政治:
+  ::pajamas:issue-type-test-case / #2a6bbaff::化学:化学学法写到==16页=={.warming}
 
 - 待添加
 
