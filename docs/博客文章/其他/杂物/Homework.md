@@ -3,7 +3,7 @@ title: 作业
 createTime: 2025/08/23 15:32:51
 permalink: /博客文章/其他/杂物/Homework.html
 pageLayout: home
-navbar: enable
+navbar: false
 aside: false
 backtotop: 
 outline: [5,6]
@@ -37,21 +37,37 @@ config:
 
 
 ::: card title="语文" icon="pajamas:highlight"
-### 以'==传承阅兵精神,争做时代新人=={.danger}'为主题,写一篇征文
+
 :::
 
 
 
 ::: card title="数学" icon="pajamas:formula "
-1. ### 解题觉醒完成==第1章/第3章的基础题目=={.important} !!暂时不检查!!{.blur .hover}
-2. ### 向后预习课程 !!应该会讲第2章,第3章一定要学!!{.mask .hover}
+1. ### 向后预习课程 !!应该会讲第2章,第3章一定要学!!{.mask .hover}
+2. ### 完成解题觉醒==第二章第一小节=={.warning}.==今晚晚一要收=={.danger}
+:::
+
+
+
+::: card title="作业情况" icon="pajamas:formula "
+
+|      | 语文 |     数学      | 英语 | 物理 | 化学 | 生物 | 政治 |
+| :--: | :--: | :-----------: | :--: | :--: | :--: | :--: | :--: |
+| 一组 |      |               |      |      |      |      |      |
+| 二组 |      |               |      |      |      |      |      |
+| 三组 |      | 罗秦钺,张亦池 |      |      |      |      |      |
+| 四组 |      |    谢知行     |      |      |      |      |      |
+| 五组 |      |               |      |      |      |      |      |
+| 六组 |      |               |      |      |      |      |      |
+| 七组 |      |               |      |      |      |      |      |
+
 :::
 
 
 
 ::: card title="英语" icon="material-symbols:book-6-outline-rounded"
-1. ### 听写任务:Unit2-==!!!!{.blur}=={.danger}
-2.   ### ==单词一览=={.tip}:[+听写]
+1. ### 听写任务:Unit2-===={.danger}
+2. ### ==单词一览=={.tip}:[+听写]
 
 [+听写]:
   ### 
@@ -60,7 +76,9 @@ config:
 
 
 ::: card title="物理" icon="pajamas:rocket-launch"
-### 划重点巩固练==L26,L27==页的A组习题
+1. ### 划重点巩固练==L26,L27==页的A组习题
+
+2. ### 课时完成==电阻率的测量==
 :::
 
 
@@ -68,30 +86,18 @@ config:
 ::: card title="化学" icon="pajamas:issue-type-test-case"
 1. ### ==巩固练写到 **L6**==
 
-2. ### 化学学法写到==16页=={.warming}
+2. ### 化学学法写到==36~50页=={.warning} (1~16页)
 :::
 
 
 
 ::: card title="生物" icon="pajamas:nature"
-
+### 平板==4.1-4.2== **巩固练习**
 :::
 
 
 
 ::: card title="政治" icon="pajamas:mail"
-
-:::
-
-
-
-::: card title="地理" icon="material-symbols:globe"
-
-:::
-
-
-
-::: card title="历史" icon="material-symbols:history-rounded"
 
 :::
 
@@ -195,6 +201,18 @@ config:
 - 9月2日
 
   ::pajamas:issue-type-test-case / #2a6bbaff::化学:化学学法写到==16页=={.warming}
+
+- 9月3日
+
+  ::pajamas:highlight / #ba2a2aff::语文:以'==传承阅兵精神,争做时代新人=={.danger}'为主题,写一篇征文
+
+- 9月4日
+
+  ::pajamas:highlight / #ba2a2aff::语文:### 课时完成【==论语12章==】,==明天讲=={.danger}
+
+  ::pajamas:rocket-launch / #d77424ff::物理:### 课时完成==电阻率的测量==
+
+  ::pajamas:nature / #a91bb4ff::生物:### 平板==4.1-4.2== **巩固练习**
 
 - 待添加
 

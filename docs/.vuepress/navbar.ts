@@ -97,15 +97,21 @@ export default defineNavbarConfig([
     items:
     [
       {
-        text: '更多内容待更新',
-        icon: 'material-symbols:battery-charging-20-outline-sharp',
-        link: ''
-      }  
-    ]
-  },
-  {
     text: '博客站点',
     icon: 'line-md:telegram',
     link: 'https://fuyunxinyu.github.io/'
-  }
+      },
+      {
+        text: '作业',
+        icon: 'pajamas:issue-type-requirements',
+        link: '/博客文章/其他/杂物/Homework.html'
+      },
+      {
+        text: '更多内容待更新',
+        icon: 'material-symbols:battery-charging-20-outline-sharp',
+        link: ''
+      },
+    ]
+  },
+
 ])
