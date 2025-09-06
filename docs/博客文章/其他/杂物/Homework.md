@@ -31,8 +31,23 @@ config:
 
 
 
+::::: card title="作业情况" icon="pajamas:issue-type-requirements"
+:::: collapse
 
-:::: card-masonry gap="16" 
+- 当前情况
+
+  ::: table hl-cells="danger:(2,3);warning:(2,4)"
+   |      |  一组  |     二组      |           三组            |  四组  |  五组  | 六组 |    七   组  |
+   | :--: | :----: | :-----------: | :----------: | :----: | :----: | :--: | :----: |
+   | 数学 |        | 熊佳颖 |       张亦池(请假)  |        |       |      |  |
+   | 英     语 |        |               |                           |        |        |      |          |
+  :::
+
+:::::
+
+
+
+::::: card-masonry gap="16" 
 
 
 
@@ -49,25 +64,26 @@ config:
 
 
 
-::: card title="作业情况" icon="pajamas:formula "
+::: card title="作业情况" icon="pajamas:issue-type-requirements"
 
-|      | 语文 |     数学      | 英语 | 物理 | 化学 | 生物 | 政治 |
-| :--: | :--: | :-----------: | :--: | :--: | :--: | :--: | :--: |
-| 一组 |      |               |      |      |      |      |      |
-| 二组 |      |               |      |      |      |      |      |
-| 三组 |      | 罗秦钺,张亦池 |      |      |      |      |      |
-| 四组 |      |    谢知行     |      |      |      |      |      |
-| 五组 |      |               |      |      |      |      |      |
-| 六组 |      |               |      |      |      |      |      |
-| 七组 |      |               |      |      |      |      |      |
+::: collapse
+
+- 历史情况
+
+  ::: timeline placement="between"
+  - 数学作业一人未交
+    time=2025-09-6 placement=right type=danger
+
+    !!熊佳颖!!{.blur .click}
 
 :::
 
 
 
 ::: card title="英语" icon="material-symbols:book-6-outline-rounded"
-1. ### 听写任务:Unit2-===={.danger}
+1. ### 听写任务:==industrialization~enconter=={.danger}
 2. ### ==单词一览=={.tip}:[+听写]
+3. ### 下周收作文,周一收周报
 
 [+听写]:
   ### 
@@ -103,7 +119,7 @@ config:
 
 
 
-:::: 
+::::: 
 
 
 [+作业示例]:
@@ -208,11 +224,11 @@ config:
 
 - 9月4日
 
-  ::pajamas:highlight / #ba2a2aff::语文:### 课时完成【==论语12章==】,==明天讲=={.danger}
+  ::pajamas:highlight / #ba2a2aff::语文: 课时完成【==论语12章==】,==明天讲=={.danger}
 
-  ::pajamas:rocket-launch / #d77424ff::物理:### 课时完成==电阻率的测量==
+  ::pajamas:rocket-launch / #d77424ff::物理: 课时完成==电阻率的测量==
 
-  ::pajamas:nature / #a91bb4ff::生物:### 平板==4.1-4.2== **巩固练习**
+  ::pajamas:nature / #a91bb4ff::生物: 平板==4.1-4.2== **巩固练习**
 
 - 待添加
 
@@ -231,3 +247,4 @@ config:
   ::pajamas:mail / #ff5577ff::政治:
 
 :::
+
