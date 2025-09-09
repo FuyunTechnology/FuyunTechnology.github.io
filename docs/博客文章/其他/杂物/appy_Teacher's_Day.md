@@ -9,7 +9,7 @@ config:
  -
     type: hero
     full: true
-    background: ./Teacher'sDay.jpg
+    background: 'https://raw.githubusercontent.com/FuyunTechnology/FuyunTechnology.github.io/main/docs/.vuepress/public/image/Teacher_sDay.jpg'
     hero:
       name: 教师节快乐!
       tagline: 2400致上
