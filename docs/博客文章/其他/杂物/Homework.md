@@ -31,17 +31,21 @@ config:
 
 
 
-::::: card title="作业情况" icon="pajamas:issue-type-requirements"
+::::: card title="作业信息" icon="pajamas:issue-type-requirements"
 :::: collapse
 
-- 当前情况
+- 历史情况
 
-  ::: table hl-cells="danger:(2,3),(2,6);warning:(2,4),(2,7)"
-  |      |  一组  |     二组      |           三组            |  四组  |  五组  | 六组 |    七   组  |
-  | :--: | :----: | :-----------: | :----------: | :----: | :----: | :--: | :----: |
-  | 数学 |        | 熊佳颖,周决/颜承炫/张易(请假) |       张亦池/陈子晴(请假)  |       | 李湘哲    |   李诗涵(请假)   |   |
+  ::: timeline horizontal placement="left"
+
+  - 未提交
+    time=2025-9-6
+
+  
   :::
+    
 
+::::
 :::::
 
 
@@ -51,65 +55,66 @@ config:
 
 
 ::: card title="语文" icon="pajamas:highlight"
-### 课时完成==人皆有不忍人之心=={.warning}
+## 课时完成==人皆有不忍人之心=={.warning}
 :::
 
 
 
 ::: card title="数学" icon="pajamas:formula "
-1. ### 向后预习课程 !!应该会讲第2章,第3章一定要学!!{.mask .hover}
+1. ## 向后预习课程 !!应该会讲第2章,第3章一定要学!!{.mask .hover}
+2. ## 解题觉醒==2.2==
 :::
 
 
 
-::: card title="作业情况" icon="pajamas:issue-type-requirements"
+::: card title="情况" icon="pajamas:issue-type-requirements"
 
-::: collapse
+::: collapse accordion
+- 内务
 
-- 历史情况
-
-  ::: timeline placement="left"
-
-  - 未提交:4
-    time=2025-9-6
-
-    未提交:==颜承炫,张易,张亦池,李诗涵=={.warning}
-
-  
-
+  ::: table hl-cells="danger:'(2,2),(3,3),(7,3)'"
+  | 内务 |  六  |  一  |  二  |  三  |  四  |  五  |
+  | :------: | :--: | :--: | :--: | :--: | :--: | :--: |
+  |   317    |  ==良==  |   优   |      |      |      |      |
+  |   318    |  优  |  ==良==  |      |      |      |      |
+  |   319    |  优  | 优   |      |      |      |      |
+  |   320    |  优  |  优  |      |      |      |      |
+  |   319    |  优  |  优  |      |      |      |      |
+  |   320    |  优  |   ==良== |      |      |      |      |
 :::
+
 
 
 
 ::: card title="英语" icon="material-symbols:book-6-outline-rounded"
-1. ### 听写任务:==industrialization~enconter=={.danger}
-2. ### ==单词一览=={.tip}:[+听写]
-3. ### 下周收作文,周一收周报
+1. ## 听写任务:==nourish~unforgiving=={.danger}
+2.  ==单词一览=={.tip}:[+听写]
+3. ## 下周收作文,周一收周报
 
 [+听写]:
-  ### 
+  ##
 :::
 
 
 
 ::: card title="物理" icon="pajamas:rocket-launch"
-1. ### 划重点巩固练==L26,L27==页的A组习题
+1. ## 划重点巩固练==L26,L27==页的A组习题
 
-2. ### 课时完成==电阻率的测量==
+2. ## 课时完成==电阻率的测量==
 :::
 
 
 
 ::: card title="化学" icon="pajamas:issue-type-test-case"
-1. ### ==巩固练写到 **L6**==
+1. ## ==巩固练写到 **L6**==
 
-2. ### 化学学法写到==36~50页=={.warning} (1~16页)
+2. ## 化学学法写到==47~50页=={.warning}
 :::
 
 
 
 ::: card title="生物" icon="pajamas:nature"
-### 平板==4.1-4.2== **巩固练习**
+## 平板==4.1-4.2== **巩固练习**
 :::
 
 
