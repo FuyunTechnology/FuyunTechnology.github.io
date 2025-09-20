@@ -41,10 +41,14 @@ config:
     time=2025-9-6
   
     名单
-  
-  :::
-    
 
+- 每日一题
+  ::::: card-masonry cols="2"
+  ::: card title="题目"
+  # 在直角$\Delta ABC$中,AB=AC=4.点P是边AB上异于AB的一点,光线从点P出发,经BC,CA反射后后又回到点P(如图).若光线QR经过$\Delta ABC$的重心,则AP等于($\qquad$)  $A,2 \qquad B,1  \qquad  C,  \frac 83  \qquad    D,   \frac 43$
+  :::
+  <ImageCard image="/image/Work/9.20.png"  width="800px"  />
+   
 ::::
 :::::
 
@@ -62,8 +66,8 @@ config:
 
 ::: card title="数学" icon="pajamas:formula "
 1. ## 向后预习课程
-2. ## 试卷重写==8,11,14,19题=={.danger}
-3. ## 罗秦钺准备==每日一题=={.danger}
+2. ## 解题觉醒写完2.3
+3. ## ==张易==准备==每日一题=={.danger}
 :::
 
 ::: card title="情况" icon="pajamas:issue-type-requirements"
@@ -71,23 +75,23 @@ config:
 
 - 内务
 
-  ::: table hl-cells="danger:(6,3)"
+  ::: table hl-cells="danger:(6,2)"
 
-  |  内务 |  六  |  一  |  二  |  三  |  四  |  五  |
+  |  内务 |  一  |  二  |  三  |  四  |  五  |  六  |
   | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-  | 317 |     |  优  |  优   |  优   |     |     |
-  | 318 |     |  优  |  优   |  优   |     |     |
-  | 319 |     |  优  |  优   |  优   |     |     |
-  | 320 |     |  优  |  优   |  优   |     |     |
-  | 319 |     |  良  |  优   |  优   |     |     |
-  | 320 |     |  优  |  优   |  优   |     |     |
+  | 317 |  优  |  优   |  优   |  优   |  优   |     |
+  | 318 |  优  |  优   |  优   |  优   |  优   |     |
+  | 319 |  优  |  优   |  优   |  优   |  优   |     |
+  | 320 |  优  |  优   |  优   |  优   |  优   |     |
+  | 319 |  良  |  优   |  优   |  优   |  优   |     |
+  | 320 |  优  |  优   |  优   |  优   |  优   |     |
 
   :::
 
 
 
 ::: card title="英语" icon="material-symbols:book-6-outline-rounded"
-1. ## 听写任务:==whisper~breeze=={.danger} 造句: ==forever;rely on==
+1. ## 听写任务:==upset~mostly=={.danger} 造句: ==ease ~ gallery==
 :::
 
 
@@ -104,7 +108,7 @@ config:
 
 
 ::: card title="生物" icon="pajamas:nature"
-## 平板==4.1-4.2== **巩固练习**
+
 :::
 
 
