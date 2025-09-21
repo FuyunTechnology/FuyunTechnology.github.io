@@ -30,27 +30,30 @@ config:
 
 
 
-::::: card title="作业信息" icon="pajamas:issue-type-requirements"
-:::: collapse
+:::::: collapse
 
 - 历史情况
 
-  ::: timeline horizontal placement="left"
+  ::::: timeline horizontal placement="left"
 
   - 未提交
-    time=2025-9-6
+    time=2025-9-20
   
     名单
 
+   :::::
+
 - 每日一题
   ::::: card-masonry cols="2"
-  ::: card title="题目"
-  # 在直角$\Delta ABC$中,AB=AC=4.点P是边AB上异于AB的一点,光线从点P出发,经BC,CA反射后后又回到点P(如图).若光线QR经过$\Delta ABC$的重心,则AP等于($\qquad$)  $A,2 \qquad B,1  \qquad  C,  \frac 83  \qquad    D,   \frac 43$
-  :::
-  <ImageCard image="/image/Work/9.20.png"  width="800px"  />
-   
-::::
-:::::
+  :::: card title="题目 9-21"
+  # $在 \Delta ABC中,若AC=3,{1 \over \sin B}+{1 \over \tan B}={1 \over \sin A}+{1 \over \tan A}+2,则 \Delta ABC周长的最大值为多少?$
+  ::::
+  <ImageCard image="/image/Other/Homework.png"  width="1px"  />
+  :::::
+  ::::: card title="注意事项"
+  ## 题目将在晚三开始时讲解,届时将由出题人==随机选定一人进行讲解==.请在晚三开始前掌握题目. 无法完成当天讲解的人将推迟到第二天进行讲解(第二天晚二下课还要接受作业检查)
+  :::::
+  ::::::
 
 
 
@@ -66,28 +69,24 @@ config:
 
 ::: card title="数学" icon="pajamas:formula "
 1. ## 向后预习课程
-2. ## 解题觉醒写完2.3
+2. ## 解题觉醒写完2.3 ==周日晚二下课收=={.danger}
 3. ## ==张易==准备==每日一题=={.danger}
 :::
 
 ::: card title="情况" icon="pajamas:issue-type-requirements"
-::: collapse accordion
-
+::: collapse
 - 内务
 
   ::: table hl-cells="danger:(6,2)"
-
   |  内务 |  一  |  二  |  三  |  四  |  五  |  六  |
   | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-  | 317 |  优  |  优   |  优   |  优   |  优   |     |
-  | 318 |  优  |  优   |  优   |  优   |  优   |     |
-  | 319 |  优  |  优   |  优   |  优   |  优   |     |
-  | 320 |  优  |  优   |  优   |  优   |  优   |     |
-  | 319 |  良  |  优   |  优   |  优   |  优   |     |
-  | 320 |  优  |  优   |  优   |  优   |  优   |     |
-
+  | 317 |  优  |  优   |  优   |  优   |  优   |  优   |
+  | 318 |  优  |  优   |  优   |  优   |  优   |  优   |
+  | 319 |  优  |  优   |  优   |  优   |  优   |  优   |
+  | 320 |  优  |  优   |  优   |  优   |  优   |  优   |
+  | 319 |  良  |  优   |  优   |  优   |  优   |  优   |
+  | 320 |  优  |  优   |  优   |  优   |  优   |  优   |
   :::
-
 
 
 ::: card title="英语" icon="material-symbols:book-6-outline-rounded"
