@@ -34,42 +34,26 @@ config:
 
 - 历史情况::pajamas:issue-type-requirements::
   
-  <CardGrid>
-
-  :::: card
-
-  ::: timeline horizontal placement="left"
-
-  - 解题觉醒没交:
-    time=2025-9-21
-  
-    ### 罗秦钺,杨萍,陈子晴,熊佳颖,李湘哲
-
-  :::
-  ::::
-
   <Card>
 
   ::: echarts 作业情况
   
   ```js
   const
-    width = "500",
-    height = "350",
     option = {
     // 此处为 ECharts 图表配置\
       xAxis: {
-    data: ['总人数', '一组', '二组', '三组', '四组', '五组', '六组', '七组']
+    data: ['', '一组', '二组', '三组', '四组', '五组', '六组', '七组']
   },
   yAxis: {},
   series: [
     {
-      data: [8, 7, 8, 7, 7, 7, 7, 8],
+      data: [8, 7, 8, 8, 7, 7, 7, 8],
       type: 'bar',
       stack: 'x'
     },
     {
-      data: [0, 1, 0, 1, 1, 1, 1, 0],
+      data: [0, 1, 0, 0, 1, 1, 1, 0],
       type: 'bar',
       stack: 'x'
     }
@@ -80,12 +64,21 @@ config:
   
   </Card>
 
-  </CardGrid>
+  :::: card
 
+  ::: timeline horizontal placement="left"
+
+  - 解题觉醒没交:
+    time=2025-9-21
+  
+    ### 罗秦钺,陈子晴,熊佳颖,李湘哲
+
+  :::
+  ::::
 
 
 - 每日一题
-  ### 已知$2x^2 +xy+y^2 =1$,求$x^2 +xy+2y^2$的最小值
+  ### 解方程:$x=\left( x^2 -2\right) ^2 -2$
   ::::: card title="注意事项"
   
   ### 题目将在晚三开始时讲解,届时将由出 题人==随机选定一人进行讲解==.请尽量在晚三开始前掌握题目. 无法完成当天讲解的人将推迟到第二天进行讲解(第二天晚二下课还要接受作业检查)
@@ -107,7 +100,8 @@ config:
 
 ::: card title="数学" icon="pajamas:formula "
 1. ### 向后预习课程
-2. ### ==杨振鸿==准备==每日一题=={.danger}
+2. ### 学法完成==圆的标准方程.== ==注意进度=={.danger}
+3. ### ==唐嘉成==准备==每日一题=={.danger}
 :::
 
 ::: card 
@@ -117,18 +111,18 @@ config:
   ::: table hl-cells="danger:"
   |  内务 |  一  |  二  |  三  |  四  |  五  |  六  |
   | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-  | 317 |  优  |      |      |      |      |      |
-  | 318 |  优  |      |      |      |      |      |
-  | 319 |  优  |      |      |      |      |      |
-  | 320 |  优  |      |      |      |      |      |
-  | 319 |  优  |      |      |      |      |      |
-  | 320 |  优  |      |      |      |      |      |
+  | 317 |     |      |      |      |      |      |
+  | 318 |     |      |      |      |      |      |
+  | 319 |     |      |      |      |      |      |
+  | 320 |     |      |      |      |      |      |
+  | 319 |     |      |      |      |      |      |
+  | 320 |     |      |      |      |      |      |
   
   :::
 
 
 ::: card title="英语" icon="material-symbols:book-6-outline-rounded"
-1. ### 听写任务:==ink~scale=={.danger} 造句: ==precise ; expose=={.danger}
+1. ### 听写任务:==emperor~cage=={.danger} 造句: ==frozen ; detect=={.danger}
 2. ### 课时完成==p137~143=={.tip}
 :::
 
@@ -146,7 +140,7 @@ config:
 
 
 ::: card title="生物" icon="pajamas:nature"
-### 学法==四五章==(月假作业)
+### 学法==2,3章==(月假作业)
 :::
 
 
