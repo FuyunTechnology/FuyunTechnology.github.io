@@ -48,12 +48,12 @@ config:
   yAxis: {},
   series: [
     {
-      data: [8, 7, 8, 8, 8, 7, 7, 8],
+      data: [8, 7, 8, 8, 8, 7, 8, 8],
       type: 'bar',
       stack: 'x'
     },
     {
-      data: [0, 1, 0, 0, 0, 1, 1, 0],
+      data: [0, 1, 0, 0, 0, 1, 0, 0],
       type: 'bar',
       stack: 'x'
     }
@@ -71,14 +71,14 @@ config:
   - 解题觉醒没交:
     time=2025-9-21
   
-    ### 罗秦钺.熊佳颖,李湘哲
+    ### 罗秦钺.熊佳颖
 
   :::
   ::::
 
 
 - 每日一题
-  ### 求函数$f(x)=\sqrt {x^4 -3x^2 -6x+13}-\sqrt {x^4 -x^2+1}$的最大值
+  ### 
 
   ::::::
 
@@ -89,15 +89,15 @@ config:
 
 
 ::: card title="语文" icon="pajamas:highlight"
-### 
+### 作文
 :::
 
 
 
 ::: card title="数学" icon="pajamas:formula "
 1. ### 向后预习课程
-2. ### 学法完成==圆的标准方程.== ==注意进度=={.danger}
-3. ### ==李宇轩==准备==每日一题=={.danger}
+2. ### 解题觉醒完成==2.4 ;2.5.1== ==注意进度=={.danger}
+3. ### ==钟睿==准备==每日一题=={.danger}
 :::
 
 ::: card 
@@ -118,26 +118,24 @@ config:
 
 
 ::: card title="英语" icon="material-symbols:book-6-outline-rounded"
-1. ### 听写任务:==_=={.danger} 造句: ==_=={.danger}
-2. ### 课时完成==p137~143=={.tip}
+### 两张试卷(周报不用写)
 :::
 
 
 ::: card title="物理" icon="pajamas:rocket-launch"
-1. ### 课时完成158~163,==明天收==
-2. ### ==巩固练写L32 ~ 43,巩固练月收一次==
+1. ### ==巩固练写L32 ~ 43,巩固练月收一次==
 :::
 
 
 
 ::: card title="化学" icon="pajamas:issue-type-test-case"
-
+### 月假作业:课时完成==p141~161(基础课时训练4除外)==
 :::
 
 
 
 ::: card title="生物" icon="pajamas:nature"
-### 学法==二/三章==(月假作业)
+### 月假作业:学法==二/三章==
 :::
 
 
