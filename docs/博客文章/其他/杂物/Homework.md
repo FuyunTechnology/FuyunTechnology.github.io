@@ -71,14 +71,13 @@ config:
   - 解题觉醒没交:
     time=2025-9-21
   
-    ### 罗秦钺.熊佳颖
+    ### !!罗秦钺,熊佳颖!!{.blur}
 
   :::
   ::::
 
 
 - 每日一题
-  ### 
 
   ::::::
 
@@ -89,15 +88,15 @@ config:
 
 
 ::: card title="语文" icon="pajamas:highlight"
-### 学法作文60页第二段材料
+### 
 :::
 
 
 
 ::: card title="数学" icon="pajamas:formula "
-1. ### 写完发下来的三张试卷
-2. ### 解题觉醒完成==2.4 ;2.5.1== ==注意进度=={.danger}(不是月假作业)
-3. ### ==钟睿==准备==每日一题=={.danger}
+1. ### 向后预习课程
+2. ### 解题觉醒完成==2.4 ;2.5.1== ==注意进度=={.danger}
+3. ### ==肖尊慧==准备==每日一题=={.danger}
 :::
 
 ::: card 
@@ -118,7 +117,8 @@ config:
 
 
 ::: card title="英语" icon="material-symbols:book-6-outline-rounded"
-### 两张试卷(周报不用写)
+### 第七节课下课收作文
+
 :::
 
 
@@ -135,7 +135,7 @@ config:
 
 
 ::: card title="生物" icon="pajamas:nature"
-### 月假作业:学法==二/三章==
+### 
 :::
 
 
