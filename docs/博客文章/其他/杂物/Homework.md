@@ -3,9 +3,8 @@ title: 作业
 createTime: 2025/08/23 15:32:51
 permalink: /博客文章/其他/杂物/Homework.html
 pageLayout: home
-navbar: false
 aside: false
-backtotop: 
+backtotop: false
 outline: [5,6]
 config:
   -
@@ -78,6 +77,7 @@ config:
 
 
 - 每日一题
+  ### 记三角形ABC内角A,B,C的对边分别为a,b,c.若$2\sqrt 3 \sin A\sin B\sin C=3\sin^2 B +3\sin^2 C -\sin^2 A$.求$\frac ab$
 
   ::::::
 
@@ -95,8 +95,8 @@ config:
 
 ::: card title="数学" icon="pajamas:formula "
 1. ### 向后预习课程
-2. ### 解题觉醒完成==2.4 ;2.5.1== ==注意进度=={.danger}
-3. ### ==肖尊慧==准备==每日一题=={.danger}
+2. ### 解题觉醒完成==2.4 ;2.5.1==,== =={.danger}
+3. ### ==吴启航==准备==每日一题=={.danger}
 :::
 
 ::: card 
@@ -117,19 +117,19 @@ config:
 
 
 ::: card title="英语" icon="material-symbols:book-6-outline-rounded"
-### 第七节课下课收作文
-
+1. ### 写十行练字
+1. ### 周三收练字,周日收作文
 :::
 
 
 ::: card title="物理" icon="pajamas:rocket-launch"
-1. ### ==巩固练写L32 ~ 43,巩固练月收一次==
+### ==巩固练写L32 ~ 55,巩固练月收一次==
 :::
 
 
 
 ::: card title="化学" icon="pajamas:issue-type-test-case"
-### 月假作业:课时完成==p141~161(基础课时训练4除外)==
+### ==晚一下课收课时==
 :::
 
 
