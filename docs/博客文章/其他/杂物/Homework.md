@@ -87,7 +87,7 @@ config:
 
 
 ::: card title="语文" icon="pajamas:highlight"
-### 
+### 语文课时完成3,4课,晚二收
 :::
 
 
@@ -122,6 +122,7 @@ config:
 
 ::: card title="物理" icon="pajamas:rocket-launch"
 ### ==巩固练写L32 ~ 55,巩固练月收一次==
+### 课时164~168 ==今晚收
 :::
 
 
