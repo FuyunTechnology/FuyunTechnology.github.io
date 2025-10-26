@@ -11,8 +11,8 @@ export default defineNavbarConfig([
   { text: '首页',
     icon: 'line-md:home-twotone',
      link: '/' 
-    },
-{
+  },
+  {
     text: '文档',
     icon: 'line-md:file-document-twotone',
     items: [

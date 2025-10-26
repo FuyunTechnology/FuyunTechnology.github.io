@@ -67,7 +67,7 @@ export default defineUserConfig({
        },
        author: {
          name: 'FuyunTechnology & FuyunTechnology', // 版权所有者名称
-         url: 'https://bgithub.xyz/FuyunTechnology' // 版权所有者地址
+         url: 'https://github.com/FuyunTechnology' // 版权所有者地址
        },
        creation: 'original' // 创作方式
        },

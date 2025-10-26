@@ -76,9 +76,8 @@ config:
   ::::
 
 
-- 每日一题
-  ### 记三角形ABC内角A,B,C的对边分别为a,b,c.若$2\sqrt 3 \sin A\sin B\sin C=3\sin^2 B +3\sin^2 C -\sin^2 A$.求$\frac ab$
-
+- 每日一题 10-25
+  ### 已知实数x,y满足$(x-2)^2 +y^2 =3$,求$\frac{y-1}x$的最大值与最小值.
   ::::::
 
 
@@ -96,7 +95,7 @@ config:
 ::: card title="数学" icon="pajamas:formula "
 1. ### 向后预习课程
 2. ### 解题觉醒完成==2.4 ;2.5.1==,== =={.danger}
-3. ### ==吴启航==准备==每日一题=={.danger}
+3. ### ==陈子晴==准备==每日一题=={.danger}
 :::
 
 ::: card 
@@ -118,7 +117,6 @@ config:
 
 ::: card title="英语" icon="material-symbols:book-6-outline-rounded"
 1. ### 写十行练字
-1. ### 周三收练字,周日收作文
 :::
 
 
@@ -129,7 +127,7 @@ config:
 
 
 ::: card title="化学" icon="pajamas:issue-type-test-case"
-### ==晚一下课收课时==
+### 
 :::
 
 
