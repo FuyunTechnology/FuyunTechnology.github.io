@@ -4,10 +4,9 @@
  * Navbar 配置文件，它在 `.vuepress/plume.config.ts` 中被导入。
  */
 
-import { text } from 'mermaid/dist/rendering-util/rendering-elements/shapes/text.js'
 import { defineNavbarConfig } from 'vuepress-theme-plume'
 
-export default defineNavbarConfig([
+export const zhNavbar = defineNavbarConfig([
   { text: '首页',
     icon: 'line-md:home-twotone',
      link: '/' 
@@ -24,17 +23,17 @@ export default defineNavbarConfig([
           {
             text: '我的项目',
             icon: 'material-symbols:deployed-code',
-            link: '/notes/我的项目/README.md'
+            link: '/文档笔记/我的项目/README.md'
           },
           {
             text: '优质项目',
             icon: 'material-symbols:auto-awesome-rounded',
-            link: '/notes/优质项目/README.md'
+            link: '/文档笔记/优质项目/README.md'
           },
           {
             text: '指导笔记',
             icon: 'material-symbols:co-present-sharp',
-            link: '/notes/指导笔记/README.md'
+            link: '/文档笔记/指导笔记/README.md'
           }
         ]
       }
@@ -58,17 +57,17 @@ export default defineNavbarConfig([
           {
             text: '诗歌',
             icon:'material-symbols:book-2-rounded',
-            link:'/作品/诗歌/README.md',
+            link:'/文章导航/作品/诗歌/导航.html',
           },
           {
             text: '次级诗歌',
             icon: 'material-symbols:book-4-spark-rounded',
-            link: '/作品/次级诗歌/README.md'
+            link: '/文章导航/作品/次级诗歌/导航.html'
           },
           {
             text: '歌词',
             icon: 'material-symbols:queue-music-rounded',
-            link: '/作品/歌词/README.md'
+            link: '/文章导航/作品/歌词/导航.html'
           },
         ],
       },
@@ -80,13 +79,14 @@ export default defineNavbarConfig([
           {
             text: '收集',
             icon: 'material-symbols:bookmark-star-sharp',
-            link: '/其他/收集/README.md'
+            link: '/文章导航/其他/收集/导航.html'
           },
           {
             text: '杂物',
             icon: 'material-symbols:database-sharp',
-            link: '/其他/杂物/README.md'
-          }
+            link: '/文章导航/其他/杂物/导航.html'
+          },
+          
         ]
       }
     ]
@@ -113,5 +113,16 @@ export default defineNavbarConfig([
       },
     ]
   },
-
 ])
+
+export const enNavbar = defineNavbarConfig([
+  { text: 'Home', link: '/en/' },
+  { text: 'Blog', link: '/en/blog/' },
+  { text: 'Tags', link: '/en/blog/tags/' },
+  { text: 'Archives', link: '/en/blog/archives/' },
+  {
+    text: 'Notes',
+    items: [{ text: 'Demo', link: '/en/demo/README.md' }]
+  },
+])
+

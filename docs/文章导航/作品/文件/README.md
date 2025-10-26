@@ -1,5 +1,6 @@
 ---
 title: 导航
 createTime: 2025/08/23 12:40:34
-permalink: /博客文章/作品/歌词/导航.html
+permalink: /srpzo5gg/
+pageLayout: 'doc'
 ---

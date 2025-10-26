@@ -19,8 +19,28 @@ config:
           text: 访问我的博客
           link: https://fuyunxinyu.github.io/
   -
+    type: features
+    features:
+      -
+        title: 我的项目
+        icon: material-symbols:deployed-code
+        details: 参观我的项目笔记
+        link: '/文档笔记/我的项目/README.md'
+      -
+        title: 优质项目
+        icon: material-symbols:auto-awesome-rounded
+        details: 了解我收藏的优质项目
+        link: '/文档笔记/优质项目/README.md'
+      -
+        title: 指导笔记
+        icon: material-symbols:co-present-sharp
+        details: 查看其他项目的指导笔记
+        link: '/文档笔记/指导笔记/README.md'
+      -
+        title: 文学作品
+        icon: material-symbols:article-outline-rounded
+        details: 查看我的文学类文章
+        link: '/blog/'
+  -
     type: profile
-    name: 浮芸星语空悠悠
-    description: 余生漫漫,不见 不散
-    avatar: /image/site/Avatar.png
 ---

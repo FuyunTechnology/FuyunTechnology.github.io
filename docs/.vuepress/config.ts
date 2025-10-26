@@ -16,8 +16,18 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: '芸端',
-  description: '一个刚起步的文档站点',
+  locales: {
+    '/': {
+      title: '芸端',
+      lang: 'zh-CN',
+      description: '一个刚起步的文档站点',
+    },
+    '/en/': {
+      title: '芸端',
+      lang: 'en-US',
+      description: 'A developing site',
+    },
+  },
 
   head: [
     // 配置站点图标
@@ -43,36 +53,6 @@ export default defineUserConfig({
     changelog: false,
 
     /**
-     * 博客
-     * @see https://theme-plume.vuejs.press/config/basic/#blog
-     */
-    // blog: false, // 禁用博客
-    blog: {
-      postList: true, // 是否启用文章列表页
-      tags: true, // 是否启用标签页
-      archives: true, // 是否启用归档页
-      categories: true, // 是否启用分类页
-      postCover: 'right', // 文章封面位置
-      pagination: 15, // 每页显示文章数量
-    },
-
-    /* 博客文章页面链接前缀 */
-    article: '/article/',
-
-    // 版权和协议
-    copyright: {
-     license: {
-         name: 'CC BY-NC-SA 4.0 ', // 许可证名称
-         url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans' // 许可证地址
-       },
-       author: {
-         name: 'FuyunTechnology & FuyunTechnology', // 版权所有者名称
-         url: 'https://github.com/FuyunTechnology' // 版权所有者地址
-       },
-       creation: 'original' // 创作方式
-       },
-    
-    /**
      * 编译缓存，加快编译速度
      * @see https://theme-plume.vuejs.press/config/basic/#cache
      */
@@ -82,11 +62,11 @@ export default defineUserConfig({
      * 为 markdown 文件自动添加 frontmatter 配置
      * @see https://theme-plume.vuejs.press/config/basic/#autofrontmatter
      */
-    autoFrontmatter: {
-      permalink: true,  // 是否生成永久链接
-      createTime: true, // 是否生成创建时间
-      title: true,      // 是否生成标题
-    },
+     autoFrontmatter: {
+       permalink: true,  // 是否生成永久链接
+       createTime: true, // 是否生成创建时间
+       title: true,      // 是否生成标题
+     },
 
     /* 本地搜索, 默认启用 */
     search: { provider: 'local' },
@@ -100,14 +80,14 @@ export default defineUserConfig({
     //   provider: 'algolia',
     //   appId: '',
     //   apiKey: '',
-    //   indexName: '',
+    //   indices: [''],
     // },
 
     /**
      * Shiki 代码高亮
      * @see https://theme-plume.vuejs.press/config/plugins/code-highlight/
      */
- codeHighlighter: {
+    codeHighlighter: {
       themes: { light: 'vitesse-light', dark: 'vitesse-dark' },
       notationDiff: true,
       notationErrorLevel: true,
@@ -126,9 +106,9 @@ export default defineUserConfig({
     // 也可以通过 plugins.readingTime 配置，但不推荐
 
     /**
-      * markdown
-      * @see https://theme-plume.vuejs.press/config/markdown/
-      */
+     * markdown
+     * @see https://theme-plume.vuejs.press/config/markdown/
+     */
      markdown: {
        collapse: true,      //启用 折叠面板语法 ::: collapes
        timeline: true, 
