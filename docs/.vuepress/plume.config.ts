@@ -31,7 +31,7 @@ export default defineThemeConfig({
   ],
   navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
   aside: true, // 页内侧边栏， 默认显示在右侧
-  outline: [2, 3], // 页内大纲， 默认显示 h2, h3
+  outline: [2, 4], // 页内大纲， 默认显示 h2, h3
 
 
   
@@ -81,30 +81,42 @@ export default defineThemeConfig({
       /**
        * @see https://theme-plume.vuejs.press/config/basic/#profile
        */
-    //appearanceText:'外观',
-    //selectLanguageName:'简体中文',
-    //homeText:'主页',
-    //archivesText: '归档',
-    //categoriesText: '分类',
-    //postsText:'文章',
+    //appearanceText: '外观',
+    //selectLanguageName: '简体中文',
+    //homeText: '主页',
+    //archiveText: '归档',
+    //categoryText: '分类',
+    //tagsText: '标签',
+    //postsText: '文章',
     archiveTotalText:'创作了 {count} 篇文章',
-    //sidebarMenuLabel:'菜单',
-    //tagsText: '标签', // 标签页标题
-    //returnToTopLabel:'返回顶部',
-    //outlineLabel:'大纲',
-    //editLinkText:'编辑此页',
-    //lastUpdatedText:'最后更新',
-    //contributorsText:'贡献者',
-    //changelogText:'变更记录',
-    //changelogOnText:'On',
-    //changelogButtonText:'查看所有变更',
-    //copyrightText:'版权所有',
+    //sidebarMenuLabel: '菜单',
+    //returnToTopLabel: '返回顶部',
+    //outlineLabel: '大纲',
+    //editLinkText: '编辑此页',
+    //lastUpdatedText: '最后更新',
+    //contributorsText: '贡献者',
+    //changelogText: '变更记录',
+    //changelogOnText: 'On',
+    //changelogButtonText: '查看所有变更',
+    //copyrightText: '版权所有',
     //copyrightAuthorText:'版权所有者',
-    //copyrightCreationOriginalText:'本文链接',
-    //copyrightCreationTranslateText:'翻译文本链接',
-    //copyrightCreationReprintText:'转载链接',
-    
-    
+    //copyrightCreationOriginalText: '本文链接',
+    //copyrightCreationTranslateText: '翻译文本链接',
+    //copyrightCreationReprintText: '转载链接',
+    //copyrightLicenseText: '版权许可',
+    //prevPageLabel: '上一页',
+    //nextPageLabel: '下一页',
+    notFound: 
+    {  //NotFound | undefined
+      code: '出错了',
+      title: 'O_O 这个页面出错了!',
+      quote: 
+      '至少现在,这个页面你是访问不了了.下次再来吧',
+      linkLabel: '/',
+      linkText: '回到首页吧',
+    },
+
+
     collections: 
    [ 
     { 
@@ -133,8 +145,7 @@ export default defineThemeConfig({
       dir: '文档笔记',
         sidebar: 
         [ // 手动配置导航项
-          '1',
-          '2',
+          
         ],
         sidebarScrollbar: true, // 显示侧边栏滚动条
     },
@@ -144,8 +155,7 @@ export default defineThemeConfig({
       dir: '文章导航',
         sidebar: 
         [ // 手动配置导航项
-          '1',
-          '2',
+          
         ],
         sidebarScrollbar: true, // 显示侧边栏滚动条
     },
@@ -168,11 +178,77 @@ export default defineThemeConfig({
        * @see https://theme-plume.vuejs.press/guide/features/bulletin/
        */
        bulletin: {
-         layout: 'top-right',
-         contentType: 'markdown',
-         title: '',
-         content: '',
-       },
+         /**
+         * 公告位置
+         * @default 'top-right'
+         */
+        layout: 'top-right',//'top-left' | 'top-right' | 'bottom-left' | 'bottom-right' | 'center'
+      
+        /**
+         * 是否显示渐变边框
+         *
+         * @default true
+         */
+        border: true,
+      
+        /**
+         * 在哪些页面显示公告
+         *
+         * - `true` 表示所有页面
+         * - `false` 表示不显示
+         * - 传入一个函数，返回 `true` 时显示
+         */
+        enablePage: false,  // | ((page: Page) => boolean)
+      
+        /**
+         * 公告持续时间
+         *
+         * @default 'always'
+         *
+         * - `'session'` 表示在会话周期内关闭公告后不再显示，在新的会话周期重新显示，刷新页面不会重新显示
+         * - `'always'` 表示总是显示，关闭公告后刷新页面会重新显示
+         * - `'once'` 表示在仅在当前周期内显示，关闭公告后不再显示，新的会话和刷新页面都不会重新显示
+         */
+        lifetime: 'always',//'session' | 'always' | 'once'
+      
+        /**
+         * 公告 ID
+         *
+         * 公告持续时间 需要根据 `id` 作为唯一标识
+         */
+        id: '1',
+      
+        /**
+         * 公告标题
+         */
+        title: '公告',
+      
+        /**
+         * 公告内容
+         *
+         * 可以使用 markdown 语法 或者 使用 html 文本，
+         * 使用 markdown 时需要声明 `contentType` 为 `markdown`
+         */
+        content: '此站点还在早期建设中,短期内会有极大变更',
+      
+        /**
+         * 公告内容 类型
+         *
+         * - `markdown` 表示使用 markdown 语法
+         * - `text` 表示使用 普通文本 （可以是 html 内容）
+         *
+         * @default 'text'
+         */
+        contentType: 'markdown', // 'markdown'或'text'
+      
+        /**
+         * 传入一个 `markdown` 或 `html` 文件路径，并使用文件内容作为公告内容
+         *
+         * - 使用 `.md` 文件时，将会解析 markdown 语法
+         * - 使用 `.html` 文件时，只能包含公告内容，请不要使用 `<html>` `<body>` `<script>` 等标签。
+         */
+        //contentFile: string
+      },
     },
 
 
