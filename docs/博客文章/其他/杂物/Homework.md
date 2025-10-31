@@ -76,8 +76,8 @@ config:
   ::::
 
 
-- 每日一题 10-30
-  ## 已知实数$a,b$满足$a=e^{5-a} ,2+\ln b =e^{3-\ln b}$,则ab=_____.
+- 每日一题 11-3
+  ## 
   ::::::
 
 
@@ -87,17 +87,16 @@ config:
 
 
 ::: card title="语文" icon="pajamas:highlight"
-### ==周四晚上=={.danger}收语文课时,==写完5,6课=={.note}
+### 试卷一张<Badge type="danger" text="月假作业" />
 :::
 
 
 
 ::: card title="数学" icon="pajamas:formula "
 1. ### 向后预习课程
-2. ### 解题觉醒完成==阿波罗尼斯圆专项以前的所有习题==,==周四晚一收=={.info}
-3. ### ==肖轩奥==准备==每日一题=={.danger}
-4. ### 完成==数学试卷=={.note}<Badge type="danger" text="月假作业" />
-5. ### 解题觉醒完成==专项觉醒7/8/9/10=={.tip}<Badge type="danger" text="月假作业" />
+2. ### 解题觉醒完成==专项觉醒7/8/9/10=={.tip}<Badge type="danger" text="月假作业" />
+3. ### 完成==数学试卷=={.note}<Badge type="danger" text="月假作业" />
+4. ### ==肖轩奥==准备==每日一题=={.danger}
 :::
 
 ::: card 
@@ -118,25 +117,28 @@ config:
 
 
 ::: card title="英语" icon="material-symbols:book-6-outline-rounded"
-### 完成学法101~106,==周四收=={.warning}
+### 完成==英语试卷==<Badge type="danger" text="月假作业" />
 :::
 
 
 ::: card title="物理" icon="pajamas:rocket-launch"
-### 巩固练写L32 ~ 55,巩固练月收一次
-### 
+1. ### 巩固练写L32 ~ 55,巩固练月收一次
+2. ### 试卷一张<Badge type="danger" text="月假作业" />
 :::
 
 
 
 ::: card title="化学" icon="pajamas:issue-type-test-case"
-### 学法==写完67页==,课时写完==电离常数=={.important}
+1. ### 学法==写完67页==,课时写完==电离常数=={.important}
+2. ### 试卷一张<Badge type="danger" text="月假作业" />
 :::
 
 
 
 ::: card title="生物" icon="pajamas:nature"
-### 写完==选修二学法P32=={.tip}
+1. ### 写完==选修二学法P32=={.tip}
+2. ### 生物教科书完成习题至29页<Badge type="danger" text="月假作业" />
+3. ### 试卷一张<Badge type="danger" text="月假作业" />
 :::
 
 
