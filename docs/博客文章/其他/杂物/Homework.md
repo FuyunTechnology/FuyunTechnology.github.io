@@ -77,7 +77,9 @@ config:
 
 
 - 每日一题 11-5
-  ## 
+  # $\Delta ABC$的内角A,B,C的对边分别为a,b,c,已知$\Delta ABC$的面积为$\frac {a^2}{3\sin A}$.
+  ### (1).求sinBsinC;
+  ### (2).若6cosBcosC=1,a=3,求$\Delta ABC$的周长.
   ::::::
 
 
@@ -87,7 +89,7 @@ config:
 
 
 ::: card title="语文" icon="pajamas:highlight"
-### 
+### ==晚二下课收课时=={.danger}
 :::
 
 
@@ -95,12 +97,12 @@ config:
 ::: card title="数学" icon="pajamas:formula "
 1. ### 向后预习课程
 2. ### 解题觉醒完成==专项觉醒7/8/9/10=={.tip}
-3. ### ==陈展辉==准备==每日一题=={.danger}
-4. ### 月假试卷更正,==晚一下课收=={.note}
+3. ### ==王靖齐==准备==每日一题=={.danger}
+4. ### 月假试卷更正,==暂时不收=={.note}
 :::
 
 ::: card 
-::: collapse
+::: collapse accordion
 - 内务
 
   ::: table hl-cells="danger:(4,2),(5,2),(7,2)"
