@@ -67,16 +67,16 @@ config:
 
   ::: timeline horizontal placement="left"
 
-  - 解题觉醒没交:
+  - 
     time=2025-9-21
   
-    ### !!罗秦钺,熊佳颖!!{.blur}
+    ### 
 
   :::
   ::::
 
 
-- 每日一题 11-3
+- 每日一题 11-5
   ## 
   ::::::
 
@@ -87,16 +87,16 @@ config:
 
 
 ::: card title="语文" icon="pajamas:highlight"
-### 试卷一张<Badge type="danger" text="月假作业" />
+### 
 :::
 
 
 
 ::: card title="数学" icon="pajamas:formula "
 1. ### 向后预习课程
-2. ### 解题觉醒完成==专项觉醒7/8/9/10=={.tip}<Badge type="danger" text="月假作业" />
-3. ### 完成==数学试卷=={.note}<Badge type="danger" text="月假作业" />
-4. ### ==肖轩奥==准备==每日一题=={.danger}
+2. ### 解题觉醒完成==专项觉醒7/8/9/10=={.tip}
+3. ### ==陈展辉==准备==每日一题=={.danger}
+4. ### 月假试卷更正,==晚一下课收=={.note}
 :::
 
 ::: card 
@@ -117,20 +117,18 @@ config:
 
 
 ::: card title="英语" icon="material-symbols:book-6-outline-rounded"
-### 完成==英语试卷==<Badge type="danger" text="月假作业" />
+### 
 :::
 
 
 ::: card title="物理" icon="pajamas:rocket-launch"
 1. ### 巩固练写L32 ~ 55,巩固练月收一次
-2. ### 试卷一张<Badge type="danger" text="月假作业" />
 :::
 
 
 
 ::: card title="化学" icon="pajamas:issue-type-test-case"
 1. ### 学法==写完67页==,课时写完==电离常数=={.important}
-2. ### 试卷一张<Badge type="danger" text="月假作业" />
 :::
 
 
@@ -138,7 +136,6 @@ config:
 ::: card title="生物" icon="pajamas:nature"
 1. ### 写完==选修二学法P32=={.tip}
 2. ### 生物教科书完成习题至29页<Badge type="danger" text="月假作业" />
-3. ### 试卷一张<Badge type="danger" text="月假作业" />
 :::
 
 
