@@ -1,18 +1,19 @@
 ---
 title: 作业
-createTime: 2025/08/23 15:32:51
-permalink: /博客文章/其他/杂物/Homework.html
+permalink: /其他/杂物/班级相关/Homework.html
 pageLayout: home
 aside: false
 backtotop: false
-outline: [5,6]
+outline:
+  - 5
+  - 6
 config:
-  -
-    type: 'custom'
+  - type: custom
+createTime: 2025/11/06 17:51:58
 ---
 
 ::: center
-## 各科目作业
+# 各科目作业
 :::
 
 
@@ -76,10 +77,12 @@ config:
   ::::
 
 
-- 每日一题 11-5
-  # $\Delta ABC$的内角A,B,C的对边分别为a,b,c,已知$\Delta ABC$的面积为$\frac {a^2}{3\sin A}$.
-  ### (1).求sinBsinC;
-  ### (2).若6cosBcosC=1,a=3,求$\Delta ABC$的周长.
+- 每日一题 11-7
+  # (多选)$f(x)=\frac {\sin 3x •\sin^3 x +\cos 3x •\cos^3 x}{\cos^2 2x} +\sin 2x$.则(!!AC!!)
+  ## A.f(x)的最大值为$\sqrt 2$
+  ## B.f(x)的最大值为2
+  ## C.f(x)的最小值为$-\sqrt 2$
+  ## D.f(x)的最小值为-2
   ::::::
 
 
@@ -89,15 +92,15 @@ config:
 
 
 ::: card title="语文" icon="pajamas:highlight"
-### ==晚二下课收课时=={.danger}
+### 
 :::
 
 
 
 ::: card title="数学" icon="pajamas:formula "
 1. ### 向后预习课程
-2. ### 解题觉醒完成==专项觉醒7/8/9/10=={.tip}
-3. ### ==王靖齐==准备==每日一题=={.danger}
+2. ### 解题觉醒完成==第二章=={.tip}
+3. ### ==粟文宣==准备==每日一题=={.danger}
 4. ### 月假试卷更正,==暂时不收=={.note}
 :::
 

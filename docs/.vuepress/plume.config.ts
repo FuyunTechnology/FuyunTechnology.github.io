@@ -171,7 +171,11 @@ export default defineThemeConfig({
     organization: 'FuyunTechnology',
     },
 
+
+
     navbar: zhNavbar,
+
+
 
       /**
        * 公告板
@@ -189,7 +193,7 @@ export default defineThemeConfig({
          *
          * @default true
          */
-        border: true,
+        border: false,
       
         /**
          * 在哪些页面显示公告
@@ -269,6 +273,8 @@ export default defineThemeConfig({
       navbar: enNavbar,
       collections: enCollections,
 
+
+
       /**
        * 公告板
        * @see https://theme-plume.vuejs.press/guide/features/bulletin/
@@ -281,4 +287,35 @@ export default defineThemeConfig({
        },
     },
   },
+
+
+
+   encrypt: {
+      global: false,
+      admin: ['Fuyun13579'],
+      rules: {
+        '博客文章/其他/杂物/班级相关/': '2400',
+        //'/其他/杂物/班级相关/ ':"2400",
+        // 可以是 md 文件的相对路径，对该文件加密
+        // '前端/基础.md': '123456',
+        // 可以是 文件夹的路径，对该目录下所有文章加密
+        // '/notes/vuepress-theme-plume/': '123456',
+        // 可以是 访问地址的请求路径，对该访问路径下所有文章加密
+        // '/vuepress-theme-plume/': '123456',
+        // 可以是 具体的某个页面的请求路径，对该页面加密
+        // '/article/f8dnci3/': '123456',
+        // 如果是 `^` 开头，则匹配该正则表达式的页面也会加密
+        // '^/(a|b)/': '123456',
+        
+        
+        
+        
+        
+        
+        
+        encryptGlobalText: '站点还没改完，你还不能看', //全站加密提示
+        encryptPageText: '哦，这不是你能看的，请输入密码', //部分加密提示
+        encryptButtonText: '我就要看', //加密按钮文本
+      }
+    },
 })

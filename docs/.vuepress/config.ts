@@ -29,22 +29,32 @@ export default defineUserConfig({
     },
   },
 
+
+
   head: [
     // 配置站点图标
     ['link', { rel: 'icon', type: 'image/png', href: 'https://theme-plume.vuejs.press/favicon-32x32.png' }],
   ],
 
+
+
   bundler: viteBundler(),
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
+
+
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
     hostname: 'https://fuyuntechnology.github.io/',
 
+
+
     /* 文档仓库配置，用于 editLink */
      docsRepo: 'FuyunTechnology.github.io',
      docsDir: 'docs',
      docsBranch: 'gh-pages',
+
+
 
     /* 页内信息 */
     editLink: true,
@@ -52,11 +62,15 @@ export default defineUserConfig({
     contributors: true,
     changelog: false,
 
+
+
     /**
      * 编译缓存，加快编译速度
      * @see https://theme-plume.vuejs.press/config/basic/#cache
      */
     cache: 'filesystem',
+
+
 
     /**
      * 为 markdown 文件自动添加 frontmatter 配置
@@ -68,9 +82,10 @@ export default defineUserConfig({
        title: true,      // 是否生成标题
      },
 
+
+
     /* 本地搜索, 默认启用 */
     search: { provider: 'local' },
-
     /**
      * Algolia DocSearch
      * 启用此搜索需要将 本地搜索 search 设置为 false
@@ -82,6 +97,8 @@ export default defineUserConfig({
     //   apiKey: '',
     //   indices: [''],
     // },
+
+
 
     /**
      * Shiki 代码高亮
@@ -99,11 +116,15 @@ export default defineUserConfig({
       lineNumbers: true,
     },
 
+
+
     /* 文章字数统计、阅读时间，设置为 false 则禁用 */
     readingTime:  {
       wordPerMinute: 300
     },
     // 也可以通过 plugins.readingTime 配置，但不推荐
+
+
 
     /**
      * markdown
@@ -164,11 +185,15 @@ export default defineUserConfig({
        imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
      },
 
+
+
     /**
      * 水印
      * @see https://theme-plume.vuejs.press/guide/features/watermark/
      */
     // watermark: true,
+
+
 
     /**
      * 评论 comments
@@ -186,34 +211,46 @@ export default defineUserConfig({
     //   inputPosition: 'top',
     // },
 
+
+
     /**
      * 资源链接替换
      * @see https://theme-plume.vuejs.press/guide/features/replace-assets/
      */
     // replaceAssets: 'https://cdn.example.com',
 
+
+    
     /**
      * 加密功能
      * @see https://theme-plume.vuejs.press/guide/features/encryption/
      */
-    encrypt: {
-      global: false,
-      admin: ['Fuyun13579'],
-      rules: {
-        // 可以是 md 文件的相对路径，对该文件加密
-        // '前端/基础.md': '123456',
-        // 可以是 文件夹的路径，对该目录下所有文章加密
-        // '/notes/vuepress-theme-plume/': '123456',
-        // 可以是 访问地址的请求路径，对该访问路径下所有文章加密
-        // '/vuepress-theme-plume/': '123456',
-        // 可以是 具体的某个页面的请求路径，对该页面加密
-        // '/article/f8dnci3/': '123456',
-        // 如果是 `^` 开头，则匹配该正则表达式的页面也会加密
-        // '^/(a|b)/': '123456',
-        encryptGlobalText: '站点还没改完，你还不能看', //全站加密提示
-        encryptPageText: '哦，这不是你能看的，请输入密码', //部分加密提示
-        encryptButtonText: '我就要看', //加密按钮文本
-      },
-    },
+    //encrypt: {
+    //   global: false,
+    //   admin: ['Fuyun13579'],
+    //   rules: {
+    //     '/其他/杂物/班级相关/': "2400",
+    //     // 可以是 md 文件的相对路径，对该文件加密
+    //     // '前端/基础.md': '123456',
+    //     // 可以是 文件夹的路径，对该目录下所有文章加密
+    //     // '/notes/vuepress-theme-plume/': '123456',
+    //     // 可以是 访问地址的请求路径，对该访问路径下所有文章加密
+    //     // '/vuepress-theme-plume/': '123456',
+    //     // 可以是 具体的某个页面的请求路径，对该页面加密
+    //     // '/article/f8dnci3/': '123456',
+    //     // 如果是 `^` 开头，则匹配该正则表达式的页面也会加密
+    //     // '^/(a|b)/': '123456',
+    //     
+    //     
+    //     
+    //     
+    //     
+    //     
+    //     
+    //     encryptGlobalText: '站点还没改完，你还不能看', //全站加密提示
+    //     encryptPageText: '哦，这不是你能看的，请输入密码', //部分加密提示
+    //     encryptButtonText: '我就要看', //加密按钮文本
+    //   }
+    // },
   }),
 })

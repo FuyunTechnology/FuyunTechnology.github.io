@@ -7,10 +7,6 @@
 import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export const zhNavbar = defineNavbarConfig([
-  { text: '首页',
-    icon: 'line-md:home-twotone',
-     link: '/' 
-  },
   {
     text: '文档',
     icon: 'line-md:file-document-twotone',
@@ -102,9 +98,9 @@ export const zhNavbar = defineNavbarConfig([
     link: 'https://fuyunxinyu.github.io/'
       },
       {
-        text: '作业',
-        icon: 'pajamas:issue-type-requirements',
-        link: '/博客文章/其他/杂物/Homework.html'
+        text: '班级相关',
+        icon: 'material-symbols:auto-awesome-mosaic',
+        link: '/其他/杂物/班级相关/README.html'
       },
       {
         text: '更多内容待更新',
