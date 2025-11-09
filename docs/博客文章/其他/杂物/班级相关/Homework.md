@@ -1,6 +1,6 @@
 ---
-title: 作业
-permalink: /其他/杂物/班级相关/Homework/
+title: 作业-copy
+permalink: /博客文章/其他/杂物/班级相关/Homework/
 pageLayout: home
 aside: false
 backtotop: false

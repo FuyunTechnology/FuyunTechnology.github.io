@@ -15,7 +15,7 @@
   --vp-c-brand-1: #55aaf5ff;
   --vp-c-brand-2: #339af0;
   --vp-c-brand-3: #74c0fc;
-  --vp-c-brand-soft: rgba(71, 172, 255, 0.79);
+  --vp-c-brand-soft: rgba(181, 223, 255, 0.73);
 
   /** 辅助颜色 */
   --vp-c-red-1: #f03e3e;
@@ -33,7 +33,7 @@
   --vp-c-brand-1: #59a5e8ff;
   --vp-c-brand-2: #74c0ffff;
   --vp-c-brand-3: #74c0fc;
-  --vp-c-brand-soft: rgba(111, 193, 255, 0.73);
+  --vp-c-brand-soft: rgba(181, 223, 255, 0.73);
   --vp-c-purple-1: #ae3ec9;
   --vp-c-purple-2: #be4bdb;
   --vp-c-purple-3: #e599f7;
@@ -56,7 +56,7 @@
   --vp-c-brand-1: #7ddcffff;
   --vp-c-brand-2: #44aeecef;
   --vp-c-brand-3: #70b4f4ff;
-  --vp-c-brand-soft: rgba(117, 190, 255, 0.97);
+  --vp-c-brand-soft: rgba(152, 207, 255, 0.59);
 
   /** 背景颜色 */
   --vp-c-bg: #1b1b1f;

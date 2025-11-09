@@ -6,7 +6,7 @@ tags:
   - blog
 codeHeightLimit: 300
 createTime: 2025/09/01 07:15:01
-permalink: /博客文章/其他/杂物/Valaxy/Blog-creat-prepare.html
+permalink: /博客文章/教程/Valaxy/blog-creat-prepare/
 outline: 'deep'
 ---
 
@@ -24,7 +24,7 @@ outline: 'deep'
 
 ## 准备材料:
 
- 在本地布署前，请先准备以下工具软件：[Git](https://registry.npmmirror.com/binary.html?path=git-for-windows/)， [Visual Studio code](https://code.visualstudio.com/)，[Node.js](https://nodejs.org/en/download/) 
+ 在本地布署前，请先准备以下工具软件：[Git](https://registry.npmmirror.com/binary?path=git-for-windows/)， [Visual Studio code](https://code.visualstudio.com/)，[Node.js](https://nodejs.org/en/download/) 
 
 ::: details 小白看过来：
 

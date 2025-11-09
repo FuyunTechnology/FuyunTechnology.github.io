@@ -6,7 +6,7 @@ tags:
   - blog
 codeHeightLimit: 300
 createTime: 2025/09/01 07:15:01
-permalink: /博客文章/其他/杂物/Valaxy/Blog-Valaxy-create-settings.html
+permalink: /博客文章/教程/Valaxy/Blog-Valaxy-create-settings/
 outline: 'deep'
 ---
 # Valaxy站点的编辑与自定义个性化:

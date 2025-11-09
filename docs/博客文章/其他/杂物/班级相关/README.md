@@ -1,7 +1,7 @@
 ---
 title: 班级相关文章导航
 createTime: 2025/11/06 17:50:04
-permalink: /其他/杂物/班级相关/README/
+permalink: /博客文章/其他/杂物/班级相关/README/
 pageLayout: home
 config:
   -

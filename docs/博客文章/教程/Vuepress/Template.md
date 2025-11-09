@@ -1,7 +1,7 @@
 ---
 title: 文章示例
 createTime: 2025/08/28 16:31:19
-permalink: /notes/指导笔记/文章示例.html
+permalink: /指导笔记/Vuepress/文章示例/
 pagelayout: doc
 ---
 
