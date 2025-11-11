@@ -4,12 +4,10 @@ permalink: /博客文章/其他/杂物/班级相关/Homework/
 pageLayout: home
 aside: false
 backtotop: false
-outline:
-  - 5
-  - 6
-config:
-  - type: custom
 createTime: 2025/11/06 17:51:58
+config:
+  -
+    type: custom
 ---
 
 ::: center
@@ -48,12 +46,12 @@ createTime: 2025/11/06 17:51:58
   yAxis: {},
   series: [
     {
-      data: [8, 7, 8, 8, 8, 7, 8, 8],
+      data: [8, 8, 8, 8, 8, 8, 8, 8],
       type: 'bar',
       stack: 'x'
     },
     {
-      data: [0, 1, 0, 0, 0, 1, 0, 0],
+      data: [0, 0, 0, 0, 0, 0, 0, 0],
       type: 'bar',
       stack: 'x'
     }
@@ -78,8 +76,8 @@ createTime: 2025/11/06 17:51:58
 
 
 - 每日一题 11-8
-  # 已知点p(-3,0)在动直线l:mx+ny-(m+3n)=0上的投影为M,若点N($2,\frac 32$),则$\mid MN\mid$的最大值为(!!D!!)
-  ## $A.1\qquad B.\frac 32\qquad C.2\qquad D.\frac{11}2$
+  # 如图,四棱锥P-ABCD中,底面ABCD是边长为4的正方形,$\angle PBA =\angle PBC ,PD⊥AD$,Q为正方形ABCD内一动点,且满足$QA⊥QP$,若PD=2,则三棱锥Q-PBC的体积的最小值为$(\qquad)$[+每日一题]
+  ## $A.3\qquad B.\frac 38\qquad C.\frac 43\qquad D.2$
   ::::::
 
 

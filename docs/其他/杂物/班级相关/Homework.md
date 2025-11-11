@@ -48,12 +48,12 @@ createTime: 2025/11/06 17:51:58
   yAxis: {},
   series: [
     {
-      data: [8, 7, 8, 8, 8, 7, 8, 8],
+      data: [8, 8, 8, 8, 8, 8, 8, 8],
       type: 'bar',
       stack: 'x'
     },
     {
-      data: [0, 1, 0, 0, 0, 1, 0, 0],
+      data: [0, 0, 0, 0, 0, 0, 0, 0],
       type: 'bar',
       stack: 'x'
     }
@@ -77,32 +77,30 @@ createTime: 2025/11/06 17:51:58
   ::::
 
 
-- 每日一题 11-8
-  # 已知点p(-3,0)在动直线l:mx+ny-(m+3n)=0上的投影为M,若点N($2,\frac 32$),则$\mid MN\mid$的最大值为(!!D!!)
-  ## $A.1\qquad B.\frac 32\qquad C.2\qquad D.\frac{11}2$
+- 每日一题 11-11
+  ## 求证:$\tan x \tan 2x +\tan 2x \tan 3x +...+\tan (n-1)x \tan nx =\frac {\tan nx}{\tan x}-n.$
   ::::::
 
 
 
-::::: card-masonry gap="16" 
+:::::: card-masonry gap="16" 
 
 
 
-::: card title="语文" icon="pajamas:highlight"
+::::: card title="语文" icon="pajamas:highlight"
 ### 
-:::
+:::::
 
 
 
-::: card title="数学" icon="pajamas:formula "
-1. ### 向后预习课程 ==大招册-3.1-大招36=={.danger}
+::::: card title="数学" icon="pajamas:formula "
+1. ### 向后预习课程, ==建议预习3.1.2=={.danger}
 2. ### 解题觉醒完成==第二章,3.1.1=={.tip}
-3. ### ==杨润夏==准备==每日一题=={.danger}
-4. ### 月假试卷更正,==暂时不收=={.note}
-:::
+3. ### ==雷靖宇==准备==每日一题=={.danger}
+:::::
 
-::: card 
-::: collapse accordion
+::::: card 
+:::: collapse accordion
 - 内务
 
   ::: table hl-cells="danger:(4,2),(5,2),(7,2)"
@@ -115,34 +113,40 @@ createTime: 2025/11/06 17:51:58
   | 319 |     |      |      |      |      |      |
   | 320 |     |      |      |      |      |      |
   
-  :::
+
+:::::
 
 
-::: card title="英语" icon="material-symbols:book-6-outline-rounded"
+::::: card title="英语" icon="material-symbols:book-6-outline-rounded"
 ### 
-:::
+:::::
 
 
-::: card title="物理" icon="pajamas:rocket-launch"
-1. ### 巩固练写L32 ~ 55,巩固练月收一次
-:::
-
-
-
-::: card title="化学" icon="pajamas:issue-type-test-case"
-1. ### 学法==写完67页==,课时写完==电离常数=={.important}
-:::
+::::: card title="物理" icon="pajamas:rocket-launch"
+1. ### 
+:::::
 
 
 
-::: card title="生物" icon="pajamas:nature"
-1. ### 写完==选修二学法P32=={.tip}
-2. ### 生物教科书完成习题至29页<Badge type="danger" text="月假作业" />
-:::
+::::: card title="化学" icon="pajamas:issue-type-test-case"
+1. 
+:::::
 
 
 
-::::: 
+::::: card title="生物" icon="pajamas:nature"
+1. ### 写完==选修二学法P42=={.tip}
+:::::
+
+
+
+::::: card title="政治" icon="ri:book-shelf-fill"
+### 
+:::::
+
+
+
+:::::: 
 
 
 [+作业示例]:

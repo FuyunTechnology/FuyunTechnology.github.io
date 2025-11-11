@@ -103,6 +103,11 @@ export const zhNavbar = defineNavbarConfig([
         link: '/其他/杂物/班级相关/README/'
       },
       {
+        text: '友链',
+        icon: 'ri:chat-smile-3-fill',
+        link: '/friends/'
+      },
+      {
         text: '更多内容待更新',
         icon: 'material-symbols:battery-charging-20-outline-sharp',
         link: ''

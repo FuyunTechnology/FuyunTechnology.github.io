@@ -7,16 +7,27 @@ config:
       name: 芸端
       text: A developing site
       tagline: 一个刚起步的文档站点
-      image: /plume.png
+      full: true
+      effect: tint-plate 
+      effectConfig:
+        r:
+          value: 210
+          offset: 0
+        g:
+          value: 210
+          offset: 0
+        b:
+          value: 210
+          offset: 0
       actions:
         -
           theme: brand
           text: 在Github上查看
-          link: https://github.com
+          link: https://github.com/FuyunTechnology/FuyunTechnology.github.io
           icon: line-md:github-twotone
         -
           theme: alt
-          text: 访问我的博客
+          text: 访问我的博客网站
           link: https://fuyunxinyu.github.io/
   -
     type: features

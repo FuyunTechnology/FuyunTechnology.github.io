@@ -20,7 +20,7 @@ import { enNavbar, zhNavbar } from './navbar'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
+  logo: '/image/site/Cloud.png',
 
   appearance: true,  // 配置 深色模式
 
