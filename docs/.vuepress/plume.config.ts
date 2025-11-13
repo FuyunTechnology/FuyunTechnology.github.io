@@ -202,7 +202,7 @@ export default defineThemeConfig({
          * - `false` 表示不显示
          * - 传入一个函数，返回 `true` 时显示
          */
-        enablePage: false,  // | ((page: Page) => boolean)
+        enablePage: true,  // | ((page: Page) => boolean)
       
         /**
          * 公告持续时间

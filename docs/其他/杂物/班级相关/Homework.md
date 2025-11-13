@@ -77,8 +77,11 @@ createTime: 2025/11/06 17:51:58
   ::::
 
 
-- 每日一题 11-11
-  ## 求证:$\tan x \tan 2x +\tan 2x \tan 3x +...+\tan (n-1)x \tan nx =\frac {\tan nx}{\tan x}-n.$
+- 每日一题 11-13
+  ## **给定$\theta \in  (0,\pi )和a \in R$,证明:$\exist y\in [a-\theta ,a+\theta]$使得cosy≤cosθ.**
+- 高考真题
+
+  ## **$\frac {x^2}{a^2} +\frac {y^2}{b^2} =1 (a＞b＞0)$,F为右焦点,圆$x^2 +y^2 =b^2$与直线l相切于点E,直线与椭圆交于点N,M;E,F为MN的三等分点,求$e$**
   ::::::
 
 
@@ -96,7 +99,7 @@ createTime: 2025/11/06 17:51:58
 ::::: card title="数学" icon="pajamas:formula "
 1. ### 向后预习课程, ==建议预习3.1.2=={.danger}
 2. ### 解题觉醒完成==第二章,3.1.1=={.tip}
-3. ### ==雷靖宇==准备==每日一题=={.danger}
+3. ### ==余胜宇==准备==每日一题=={.danger}
 :::::
 
 ::::: card 
@@ -135,7 +138,7 @@ createTime: 2025/11/06 17:51:58
 
 
 ::::: card title="生物" icon="pajamas:nature"
-1. ### 写完==选修二学法P42=={.tip}
+
 :::::
 
 

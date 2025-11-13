@@ -6,7 +6,7 @@ import NpmBadgeGroup from 'vuepress-theme-plume/features/NpmBadgeGroup.vue'
 
 import CustomComponent from './theme/components/Custom.vue'
 
-import './theme/styles/custom.css'
+import './theme/styles/Autumn.css'
 
 export default defineClientConfig({
   enhance({ app }) {
