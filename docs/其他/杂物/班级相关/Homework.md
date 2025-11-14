@@ -101,7 +101,7 @@ createTime: 2025/11/06 17:51:58
 1. ### 向后预习课程, ==建议预习3.1.2=={.danger}
 2. ### 解题觉醒完成==第二章,3.1.1=={.tip}
 3. ### ==夏博涛==准备==每日一题=={.danger}
-4. ### {.danger}试题纸(题型6,7,8)
+4. ### 试题纸<Badge type="danger" text="月假作业" />
 :::::
 
 ::::: card 
@@ -138,24 +138,25 @@ createTime: 2025/11/06 17:51:58
 
 
 ::::: card title="英语" icon="material-symbols:book-6-outline-rounded"
-### 25年新1卷
+### 25年新1卷<Badge type="danger" text="月假作业" />
 :::::
 
 
 ::::: card title="物理" icon="pajamas:rocket-launch"
-1. ### 第十章试卷
+1. ### 第十章试卷<Badge type="danger" text="月假作业" />
+2. ### 完成课时,动量那一章
 :::::
 
 
 
 ::::: card title="化学" icon="pajamas:issue-type-test-case"
-1. ### 第一章试卷
+1. ### 第一章试卷<Badge type="danger" text="月假作业" />
 :::::
 
 
 
 ::::: card title="生物" icon="pajamas:nature"
-### 试卷一张<期末>
+### 试卷一张<期末><Badge type="danger" text="月假作业" />
 :::::
 
 
