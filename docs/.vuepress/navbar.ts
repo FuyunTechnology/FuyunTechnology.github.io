@@ -7,7 +7,7 @@
 import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export const zhNavbar = defineNavbarConfig([
-  {
+{
     text: '文档',
     icon: 'line-md:file-document-twotone',
     items: [
@@ -82,9 +82,8 @@ export const zhNavbar = defineNavbarConfig([
             icon: 'material-symbols:database-sharp',
             link: '/文章导航/其他/杂物/导航/'
           },
-          
         ]
-      }
+      },
     ]
   },  
   {
@@ -93,29 +92,63 @@ export const zhNavbar = defineNavbarConfig([
     items:
     [
       {
-    text: '博客站点',
-    icon: 'line-md:telegram',
-    link: 'https://fuyunxinyu.github.io/'
+        text: '友链',
+        icon: 'ri:chat-smile-3-fill',
+        link: '/friends/'
       },
       {
         text: '班级相关',
         icon: 'material-symbols:auto-awesome-mosaic',
         link: '/其他/杂物/班级相关/README/'
       },
-      {
-        text: '友链',
-        icon: 'ri:chat-smile-3-fill',
-        link: '/friends/'
-      },
-      {
-        text: '更多内容待更新',
-        icon: 'material-symbols:battery-charging-20-outline-sharp',
-        link: ''
-      },
     ]
   },
+  {
+   text: '关于',
+   icon: '',
+   items:
+  [
+    {
+      text: '站点内',
+      icon: '',
+      items:
+      [
+        {
+         text: '关于本站点',
+         icon: '',
+         link: ''
+        },
+        {
+         text: '关于站长',
+         icon: '',
+         link: ''
+        },
+      ],
+    },
+    {
+      text: '站点外',
+      icon: '',
+      items:
+      [
+        {
+         text: '关于博客站点',
+         icon: '',
+         link: ''
+        },
+        {
+         text: '博客站点',
+         icon: 'line-md:telegram',
+         link: 'https://fuyunxinyu.github.io/'
+        },
+      ]
+    },
+  ]
+},
 ])
 
+
+/* English
+  ----------------------------------------------------------------------*/
 export const enNavbar = defineNavbarConfig([
   { text: 'Home', link: '/en/' },
   { text: 'Blog', link: '/en/blog/' },

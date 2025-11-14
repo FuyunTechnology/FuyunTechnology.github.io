@@ -77,11 +77,12 @@ createTime: 2025/11/06 17:51:58
   ::::
 
 
-- 每日一题 11-13
-  ## **给定$\theta \in  (0,\pi )和a \in R$,证明:$\exist y\in [a-\theta ,a+\theta]$使得cosy≤cosθ.**
 - 高考真题
 
   ## **$\frac {x^2}{a^2} +\frac {y^2}{b^2} =1 (a＞b＞0)$,F为右焦点,圆$x^2 +y^2 =b^2$与直线l相切于点E,直线与椭圆交于点N,M;E,F为MN的三等分点,求$e$**
+
+- 每日一题 11-13
+  ## 已知$f(x)=\sqrt {x^4 +2x^3 +6x^2 +4x+4}+\sqrt {2x^2-2x+1}$.求f(x)的最小值.
   ::::::
 
 
@@ -99,11 +100,27 @@ createTime: 2025/11/06 17:51:58
 ::::: card title="数学" icon="pajamas:formula "
 1. ### 向后预习课程, ==建议预习3.1.2=={.danger}
 2. ### 解题觉醒完成==第二章,3.1.1=={.tip}
-3. ### ==余胜宇==准备==每日一题=={.danger}
+3. ### ==夏博涛==准备==每日一题=={.danger}
+4. ### {.danger}试题纸(题型6,7,8)
 :::::
 
 ::::: card 
 :::: collapse accordion
+
+- 考试范围
+
+  **语文:==选择性必修一=={.tip}**
+
+  **数学:选择性必修一 ==一二章=={.danger}**
+
+  **英语:==考到=={.danger}选择性必修一==三单元==**
+
+  **物理:==必修三=={.tip}**
+
+  **化学:==考到=={.danger}选择性必修一 ==第三章第二节==**
+
+  **生物:==选择性必修一=={.tip}**
+  
 - 内务
 
   ::: table hl-cells="danger:(4,2),(5,2),(7,2)"
@@ -121,31 +138,27 @@ createTime: 2025/11/06 17:51:58
 
 
 ::::: card title="英语" icon="material-symbols:book-6-outline-rounded"
-### 
+### 25年新1卷
 :::::
 
 
 ::::: card title="物理" icon="pajamas:rocket-launch"
-1. ### 
+1. ### 第十章试卷
 :::::
 
 
 
 ::::: card title="化学" icon="pajamas:issue-type-test-case"
-1. 
+1. ### 第一章试卷
 :::::
 
 
 
 ::::: card title="生物" icon="pajamas:nature"
-
+### 试卷一张<期末>
 :::::
 
 
-
-::::: card title="政治" icon="ri:book-shelf-fill"
-### 
-:::::
 
 
 
