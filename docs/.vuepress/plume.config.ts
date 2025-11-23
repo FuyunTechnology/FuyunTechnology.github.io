@@ -15,7 +15,6 @@ import { enCollections, zhCollections } from './collections'
 import { enNavbar, zhNavbar } from './navbar'
 
 
-
 /**
  * @see https://theme-plume.vuejs.press/config/basic/
  */
@@ -23,8 +22,6 @@ export default defineThemeConfig({
   logo: '/image/site/Cloud.png',
 
   appearance: true,  // 配置 深色模式
-
-
   
   social: [
      { icon: 'github', link: 'https://github.com/FuyunTechnology' },
@@ -39,17 +36,17 @@ export default defineThemeConfig({
    * 文章版权信息
    * @see https://theme-plume.vuejs.press/guide/features/copyright/
    */
-    copyright: {
-     license: {
-         name: 'CC BY-NC-SA 4.0 ', // 许可证名称
-         url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans' // 许可证地址
-       },
-       author: {
-         name: 'Fuyun & FuyunTechnology', // 版权所有者名称
-         url: 'https://bgithub.xyz/FuyunTechnology' // 版权所有者地址
-       },
-       creation: 'original' // 创作方式
-       },
+  copyright: {
+   license: {
+       name: 'CC BY-NC-SA 4.0 ', // 许可证名称
+       url: 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans' // 许可证地址
+     },
+     author: {
+       name: 'Fuyun & FuyunTechnology', // 版权所有者名称
+       url: 'https://bgithub.xyz/FuyunTechnology' // 版权所有者地址
+     },
+     creation: 'original' // 创作方式
+     },
 
 
   
@@ -61,7 +58,8 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
   footer: {
-    message: '由 <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a>驱动 & 使用主题 <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
+    message: 
+    '由 <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a>驱动 & 使用主题 <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
     copyright: '转载请注意版权问题',
   },
 
@@ -73,7 +71,6 @@ export default defineThemeConfig({
     postList: true,    // 启用 博客文章列表过渡动画
     appearance: true,  // 启用 深色模式切换过渡动画, 或配置过渡动画类型
   },
-
 
 
   locales: {
@@ -117,49 +114,8 @@ export default defineThemeConfig({
     },
 
 
-    collections: 
-   [
-    { 
-      title: '博客文章' ,
-      type: 'post',
-      dir: '博客文章',
-       postList: true, // 启用文章列表页
-        link: '/blog/', // 列表页链接
-        linkPrefix: '/blog/', // 文章链接前缀
-        tags: true, // 启用标签页
-        tagsLink: '/blog/tags/', // 标签页链接
-        tagsTheme: 'brand', // 标签主题 colored|gray|brand
-        tagsText: '标签', // 标签页标题
-        archives: true, // 启用归档页
-        archivesLink: '/blog/archives/', // 归档页链接
-        archivesText: '归档', // 归档页标题
-        categories: true, // 启用分类页
-        categoriesLink: '/blog/categories/', // 分类页链接
-        categoriesText: '分类', // 分类页标题
-        categoriesExpand: 'deep', // 分类展开层级 number|'deep'
-        categoriesTransform: categories => categories, // 分类转换函数
-    },
-    { 
-      title: '文档笔记' ,
-      type: 'doc',
-      dir: '文档笔记',
-        sidebar: 
-        [ // 手动配置导航项
-          
-        ],
-        sidebarScrollbar: true, // 显示侧边栏滚动条
-    },
-    { 
-      title: '文章导航' ,
-      type: 'doc',
-      dir: '文章导航',
-        sidebar: 
-        [ // 手动配置导航项
-          
-        ],
-        sidebarScrollbar: true, // 显示侧边栏滚动条
-    },
-  ],
+    collections: zhCollections,
+
 
 
     profile: {
@@ -213,7 +169,7 @@ export default defineThemeConfig({
          * - `'always'` 表示总是显示，关闭公告后刷新页面会重新显示
          * - `'once'` 表示在仅在当前周期内显示，关闭公告后不再显示，新的会话和刷新页面都不会重新显示
          */
-        lifetime: 'always',//'session' | 'always' | 'once'
+        lifetime: 'session',//'session' | 'always' | 'once'
       
         /**
          * 公告 ID

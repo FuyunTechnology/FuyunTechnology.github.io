@@ -77,12 +77,10 @@ createTime: 2025/11/06 17:51:58
   ::::
 
 
-- 高考真题
 
-  ## **$\frac {x^2}{a^2} +\frac {y^2}{b^2} =1 (a＞b＞0)$,F为右焦点,圆$x^2 +y^2 =b^2$与直线l相切于点E,直线与椭圆交于点N,M;E,F为MN的三等分点,求$e$**
 
-- 每日一题 11-13
-  ## 已知$f(x)=\sqrt {x^4 +2x^3 +6x^2 +4x+4}+\sqrt {2x^2-2x+1}$.求f(x)的最小值.
+- 每日一题 11-23
+  ## 如图,已知圆锥CO的截面是正$\Delta ABC$,AB是底面圆O的直径,点D在$\mathop{AB}\limits^{\frown}$上且$\angle AOD=2\angle BOD$,则异面直线AD与BC所成的角的余弦值是____.
   ::::::
 
 
@@ -99,27 +97,13 @@ createTime: 2025/11/06 17:51:58
 
 ::::: card title="数学" icon="pajamas:formula "
 1. ### 向后预习课程, ==建议预习3.1.2=={.danger}
-2. ### 解题觉醒完成==第二章,3.1.1=={.tip}
-3. ### ==夏博涛==准备==每日一题=={.danger}
-4. ### 试题纸<Badge type="danger" text="月假作业" />
+2. ### 解题觉醒完成==第二章,3.1.2=={.tip}
+3. ### ==姚依==准备==每日一题=={.danger}
 :::::
 
 ::::: card 
 :::: collapse accordion
 
-- 考试范围
-
-  **语文:==选择性必修一=={.tip}**
-
-  **数学:选择性必修一 ==一二章=={.danger}**
-
-  **英语:==考到=={.danger}选择性必修一==三单元==**
-
-  **物理:==必修三=={.tip}**
-
-  **化学:==考到=={.danger}选择性必修一 ==第三章第二节==**
-
-  **生物:==选择性必修一=={.tip}**
   
 - 内务
 
@@ -138,25 +122,24 @@ createTime: 2025/11/06 17:51:58
 
 
 ::::: card title="英语" icon="material-symbols:book-6-outline-rounded"
-### 25年新1卷<Badge type="danger" text="月假作业" />
 :::::
 
 
 ::::: card title="物理" icon="pajamas:rocket-launch"
-1. ### 第十章试卷<Badge type="danger" text="月假作业" />
-2. ### 完成课时,动量那一章
+1. ### 完成课时到p119
+2. ### 物理试卷
 :::::
 
 
 
 ::::: card title="化学" icon="pajamas:issue-type-test-case"
-1. ### 第一章试卷<Badge type="danger" text="月假作业" />
+### 化学课时p172~175 ==下周二收==
 :::::
 
 
 
 ::::: card title="生物" icon="pajamas:nature"
-### 试卷一张<期末><Badge type="danger" text="月假作业" />
+### 
 :::::
 
 

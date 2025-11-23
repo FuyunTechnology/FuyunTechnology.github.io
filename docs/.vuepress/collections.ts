@@ -31,41 +31,165 @@ import { defineCollection, defineCollections } from 'vuepress-theme-plume'
 /* =================== locale: zh-CN ======================= */
 
 
-
-const zhBlog = defineCollection({
-  // post 类型，这里用于实现 博客功能
-  type: 'post',
-  // 文档集合所在目录，相对于 `docs/`
-  dir: '博客文章',
-  // 文档标题，它将用于在页面的面包屑导航中显示
-  title: '博客文章',
-  // 文章列表页的链接，如果 `linkPrefix` 未定义，它也将作为 相关的文章的 permalink 的前缀
-  link: '/博客文章/',
-  linkPrefix: '/博客文章/', // 相关文章的链接前缀
-  postList: true, // 是否启用文章列表页
-  tags: true, // 是否启用标签页
-  archives: true, // 是否启用归档页
-  categories: true, // 是否启用分类页
-  postCover: 'right', // 文章封面位置
-  pagination: 15, // 每页显示文章数量
-})
-
-const zhNotes = defineCollection({
-  // doc 类型，该类型带有侧边栏
+const 我的项目 =defineCollection({
+  title: '我的项目 -导航' ,
   type: 'doc',
-  // 文档集合所在目录，相对于 `docs/`
-  dir: '文档笔记',
-  // `dir` 所指向的目录中的所有 markdown 文件，其 permalink 需要以 `linkPrefix` 配置作为前缀
-  // 如果 前缀不一致，则无法生成侧边栏。
-  // 所以请确保  markdown 文件的 permalink 都以 `/` + `linkPrefix` 开头
-  linkPrefix: '/文档笔记',
-  // 文档标题，它将用于在页面的面包屑导航中显示
-  title: '文档笔记',
-  // 手动配置侧边栏结构
-  sidebar: 'auto',  //['',],
-  // 根据文件结构自动生成侧边栏
-  // sidebar: 'auto',
+  dir: '/文档笔记/我的项目/',
+  sidebar: 
+  [ // 手动配置导航项
+    {
+      text: '导航',
+      link : '/文档笔记/我的项目/README/',
+      icon: 'uil:location-arrow',
+    },
+    { 
+      text: '网站(前端)',
+      icon: 'ri:window-fill' ,
+      items :
+      [
+        {
+          text: '四季游棂',
+          link: '/文档笔记/我的项目/前端/四季游棂/README/',
+        }
+      ],
+    }
+  ],
+  sidebarScrollbar: true, // 显示侧边栏滚动条
 })
+
+
+
+const 优质项目 = defineCollection ({
+  title: '优质项目' ,
+  type: 'doc',
+  dir: '/文档笔记/优质项目/',
+  sidebar: 
+  [ // 手动配置导航项
+    { 
+      text: '介绍',
+      link: 'intro',
+      icon: 'mdi:tooltip-text-outline' 
+    }
+  ],
+  sidebarScrollbar: true, // 显示侧边栏滚动条
+})
+
+
+
+const 指导笔记 = defineCollection({ 
+  title: '指导笔记' ,
+  type: 'doc',
+  dir: '/文档笔记/指导笔记/',
+  linkPrefix: '/文档笔记/指导笔记/',
+  sidebar: 'auto',
+  /*
+  [ // 手动配置导航项
+    {
+      text: '导航',
+      link : 'README/',
+      icon: 'uil:location-arrow',
+    },
+    { 
+      text: 'Valaxy',
+      icon: '' ,
+      collapsed: true,
+      prefix: 'Valaxy/',
+      items :
+      [
+        {
+          text: '初步构建',
+          link: 'blog-Valaxy-creat-prepare/',
+        },
+        {
+          text: '修改配置',
+          link: 'Blog-Valaxy-create-settings/',
+        }
+      ],
+    }
+    ],
+  */
+  sidebarScrollbar: true, // 显示侧边栏滚动条
+})
+
+
+
+const 博客文章 = defineCollection({
+  title: '博客文章' ,
+  type: 'post',
+  dir: '/博客文章',
+  postList: true, // 启用文章列表页
+  link: '/blog/', // 列表页链接
+  linkPrefix: '/blog/', // 文章链接前缀
+  tags: true, // 启用标签页
+  tagsLink: '/blog/tags/', // 标签页链接
+  tagsTheme: 'brand', // 标签主题 colored|gray|brand
+  tagsText: '标签', // 标签页标题
+  archives: true, // 启用归档页
+  archivesLink: '/blog/archives/', // 归档页链接
+  archivesText: '归档', // 归档页标题
+  categories: true, // 启用分类页
+  categoriesLink: '/blog/categories/', // 分类页链接
+  categoriesText: '分类', // 分类页标题
+  categoriesExpand: 'deep', // 分类展开层级 number|'deep'
+  categoriesTransform: categories => categories, // 分类转换函数
+})
+
+
+
+const 迭变 = defineCollection({
+  title: '迭变' ,
+  type: 'doc',
+  dir: '/文档笔记/我的项目/迭变',
+  sidebar: 
+  [ // 手动配置导航项
+    { 
+      text: '介绍',
+      link: 'intro',
+      icon: 'mdi:tooltip-text-outline' 
+    }
+  ],
+  sidebarScrollbar: true, // 显示侧边栏滚动条
+})
+
+
+
+const 浮雨 = defineCollection({
+  title: '浮雨' ,
+  type: 'doc',
+  linkPrefix: '/文档笔记/我的项目/浮雨/',
+  dir: '/文档笔记/我的项目/浮雨/',
+  sidebar: 
+  [ // 手动配置导航项
+    { 
+      text: '介绍',
+      link: 'intro',
+      icon: 'mdi:tooltip-text-outline' 
+    }
+  ],
+  sidebarScrollbar: true, // 显示侧边栏滚动条
+})
+
+
+
+const 四季游棂 = defineCollection({
+  title: '四季游棂' ,
+  type: 'doc',
+  linkPrefix: '/文档笔记/我的项目/四季游棂',
+  dir: '/文档笔记/我的项目/四季游棂',
+  sidebar: 
+  [ // 手动配置导航项
+    { 
+      text: '介绍',
+      link: '',
+      icon: 'mdi:tooltip-text-outline' 
+    }
+  ],
+  sidebarScrollbar: true, // 显示侧边栏滚动条
+})
+
+
+
+
 
 
 
@@ -75,8 +199,12 @@ const zhNotes = defineCollection({
  *  (zhDemoDoc 为参考示例，如果不需要它，请删除)
  */
 export const zhCollections = defineCollections([
-  zhBlog,
-  zhNotes,
+  我的项目,
+  优质项目,
+  指导笔记,
+  四季游棂,
+  迭变,
+  浮雨,
 ])
 
 

@@ -105,34 +105,34 @@ export const zhNavbar = defineNavbarConfig([
   },
   {
    text: '关于',
-   icon: '',
+   icon: 'ri:information-2-fill',
    items:
   [
     {
       text: '站点内',
-      icon: '',
+      icon: 'ri:inbox-2-fill',
       items:
       [
         {
          text: '关于本站点',
-         icon: '',
+         icon: 'ri:window-line',
          link: ''
         },
         {
          text: '关于站长',
-         icon: '',
+         icon: 'ri:account-circle-2-fill',
          link: ''
         },
       ],
     },
     {
       text: '站点外',
-      icon: '',
+      icon: 'ri:arrow-right-up-long-line',
       items:
       [
         {
          text: '关于博客站点',
-         icon: '',
+         icon: 'ri:window-2-fill',
          link: ''
         },
         {

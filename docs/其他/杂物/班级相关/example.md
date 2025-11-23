@@ -2,7 +2,7 @@
 title: example
 createTime: 2025/11/11 20:35:38
 permalink: /blog/rsv0qwhg/
-pageClass: single-wide-page
+pageClass: page-wide
 ---
 <h1 style="text-align: center;margin-bottom: 10px;">各科目作业</h1>
 
@@ -228,5 +228,3 @@ pageClass: single-wide-page
 
 [+每日一题]:
    <ImageCard image="/image/Other/Homework.png"  width="350px"  />
-
-## 向后预习
