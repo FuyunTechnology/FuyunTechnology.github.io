@@ -189,7 +189,7 @@ export default defineThemeConfig({
          * 可以使用 markdown 语法 或者 使用 html 文本，
          * 使用 markdown 时需要声明 `contentType` 为 `markdown`
          */
-        content: '此站点还在早期建设中,短期内会有极大变更',
+        content: '',
       
         /**
          * 公告内容 类型
@@ -207,7 +207,7 @@ export default defineThemeConfig({
          * - 使用 `.md` 文件时，将会解析 markdown 语法
          * - 使用 `.html` 文件时，只能包含公告内容，请不要使用 `<html>` `<body>` `<script>` 等标签。
          */
-        //contentFile: string
+        contentFile: 'string',
       },
     },
 
