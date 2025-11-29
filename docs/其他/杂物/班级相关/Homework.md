@@ -95,7 +95,7 @@ outline: false
 
 - 每日一题 11-28
 
-  **已知实数x,y满足 $x\gt 0,y\gt 0$ 且 $x+\frac y2 +\frac 1x +\frac 2y=5$ 则2x+y的最大值为____**
+  **椭圆 $\frac {x^2}{a^2}+\frac {y^2}{b^2}=1 (a \gt b \gt 0)$ 上有一点 $P,F_1 ,F_2$ 分别为椭圆的左.右焦点.椭圆内一点Q在线段的延长线上,且 $QF_1 \bot QP ,\sin \angle F_1 PQ =\frac 5{13}$ 则该椭圆离心率的取值范围是____ [+每日一题]**
 
 :::::
 

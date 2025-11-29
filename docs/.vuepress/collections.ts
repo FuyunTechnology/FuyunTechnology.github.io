@@ -171,7 +171,7 @@ const 指导笔记 = defineCollection({
 const 博客文章 = defineCollection({
   title: '博客文章' ,
   type: 'post',
-  dir: '/zhblog/',
+  dir: '/博客文章/',
   postList: true, // 启用文章列表页
   link: '/blog/', // 列表页链接
   linkPrefix: '/blog/', // 文章链接前缀
