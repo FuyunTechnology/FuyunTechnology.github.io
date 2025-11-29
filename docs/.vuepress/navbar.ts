@@ -53,17 +53,17 @@ export const zhNavbar = defineNavbarConfig([
           {
             text: '诗歌',
             icon:'material-symbols:book-2-rounded',
-            link:'/文章导航/作品/诗歌/导航/',
+            link:'/作品/诗歌/导航/',
           },
           {
             text: '次级诗歌',
             icon: 'material-symbols:book-4-spark-rounded',
-            link: '/文章导航/作品/次级诗歌/导航/'
+            link: '/作品/次级诗歌/导航/'
           },
           {
             text: '歌词',
             icon: 'material-symbols:queue-music-rounded',
-            link: '/文章导航/作品/歌词/导航/'
+            link: '/作品/歌词/导航/'
           },
         ],
       },
