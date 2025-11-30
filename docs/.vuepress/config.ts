@@ -209,9 +209,10 @@ export default defineUserConfig({
      * 评论 comments
      * @see https://theme-plume.vuejs.press/guide/features/comments/
      */
-    // comment: {
-    //   provider: '', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
-    //   comment: true,
+     comment: {
+       provider: 'Waline', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
+       comment: true,
+       serverURL: 'https://fuyun-blog-comment.netlify.app/.netlify/functions/comment' ,
     //   repo: '',
     //   repoId: '',
     //   category: '',
@@ -219,7 +220,7 @@ export default defineUserConfig({
     //   mapping: 'pathname',
     //   reactionsEnabled: true,
     //   inputPosition: 'top',
-    // },
+     },
 
 
 

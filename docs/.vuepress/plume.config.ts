@@ -13,6 +13,7 @@
 import { defineThemeConfig } from 'vuepress-theme-plume'
 import { enCollections, zhCollections } from './collections'
 import { enNavbar, zhNavbar } from './navbar'
+import path from 'node:path'
 
 
 /**
@@ -169,7 +170,7 @@ export default defineThemeConfig({
          * - `'always'` 表示总是显示，关闭公告后刷新页面会重新显示
          * - `'once'` 表示在仅在当前周期内显示，关闭公告后不再显示，新的会话和刷新页面都不会重新显示
          */
-        lifetime: 'session',//'session' | 'always' | 'once'
+        lifetime: 'always',//'session' | 'always' | 'once'
       
         /**
          * 公告 ID
@@ -189,7 +190,7 @@ export default defineThemeConfig({
          * 可以使用 markdown 语法 或者 使用 html 文本，
          * 使用 markdown 时需要声明 `contentType` 为 `markdown`
          */
-        content: '',
+        //content: '',
       
         /**
          * 公告内容 类型
@@ -207,7 +208,7 @@ export default defineThemeConfig({
          * - 使用 `.md` 文件时，将会解析 markdown 语法
          * - 使用 `.html` 文件时，只能包含公告内容，请不要使用 `<html>` `<body>` `<script>` 等标签。
          */
-        contentFile: 'string',
+        contentFile: path.join(__dirname, '_bulletin.md'),
       },
     },
 
