@@ -14,7 +14,7 @@ permalink: /其他/杂物/bulletin.md
 
 | 站点     |                Netlify-推荐                |                github-pages                |
 | -------- | :----------------------------------------: | :----------------------------------------: |
-| 博客站点 |   [芸端](https://fuyun-doc.netlify.app)    | [芸端](https://fuyuntechnology.github.io/) |
-| 文档站点 | [星海之上](https://fuyun-blog.netlify.app) | [星海之上](https://fuyunxinyu.github.io/)  |
+| 文档站点 |   [芸端](https://fuyun-doc.netlify.app)    | [芸端](https://fuyuntechnology.github.io/) |
+| 博客站点 | [星海之上](https://fuyun-blog.netlify.app) | [星海之上](https://fuyunxinyu.github.io/)  |
 
 :::

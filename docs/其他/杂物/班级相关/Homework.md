@@ -3,11 +3,24 @@ title: 作业
 createTime: 2025/11/11 20:35:38
 permalink: /其他/杂物/班级相关/Homework/
 passwordHint: 您的班级是? -∪-
+password: 2400
 backtotop: false
 sidebar: false
-comments: false
+pageLayout: home
+comments: true
 outline: false
+config:
+  - type: custom
 ---
+
+<style>
+.page-memorandum {
+  --vp-layout-max-width: 95%;
+  --content-width: var(--vp-layout-max-width);
+}
+</style>
+
+
 <h1 style="text-align: center;margin-bottom: 10px;">各科目作业</h1>
 
 :::: details 关于本页面
@@ -95,24 +108,23 @@ outline: false
 
   宣誓人：2400班全体成员
 
-- 每日一题 11-28
+- 每日一题 12-3
 
-  **椭圆 $\frac {x^2}{a^2}+\frac {y^2}{b^2}=1 (a \gt b \gt 0)$ 上有一点 $P,F_1 ,F_2$ 分别为椭圆的左.右焦点.椭圆内一点Q在线段的延长线上,且 $QF_1 \bot QP ,\sin \angle F_1 PQ =\frac 5{13}$ 则该椭圆离心率的取值范围是____ [+每日一题]**
-
+  **已知椭圆C: $\frac {x^2}{a^2} +\frac {y^2}{b^2} =1(a\gt b \gt0$ 的焦距为2,右顶点为A,过原点且与x轴不重合的直线交C于M,N两点,线段AM的中点为B,若直线BN经过C的右焦点,则椭圆的方程为____.**
 :::::
 
 :::::: card-masonry gap="16" cols='3'
 
 ::::: card title="语文" icon="pajamas:highlight"
-
+完成试卷<Badge type="danger" text="月假作业" />
 :::::
 
 ::::: card title="数学" icon="pajamas:formula "
 
-1. **向后预习课程, ==建议预习3.1.2=={.danger}**
+1. **向后预习课程, ==建议预习3.2=={.danger}**
 2. **解题觉醒完成==第二章,3.1.2=={.tip}**
-3. **==毛雅妮==准备==每日一题=={.danger}**
-
+3. **==杨振鸿==准备==每日一题=={.danger}**
+4. 完成试卷(两张)<Badge type="danger" text="月假作业" />
 
 :::::
 
@@ -136,21 +148,21 @@ outline: false
 :::::
 
 ::::: card title="英语" icon="material-symbols:book-6-outline-rounded"
-
+完成试卷<Badge type="danger" text="月假作业" />
 :::::
 
 ::::: card title="物理" icon="pajamas:rocket-launch"
-
+完成试卷,课时第一章<Badge type="danger" text="月假作业" />
 :::::
 
 ::::: card title="化学" icon="pajamas:issue-type-test-case"
 
-1. 
+完成试卷<Badge type="danger" text="月假作业" />
 
 :::::
 
 ::::: card title="生物" icon="pajamas:nature"
-
+完成试卷<Badge type="danger" text="月假作业" />
 :::::
 
 
