@@ -149,7 +149,7 @@ export default defineUserConfig({
        caniuse: true,      // 启用 caniuse 语法  @[caniuse](feature_name)
        plot: true,         // 启用隐秘文本语法 !!xxxx!!
        bilibili: true,     // 启用嵌入 bilibili视频 语法 @[bilibili](bid)
-    //   youtube: true,      // 启用嵌入 youtube视频 语法 @[youtube](video_id)
+    // youtube: true,      // 启用嵌入 youtube视频 语法 @[youtube](video_id)
        artPlayer: true,    // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
        audioReader: true,  // 启用嵌入音频朗读功能 语法 @[audioReader](url)
        icon: { provider: 'iconify' },        // 启用内置图标语法  ::icon-name::
@@ -172,27 +172,51 @@ export default defineUserConfig({
        jsfiddle: true,     // 启用嵌入 jsfiddle 语法 @[jsfiddle](user/id)
        npmTo: true,        // 启用 npm-to 容器  ::: npm-to
        demo: true,         // 启用 demo 容器  ::: demo
+
        repl: {             // 启用 代码演示容器
          go: true,         // ::: go-repl
          rust: true,       // ::: rust-repl
          kotlin: true,     // ::: kotlin-repl
          python: true,     // ::: python-repl
        },
+
        math: {             // 启用数学公式
          type: 'katex',
        },
+
        chartjs: true,      // 启用 chart.js
        echarts: true,      // 启用 ECharts
        mermaid: true,      // 启用 mermaid
        flowchart: true,    // 启用 flowchart
+
        image: {
          figure: true,     // 启用 figure
          lazyload: true,   // 启用图片懒加载
          mark: true,       // 启用图片标记
          size: true,       // 启用图片大小
        },
+
        include: false,      // 在 Markdown 文件中导入其他 markdown 文件内容
        imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
+       
+       /*env: {
+        // 引用链接
+        references: {
+          vuepress: 'https://v2.vuepress.vuejs.org/',
+          plume: 'https://theme-plume.vuejs.press/'
+        },
+        // 缩写词
+        abbreviations: {
+          HTML: 'Hypertext Markup Language',
+
+        },
+        // 内容注释
+        annotations: {
+          vuepress: 'VuePress 是一个 [静态站点生成器](https://en.wikipedia.org/wiki/Static_site_generator) (SSG) 。专为构建快速、以内容为中心的站点而设计。',
+
+        }
+      }
+        */
      },
 
 

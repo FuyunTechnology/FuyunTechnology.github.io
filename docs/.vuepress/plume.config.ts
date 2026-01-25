@@ -29,7 +29,7 @@ export default defineThemeConfig({
   ],
   navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
   aside: true, // 页内侧边栏， 默认显示在右侧
-  outline: [2, 4], // 页内大纲， 默认显示 h2, h3
+  outline: [1, 4], // 页内大纲， 默认显示 h2, h3
 
 
   
@@ -61,6 +61,7 @@ export default defineThemeConfig({
   footer: {
     message: 
     '由 <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a>驱动 & 使用主题 <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
+    
     copyright: '转载请注意版权问题',
   },
 
@@ -277,4 +278,5 @@ export default defineThemeConfig({
         encryptButtonText: '我就要看', //加密按钮文本
       }
     },
+    
 })

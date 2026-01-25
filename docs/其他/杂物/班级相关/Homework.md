@@ -2,8 +2,6 @@
 title: 作业
 createTime: 2025/11/11 20:35:38
 permalink: /其他/杂物/班级相关/Homework/
-passwordHint: 您的班级是? -∪-
-password: 2400
 backtotop: false
 sidebar: false
 pageLayout: home
@@ -108,23 +106,30 @@ config:
 
   宣誓人：2400班全体成员
 
-- 每日一题 12-3
-
-  **已知椭圆C: $\frac {x^2}{a^2} +\frac {y^2}{b^2} =1(a\gt b \gt0$ 的焦距为2,右顶点为A,过原点且与x轴不重合的直线交C于M,N两点,线段AM的中点为B,若直线BN经过C的右焦点,则椭圆的方程为____.**
 :::::
 
-:::::: card-masonry gap="16" cols='3'
+:::::: card-masonry gap="16" cols='{sm: 1, md: 3, lg: 3}'
 
 ::::: card title="语文" icon="pajamas:highlight"
-完成试卷<Badge type="danger" text="月假作业" />
+
+选必上~选必中三单元。默写选必上及选必中第三单元及古诗词诵读课标推荐篇目
+
 :::::
 
 ::::: card title="数学" icon="pajamas:formula "
 
-1. **向后预习课程, ==建议预习3.2=={.danger}**
-2. **解题觉醒完成==第二章,3.1.2=={.tip}**
-3. **==杨振鸿==准备==每日一题=={.danger}**
-4. 完成试卷(两张)<Badge type="danger" text="月假作业" />
+1. **向后预习课程,==预习导数=={.danger}**
+
+:::: collapse accordion
+- 解题觉醒完成至42页.考试之前写完,不写4.4(但4,4的真题觉醒要写)
+  - 周日 统计专项觉醒的难题,写完专项觉醒2
+  - 周一 写完专项觉醒3
+  - 周二 写完专项觉醒4
+  - 周三 写完专项觉醒5
+  - 周四 写完4.4真题觉醒
+::::
+
+必修一,二：20%；选必一+选必二第四章+第五章（5.1，5.2)
 
 :::::
 
@@ -148,21 +153,27 @@ config:
 :::::
 
 ::::: card title="英语" icon="material-symbols:book-6-outline-rounded"
-完成试卷<Badge type="danger" text="月假作业" />
+
+必修一~选必二
+
 :::::
 
 ::::: card title="物理" icon="pajamas:rocket-launch"
-完成试卷,课时第一章<Badge type="danger" text="月假作业" />
+
+必修一，二20%；必修三+选必一80%
+
 :::::
 
 ::::: card title="化学" icon="pajamas:issue-type-test-case"
 
-完成试卷<Badge type="danger" text="月假作业" />
+必修一，二20%；选必一+选必二第一，二章80%
 
 :::::
 
 ::::: card title="生物" icon="pajamas:nature"
-完成试卷<Badge type="danger" text="月假作业" />
+
+必修一，二20%选必一+选必二80%
+
 :::::
 
 
@@ -258,3 +269,4 @@ config:
 
 [+每日一题]:
    <ImageCard image="/image/Other/Homework.png"  width="350px"  />
+

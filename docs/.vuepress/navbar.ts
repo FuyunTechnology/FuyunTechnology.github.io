@@ -87,23 +87,6 @@ export const zhNavbar = defineNavbarConfig([
     ]
   },  
   {
-    text: '更多',
-    icon: 'line-md:grid-3-twotone',
-    items:
-    [
-      {
-        text: '友链',
-        icon: 'ri:chat-smile-3-fill',
-        link: '/friends/'
-      },
-      {
-        text: '班级相关',
-        icon: 'material-symbols:auto-awesome-mosaic',
-        link: '/其他/杂物/班级相关/README/'
-      },
-    ]
-  },
-  {
    text: '关于',
    icon: 'ri:information-2-fill',
    items:
@@ -143,7 +126,24 @@ export const zhNavbar = defineNavbarConfig([
       ]
     },
   ]
-},
+  },
+  {
+    text: '更多',
+    icon: 'line-md:grid-3-twotone',
+    items:
+    [
+      {
+        text: '友链',
+        icon: 'ri:chat-smile-3-fill',
+        link: '/friends/'
+      },
+      {
+        text: '班级相关',
+        icon: 'material-symbols:auto-awesome-mosaic',
+        link: '/其他/杂物/班级相关/README/'
+      },
+    ]
+  },
 ])
 
 

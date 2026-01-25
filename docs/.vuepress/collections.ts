@@ -52,7 +52,33 @@ const 我的项目 =defineCollection({
           link: '/文档笔记/我的项目/前端/四季游棂/README/',
         }
       ],
-    }
+    },
+    { 
+      text: '大型项目',
+      icon: 'ri:box-1-fill' ,
+      items :
+      [
+        {
+          text: '迭变',
+          link: '/文档笔记/我的项目/大型项目/迭变/',
+        }
+      ],
+    },
+        { 
+      text: '程序',
+      icon: 'ri:apps-line' ,
+      items :
+      [
+        {
+          text: '轻棂',
+          link: '/文档笔记/我的项目/程序/轻棂/',
+        },
+        {
+          text: '浮雨',
+          link: '/文档笔记/我的项目/程序/浮雨/',
+        },
+      ],
+    },
   ],
   sidebarScrollbar: true, // 显示侧边栏滚动条
 })
@@ -66,8 +92,8 @@ const 优质项目 = defineCollection ({
   sidebar: 
   [ // 手动配置导航项
     { 
-      text: '介绍',
-      link: 'intro',
+      text: '引子',
+      link: '',
       icon: 'mdi:tooltip-text-outline' 
     }
   ],
@@ -194,13 +220,55 @@ const 博客文章 = defineCollection({
 const 迭变 = defineCollection({
   title: '迭变' ,
   type: 'doc',
-  dir: '/文档笔记/我的项目/迭变/',
+  dir: '/文档笔记/我的项目/大型项目/迭变/',
+  linkPrefix: '/文档笔记/我的项目/大型项目/迭变/',
   sidebar: 
   [ // 手动配置导航项
     { 
       text: '介绍',
-      link: 'intro',
+      link: '/文档笔记/我的项目/大型项目/迭变/',
       icon: 'mdi:tooltip-text-outline' 
+    },
+    {
+      text: '项目内容',
+      icon: '',
+      items:[ {
+                  text: '角色',
+                  icon: '',
+                  link: '角色/'
+                },
+                {
+                  text: '人物',
+                  icon: '',
+                  link: '人物/'
+                },
+                {
+                  text: '物品',
+                  icon: '',
+                  link: '物品/'
+                },
+                {
+                  text: '实体',
+                  icon: '',
+                  link: '实体/'
+                },
+                {
+                  text: '文明',
+                  icon: '',
+                  link: '文明/'
+                },
+                {
+                  text: '剧情',
+                  icon: '',
+                  link: '剧情/'
+                },
+                {
+                  text: '机构',
+                  icon: '',
+                  link: '机构/'
+                },
+                
+              ]
     }
   ],
   sidebarScrollbar: true, // 显示侧边栏滚动条
@@ -211,13 +279,13 @@ const 迭变 = defineCollection({
 const 浮雨 = defineCollection({
   title: '浮雨' ,
   type: 'doc',
-  linkPrefix: '/文档笔记/我的项目/浮雨/',
-  dir: '/文档笔记/我的项目/浮雨/',
+  linkPrefix: '/文档笔记/我的项目/程序/浮雨/',
+  dir: '/文档笔记/我的项目/程序/浮雨/',
   sidebar: 
   [ // 手动配置导航项
     { 
       text: '介绍',
-      link: 'intro',
+      link: '',
       icon: 'mdi:tooltip-text-outline' 
     }
   ],
@@ -244,6 +312,22 @@ const 四季游棂 = defineCollection({
 
 
 
+const 轻棂 = defineCollection({
+  title: '轻棂' ,
+  type: 'doc',
+  linkPrefix: '/文档笔记/我的项目/程序/轻棂/',
+  dir: '/文档笔记/我的项目/程序/轻棂/',
+  sidebar: 
+  [ // 手动配置导航项
+    { 
+      text: '介绍',
+      link: '',
+      icon: 'mdi:tooltip-text-outline' 
+    }
+  ],
+  sidebarScrollbar: true, // 显示侧边栏滚动条
+})
+
 
 
 
@@ -261,6 +345,7 @@ export const zhCollections = defineCollections([
   四季游棂,
   迭变,
   浮雨,
+  轻棂,
 ])
 
 
