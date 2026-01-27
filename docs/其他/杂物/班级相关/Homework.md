@@ -3,6 +3,7 @@ title: 作业
 createTime: 2025/11/11 20:35:38
 permalink: /其他/杂物/班级相关/Homework/
 backtotop: false
+passwordHint: 请输入班级名
 sidebar: false
 pageLayout: home
 comments: true
@@ -122,9 +123,7 @@ config:
 
 :::: collapse accordion
 - 解题觉醒完成至42页.考试之前写完,不写4.4(但4,4的真题觉醒要写)
-  - 周日 统计专项觉醒的难题,写完专项觉醒2
-  - 周一 写完专项觉醒3
-  - 周二 写完专项觉醒4
+  - 周二 ==写完专项觉醒4==
   - 周三 写完专项觉醒5
   - 周四 写完4.4真题觉醒
 ::::
