@@ -13,7 +13,7 @@ import CustomComponent from './theme/components/Custom.vue'
 
 
 
-import './theme/styles/Autumn.css'
+import './theme/styles/Winter.css'
 
 
 export default defineClientConfig({

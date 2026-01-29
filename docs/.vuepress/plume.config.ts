@@ -75,6 +75,9 @@ export default defineThemeConfig({
   },
 
 
+  
+
+
   locales: {
     '/': {
       /**
@@ -105,6 +108,9 @@ export default defineThemeConfig({
     //copyrightLicenseText: '版权许可',
     //prevPageLabel: '上一页',
     //nextPageLabel: '下一页',
+
+
+
     notFound: 
     {  //NotFound | undefined
       code: '>~<',
@@ -256,10 +262,10 @@ export default defineThemeConfig({
       //global: false,
       admin: ['Fuyun13579'],
       rules: {
-        '/其他/杂物/班级相关/': '2400',
-        //'/其他/杂物/班级相关/ ':"2400",
+        '/other/sunderies/class/': '2400',
+        //'/other/sunderies/class/ ':"2400",
         // 可以是 md 文件的相对路径，对该文件加密
-        // '前端/基础.md': '123456',
+        // 'site/基础.md': '123456',
 
         // 可以是 文件夹的路径，对该目录下所有文章加密
         // '/notes/vuepress-theme-plume/': '123456',

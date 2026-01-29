@@ -12,7 +12,7 @@
 import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
-
+const isProd = process.env.NODE_ENV === 'production'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
@@ -85,7 +85,7 @@ export default defineUserConfig({
      * @see https://theme-plume.vuejs.press/config/basic/#autofrontmatter
      */
      autoFrontmatter: {
-       permalink: true,  // 是否生成永久链接
+       permalink: 'filepath',  // 是否生成永久链接
        createTime: true, // 是否生成创建时间
        title: true,      // 是否生成标题
      },
@@ -253,6 +253,8 @@ export default defineUserConfig({
      * @see https://theme-plume.vuejs.press/guide/features/replace-assets/
      */
     // replaceAssets: 'https://cdn.example.com',
+    replaceAssets: isProd ? url => `https://cdn.jsdelivr.net/gh/FuyunTechnology/FuyunTechnology.github.io@main/docs/.vuepress/public/${url}` : false,
+    
 
 
     

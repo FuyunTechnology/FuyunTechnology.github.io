@@ -1,0 +1,224 @@
+@font-face {
+  font-family: '未来圆SC woff2';
+  src: url('/fonts/Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+:root {
+
+  /** 字体 */
+  
+  --vp-font-family-base: "未来圆SC woff2", "Punctuation SC", "Inter", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --vp-font-family-mono: "未来圆SC woff2", "Menlo", "Monaco", "Consolas", "Liberation Mono", "Courier New", monospace;
+ 
+
+  .vp-doc-container {
+  --vp-doc-blog-bg: rgba(100, 172, 190, 0.17);
+
+  background-image:
+    linear-gradient(90deg, var(--vp-doc-blog-bg) 3%, transparent 0),
+    linear-gradient(1turn, var(--vp-doc-blog-bg) 3%, transparent 0);
+  background-position: 50%;
+  background-size: 20px 20px;
+  }
+
+
+  /**
+   * 主题色
+   * -------------------------------------------------------------------------- */
+
+  --vp-c-brand-1: rgba(255, 176, 176, 1);             /* 链接颜色、强调色 */
+  --vp-c-brand-2: rgba(255, 204, 204, 1);             /* 链接、按钮 hover 颜色 */
+  --vp-c-brand-3: rgba(255, 172, 172, 0.91);          /* 背景色、边框色 */
+  --vp-c-brand-soft: rgba(218, 131, 131, 0.314);      /* 辅助色 */
+
+  /**
+   * 文本颜色
+   * -------------------------------------------------------------------------- */
+
+  --vp-c-text-1: rgba(60, 60, 67);                    /* 主要文本 */
+  --vp-c-text-2: rgba(60, 60, 67, 0.78);              /* 次要文本 */
+  --vp-c-text-3: rgba(60, 60, 67, 0.56);              /* 辅助文本 */
+
+  /**
+   * 背景色
+   * -------------------------------------------------------------------------- */
+
+  --vp-c-bg: rgba(255, 241, 241, 0.9);                /* 主体背景 */
+  --vp-nav-bg-color: rgba(255, 241, 241, 0.91);       /* 导航栏背景 */
+  --vp-nav-screen-bg-color: rgba(255, 242, 242, 0.91);/* 移动端导航栏 */
+  --vp-local-nav-bg-color: rgba(255, 237, 237, 0.9);  /* 页面内导航栏 */
+  --vp-sidebar-bg-color: rgba(255, 238, 238, 0.91);   /* 侧边栏背景 */
+  --vp-code-block-bg: rgba(255, 233, 233, 0.91);      /* 代码块背景 */ 
+  --vp-c-bg-alt: #f8f9fa;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-bg-soft: #f8f9fa;
+
+  
+  /** 辅助颜色 */
+  --vp-c-red-1: #f03e3e;
+  --vp-c-red-2: #fa5252;
+  --vp-c-red-3: #ff6b6b;
+  --vp-c-red-soft: rgba(255, 107, 107, 0.24);
+  --vp-c-yellow-1: #f59f00;
+  --vp-c-yellow-2: #fab005;
+  --vp-c-yellow-3: #fcc419;
+  --vp-c-yellow-soft: rgba(252, 196, 25, 0.14);
+  --vp-c-green-1: #37b24d;
+  --vp-c-green-2: #40c057;
+  --vp-c-green-3: #51cf66;
+  --vp-c-green-soft: rgba(110, 196, 125, 0.28);
+  --vp-c-purple-1: #ae3ec9;
+  --vp-c-purple-2: #be4bdb;
+  --vp-c-purple-3: #e599f7;
+  --vp-c-purple-soft: rgb(229, 153, 247, 0.14);
+
+}
+
+[data-theme="dark"] {
+
+  /**
+   * 主题色
+   * -------------------------------------------------------------------------- */
+
+  --vp-c-brand-1: rgba(242, 172, 172, 0.92);          /* 链接颜色、强调色 */
+  --vp-c-brand-2: rgba(254, 219, 219, 0.91);          /* 链接、按钮 hover 颜色 */
+  --vp-c-brand-3: rgba(226, 160, 160, 0.9);           /* 背景色、边框色 */
+  --vp-c-brand-soft: rgba(218, 131, 131, 0.314);      /* 辅助色 */
+
+  /**
+   * 文本颜色
+   * -------------------------------------------------------------------------- */
+
+  --vp-c-text-1: rgba(255, 255, 245, 0.86);           /* 主要文本 */
+  --vp-c-text-2: rgba(235, 235, 245, 0.6);            /* 次要文本 */
+  --vp-c-text-3: rgba(235, 235, 245, 0.38);           /* 辅助文本 */
+
+  /**
+   * 背景色
+   * -------------------------------------------------------------------------- */
+
+  --vp-c-bg: rgba(28, 22, 22, 0.9);                   /* 主体背景 */
+  --vp-nav-bg-color: rgba(36, 29, 29, 0.91);          /* 导航栏背景 */
+  --vp-nav-screen-bg-color: rgba(24, 18, 18, 0.91);   /* 移动端导航栏 */
+  --vp-local-nav-bg-color: rgba(36, 28, 28, 0.92);    /* 页面内导航栏 */
+  --vp-sidebar-bg-color: rgba(34, 30, 30, 0.91);      /* 侧边栏背景 */
+  --vp-code-block-bg: rgba(66, 49, 49, 0.9);          /* 代码块背景 */
+  --vp-c-bg-alt: #161618;
+  --vp-c-bg-elv: #202127;
+  --vp-c-bg-soft: #000001ff;
+
+}
+
+
+
+
+/** 警告容器图标大小 */
+.vp-doc .hint-container-title::before {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 8px;
+}
+
+
+
+/** 警告容器图标样式 */
+.vp-doc .hint-container.note .hint-container-title::before {
+  --icon: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZyBmaWxsPSJub25lIj48cGF0aCBkPSJtMTIuNTkzIDIzLjI1OGwtLjAxMS4wMDJsLS4wNzEuMDM1bC0uMDIuMDA0bC0uMDE0LS4wMDRsLS4wNzEtLjAzNXEtLjAxNi0uMDA1LS4wMjQuMDA1bC0uMDA0LjAxbC0uMDE3LjQyOGwuMDA1LjAybC4wMS4wMTNsLjEwNC4wNzRsLjAxNS4wMDRsLjAxMi0uMDA0bC4xMDQtLjA3NGwuMDEyLS4wMTZsLjAwNC0uMDE3bC0uMDE3LS40MjdxLS4wMDQtLjAxNi0uMDE3LS4wMThtLjI2NS0uMTEzbC0uMDEzLjAwMmwtLjE4NS4wOTNsLS4wMS4wMWwtLjAwMy4wMTFsLjAxOC40M2wuMDA1LjAxMmwuMDA4LjAwN2wuMjAxLjA5M3EuMDE5LjAwNS4wMjktLjAwOGwuMDA0LS4wMTRsLS4wMzQtLjYxNHEtLjAwNS0uMDE4LS4wMi0uMDIybS0uNzE1LjAwMmEuMDIuMDIgMCAwIDAtLjAyNy4wMDZsLS4wMDYuMDE0bC0uMDM0LjYxNHEuMDAxLjAxOC4wMTcuMDI0bC4wMTUtLjAwMmwuMjAxLS4wOTNsLjAxLS4wMDhsLjAwNC0uMDExbC4wMTctLjQzbC0uMDAzLS4wMTJsLS4wMS0uMDF6Ii8+PHBhdGggZmlsbD0iIzIyOGJlNiIgZD0iTTEyIDJjNS41MjMgMCAxMCA0LjQ3NyAxMCAxMHMtNC40NzcgMTAtMTAgMTBINGEyIDIgMCAwIDEtMi0ydi04QzIgNi40NzcgNi40NzcgMiAxMiAybTAgMTJIOWExIDEgMCAxIDAgMCAyaDNhMSAxIDAgMSAwIDAtMm0zLTRIOWExIDEgMCAwIDAtLjExNyAxLjk5M0w5IDEyaDZhMSAxIDAgMCAwIC4xMTctMS45OTN6Ii8+PC9nPjwvc3ZnPg==");
+}
+
+.vp-doc .hint-container.info .hint-container-title::before {
+  --icon: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjMjI4YmU2IiBkPSJNMTIgMmM1LjUyMyAwIDEwIDQuNDc3IDEwIDEwYTEwIDEwIDAgMCAxLTE5Ljk5NS4zMjRMMiAxMmwuMDA0LS4yOEMyLjE1MiA2LjMyNyA2LjU3IDIgMTIgMm0wIDloLTFsLS4xMTcuMDA3YTEgMSAwIDAgMCAwIDEuOTg2TDExIDEzdjNsLjAwNy4xMTdhMSAxIDAgMCAwIC44NzYuODc2TDEyIDE3aDFsLjExNy0uMDA3YTEgMSAwIDAgMCAuODc2LS44NzZMMTQgMTZsLS4wMDctLjExN2ExIDEgMCAwIDAtLjc2NC0uODU3bC0uMTEyLS4wMkwxMyAxNXYtM2wtLjAwNy0uMTE3YTEgMSAwIDAgMC0uODc2LS44NzZ6bS4wMS0zbC0uMTI3LjAwN2ExIDEgMCAwIDAgMCAxLjk4NkwxMiAxMGwuMTI3LS4wMDdhMSAxIDAgMCAwIDAtMS45ODZ6Ii8+PC9zdmc+");
+}
+
+.vp-doc .hint-container.tip .hint-container-title::before {
+  --icon: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZyBmaWxsPSJub25lIj48cGF0aCBkPSJtMTIuNTkzIDIzLjI1OGwtLjAxMS4wMDJsLS4wNzEuMDM1bC0uMDIuMDA0bC0uMDE0LS4wMDRsLS4wNzEtLjAzNXEtLjAxNi0uMDA1LS4wMjQuMDA1bC0uMDA0LjAxbC0uMDE3LjQyOGwuMDA1LjAybC4wMS4wMTNsLjEwNC4wNzRsLjAxNS4wMDRsLjAxMi0uMDA0bC4xMDQtLjA3NGwuMDEyLS4wMTZsLjAwNC0uMDE3bC0uMDE3LS40MjdxLS4wMDQtLjAxNi0uMDE3LS4wMThtLjI2NS0uMTEzbC0uMDEzLjAwMmwtLjE4NS4wOTNsLS4wMS4wMWwtLjAwMy4wMTFsLjAxOC40M2wuMDA1LjAxMmwuMDA4LjAwN2wuMjAxLjA5M3EuMDE5LjAwNS4wMjktLjAwOGwuMDA0LS4wMTRsLS4wMzQtLjYxNHEtLjAwNS0uMDE4LS4wMi0uMDIybS0uNzE1LjAwMmEuMDIuMDIgMCAwIDAtLjAyNy4wMDZsLS4wMDYuMDE0bC0uMDM0LjYxNHEuMDAxLjAxOC4wMTcuMDI0bC4wMTUtLjAwMmwuMjAxLS4wOTNsLjAxLS4wMDhsLjAwNC0uMDExbC4wMTctLjQzbC0uMDAzLS4wMTJsLS4wMS0uMDF6Ii8+PHBhdGggZmlsbD0iIzIyOGJlNiIgZD0iTTEzIDIwYTEgMSAwIDAgMSAuMTE3IDEuOTkzTDEzIDIyaC0yYTEgMSAwIDAgMS0uMTE3LTEuOTkzTDExIDIwek0xMiAyYzQuNDEgMCA4IDMuNTQzIDggNy45MzNjMCAzLjAwNi0xLjUyMiA1LjE5Ni0yLjc4IDYuNDk0bC0uMjg0LjI4M2wtLjI3LjI1MmwtLjI1Mi4yMmwtLjMzLjI3bC0uMzI4LjI0NGMtLjI0MS4xNy0uNDAzLjQxOS0uNTUuNjc4bC0uMjA1LjM2NGMtLjIzOC40MS0uNTE3Ljc2Mi0xLjEwOC43NjJoLTMuNzg2Yy0uNTkgMC0uODctLjM1MS0xLjEwOC0uNzYybC0uMTE4LS4yMDhjLS4xNzItLjMxMi0uMzQ4LS42My0uNjM3LS44MzRsLS4yMzItLjE3MWwtLjE5OS0uMTU1bC0uMjI3LS4xODhsLS4yNTItLjIybC0uMjctLjI1MmwtLjI4NS0uMjgzQzUuNTIyIDE1LjEyOSA0IDEyLjkzOSA0IDkuOTMzQzQgNS41NDMgNy41OSAyIDEyIDJtMS43MDcgNC4yOTNhMSAxIDAgMCAwLTEuMzItLjA4M2wtLjA5NC4wODNMMTAuMyA4LjI4NmExLjAxIDEuMDEgMCAwIDAtLjA4NCAxLjMzM2wuMDg0LjA5NUwxMS41ODYgMTFsLTEuMjkzIDEuMjkzYTEgMSAwIDAgMCAxLjMyIDEuNDk3bC4wOTQtLjA4M2wxLjk5My0xLjk5M2ExLjAxIDEuMDEgMCAwIDAgLjA4NC0xLjMzM2wtLjA4NC0uMDk1TDEyLjQxNCA5bDEuMjkzLTEuMjkzYTEgMSAwIDAgMCAwLTEuNDE0Ii8+PC9nPjwvc3ZnPg==")
+}
+
+.vp-doc .hint-container.important .hint-container-title::before {
+  --icon: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZyBmaWxsPSJub25lIj48cGF0aCBkPSJtMTIuNTk0IDIzLjI1OGwtLjAxMi4wMDJsLS4wNzEuMDM1bC0uMDIuMDA0bC0uMDE0LS4wMDRsLS4wNzEtLjAzNnEtLjAxNi0uMDA0LS4wMjQuMDA2bC0uMDA0LjAxbC0uMDE3LjQyOGwuMDA1LjAybC4wMS4wMTNsLjEwNC4wNzRsLjAxNS4wMDRsLjAxMi0uMDA0bC4xMDQtLjA3NGwuMDEyLS4wMTZsLjAwNC0uMDE3bC0uMDE3LS40MjdxLS4wMDQtLjAxNi0uMDE2LS4wMThtLjI2NC0uMTEzbC0uMDE0LjAwMmwtLjE4NC4wOTNsLS4wMS4wMWwtLjAwMy4wMTFsLjAxOC40M2wuMDA1LjAxMmwuMDA4LjAwOGwuMjAxLjA5MnEuMDE5LjAwNS4wMjktLjAwOGwuMDA0LS4wMTRsLS4wMzQtLjYxNHEtLjAwNS0uMDE5LS4wMi0uMDIybS0uNzE1LjAwMmEuMDIuMDIgMCAwIDAtLjAyNy4wMDZsLS4wMDYuMDE0bC0uMDM0LjYxNHEuMDAxLjAxOC4wMTcuMDI0bC4wMTUtLjAwMmwuMjAxLS4wOTNsLjAxLS4wMDhsLjAwMy0uMDExbC4wMTgtLjQzbC0uMDAzLS4wMTJsLS4wMS0uMDF6Ii8+PHBhdGggZmlsbD0iI2FlM2VjOSIgZD0iTTEyIDJhNyA3IDAgMCAxIDIuMjYzLjM3NGE0LjUgNC41IDAgMCAwIDQuNSA3LjQ0N0wxOSA5Ljc0M3YyLjc4NGExIDEgMCAwIDAgLjA2LjM0bC4wNDYuMTA3bDEuNzE2IDMuNDMzYTEuMSAxLjEgMCAwIDEtLjg2OSAxLjU4NmwtLjExNS4wMDZINC4xNjJhMS4xIDEuMSAwIDAgMS0xLjAzLTEuNDg3bC4wNDYtLjEwNWwxLjcxNy0zLjQzM2ExIDEgMCAwIDAgLjA5OC0uMzMxTDUgMTIuNTI4VjlhNyA3IDAgMCAxIDctN201LjUgMWEyLjUgMi41IDAgMSAxIDAgNWEyLjUgMi41IDAgMCAxIDAtNU0xMiAyMWEzIDMgMCAwIDEtMi44My0yaDUuNjZBMyAzIDAgMCAxIDEyIDIxIi8+PC9nPjwvc3ZnPg==")
+}
+
+.vp-doc .hint-container.warning .hint-container-title::before {
+  --icon: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZyBmaWxsPSJub25lIj48cGF0aCBkPSJtMTIuNTkzIDIzLjI1OGwtLjAxMS4wMDJsLS4wNzEuMDM1bC0uMDIuMDA0bC0uMDE0LS4wMDRsLS4wNzEtLjAzNXEtLjAxNi0uMDA1LS4wMjQuMDA1bC0uMDA0LjAxbC0uMDE3LjQyOGwuMDA1LjAybC4wMS4wMTNsLjEwNC4wNzRsLjAxNS4wMDRsLjAxMi0uMDA0bC4xMDQtLjA3NGwuMDEyLS4wMTZsLjAwNC0uMDE3bC0uMDE3LS40MjdxLS4wMDQtLjAxNi0uMDE3LS4wMThtLjI2NS0uMTEzbC0uMDEzLjAwMmwtLjE4NS4wOTNsLS4wMS4wMWwtLjAwMy4wMTFsLjAxOC40M2wuMDA1LjAxMmwuMDA4LjAwN2wuMjAxLjA5M3EuMDE5LjAwNS4wMjktLjAwOGwuMDA0LS4wMTRsLS4wMzQtLjYxNHEtLjAwNS0uMDE4LS4wMi0uMDIybS0uNzE1LjAwMmEuMDIuMDIgMCAwIDAtLjAyNy4wMDZsLS4wMDYuMDE0bC0uMDM0LjYxNHEuMDAxLjAxOC4wMTcuMDI0bC4wMTUtLjAwMmwuMjAxLS4wOTNsLjAxLS4wMDhsLjAwNC0uMDExbC4wMTctLjQzbC0uMDAzLS4wMTJsLS4wMS0uMDF6Ii8+PHBhdGggZmlsbD0iI2Y1OWYwMCIgZD0ibTEzLjI5OSAzLjE0OGw4LjYzNCAxNC45NTRhMS41IDEuNSAwIDAgMS0xLjI5OSAyLjI1SDMuMzY2YTEuNSAxLjUgMCAwIDEtMS4yOTktMi4yNWw4LjYzNC0xNC45NTRjLjU3Ny0xIDIuMDItMSAyLjU5OCAwTTEyIDE1YTEgMSAwIDEgMCAwIDJhMSAxIDAgMCAwIDAtMm0wLTdhMSAxIDAgMCAwLS45OTMuODgzTDExIDl2NGExIDEgMCAwIDAgMS45OTMuMTE3TDEzIDEzVjlhMSAxIDAgMCAwLTEtMSIvPjwvZz48L3N2Zz4=")
+}
+
+.vp-doc .hint-container.caution .hint-container-title::before {
+  --icon: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48ZyBmaWxsPSJub25lIj48cGF0aCBkPSJtMTIuNTkzIDIzLjI1OGwtLjAxMS4wMDJsLS4wNzEuMDM1bC0uMDIuMDA0bC0uMDE0LS4wMDRsLS4wNzEtLjAzNXEtLjAxNi0uMDA1LS4wMjQuMDA1bC0uMDA0LjAxbC0uMDE3LjQyOGwuMDA1LjAybC4wMS4wMTNsLjEwNC4wNzRsLjAxNS4wMDRsLjAxMi0uMDA0bC4xMDQtLjA3NGwuMDEyLS4wMTZsLjAwNC0uMDE3bC0uMDE3LS40MjdxLS4wMDQtLjAxNi0uMDE3LS4wMThtLjI2NS0uMTEzbC0uMDEzLjAwMmwtLjE4NS4wOTNsLS4wMS4wMWwtLjAwMy4wMTFsLjAxOC40M2wuMDA1LjAxMmwuMDA4LjAwN2wuMjAxLjA5M3EuMDE5LjAwNS4wMjktLjAwOGwuMDA0LS4wMTRsLS4wMzQtLjYxNHEtLjAwNS0uMDE4LS4wMi0uMDIybS0uNzE1LjAwMmEuMDIuMDIgMCAwIDAtLjAyNy4wMDZsLS4wMDYuMDE0bC0uMDM0LjYxNHEuMDAxLjAxOC4wMTcuMDI0bC4wMTUtLjAwMmwuMjAxLS4wOTNsLjAxLS4wMDhsLjAwNC0uMDExbC4wMTctLjQzbC0uMDAzLS4wMTJsLS4wMS0uMDF6Ii8+PHBhdGggZmlsbD0iI2YwM2UzZSIgZD0iTTEyIDJjNS41MjMgMCAxMCA0LjQ3NyAxMCAxMHMtNC40NzcgMTAtMTAgMTBTMiAxNy41MjMgMiAxMlM2LjQ3NyAyIDEyIDJNOS44NzkgOC40NjRhMSAxIDAgMCAwLTEuNDk4IDEuMzJsLjA4NC4wOTVsMi4xMiAyLjEybC0yLjEyIDIuMTIyYTEgMSAwIDAgMCAxLjMyIDEuNDk4bC4wOTQtLjA4M0wxMiAxMy40MTRsMi4xMjEgMi4xMjJhMSAxIDAgMCAwIDEuNDk4LTEuMzJsLS4wODMtLjA5NUwxMy40MTQgMTJsMi4xMjItMi4xMjFhMSAxIDAgMCAwLTEuMzItMS40OThsLS4wOTUuMDgzTDEyIDEwLjU4NnoiLz48L2c+PC9zdmc+")
+}
+
+
+
+
+/** 马克笔颜色自定义 */
+mark {
+  --vp-mark-text: currentcolor;
+  --vp-mark-bg: transparent;
+  --vp-mark-bg-shift: 0.55lh;
+  --vp-mark-linear-color: var(--vp-c-brand-3);
+  --vp-mark-bg-image: linear-gradient(to right, var(--vp-mark-linear-color) 50%, transparent 50%);
+  animation: var(--vp-mark-animation, mark-highlight 1.5s 0.5s forwards);
+}
+
+[data-mark-mode="lazy"] mark {
+  --vp-mark-animation: none;
+}
+
+[data-mark-mode="lazy"] mark.vp-mark-visible {
+  animation: mark-highlight 1.5s 0.2s forwards;
+}
+
+
+
+mark.note {
+  --vp-mark-linear-color: rgba(126, 223, 194, 0.84);
+}
+
+mark.info {
+  --vp-mark-linear-color: var(--vp-c-default-1);
+}
+
+mark.tip {
+  --vp-mark-linear-color: #a1ff91ff;
+}
+
+mark.warning {
+  --vp-mark-linear-color: rgba(248, 228, 148, 1);
+}
+
+mark.caution, mark.danger {
+  --vp-mark-linear-color: rgba(255, 132, 132, 0.76);
+}
+
+mark.important {
+  --vp-mark-linear-color: rgba(247, 174, 255, 0.94);
+}
+
+
+
+/** 暗色模式 */
+
+[data-theme="dark"] mark.note {
+  --vp-mark-linear-color: rgba(51, 164, 128, 0.9);
+}
+
+[data-theme="dark"] mark.tip {
+  --vp-mark-linear-color: rgba(126, 255, 158, 0.62);
+}
+
+[data-theme="dark"] mark.warning {
+  --vp-mark-linear-color: rgba(254, 102, 102, 0.65);
+}
+
+[data-theme="dark"] mark.caution,
+[data-theme="dark"] mark.danger {
+  --vp-mark-linear-color: rgba(208, 108, 108, 0.86);
+}
+
+[data-theme="dark"] mark.important {
+  --vp-mark-linear-color: rgba(228, 129, 255, 0.63);
+}
+

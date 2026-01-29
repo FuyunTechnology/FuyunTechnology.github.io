@@ -32,14 +32,14 @@ import { defineCollection, defineCollections } from 'vuepress-theme-plume'
 
 
 const 我的项目 =defineCollection({
-  title: '我的项目 -导航' ,
+  title: '我的项目' ,
   type: 'doc',
-  dir: '/文档笔记/我的项目/',
+  dir: '/note/my project/',
   sidebar: 
   [ // 手动配置导航项
     {
       text: '导航',
-      link : '/文档笔记/我的项目/README/',
+      link : '/note/my project/README/',
       icon: 'uil:location-arrow',
     },
     { 
@@ -49,7 +49,7 @@ const 我的项目 =defineCollection({
       [
         {
           text: '四季游棂',
-          link: '/文档笔记/我的项目/前端/四季游棂/README/',
+          link: '/note/my project/site/season tours/README/',
         }
       ],
     },
@@ -60,7 +60,7 @@ const 我的项目 =defineCollection({
       [
         {
           text: '迭变',
-          link: '/文档笔记/我的项目/大型项目/迭变/',
+          link: '/note/my project/big project/迭变/',
         }
       ],
     },
@@ -71,11 +71,11 @@ const 我的项目 =defineCollection({
       [
         {
           text: '轻棂',
-          link: '/文档笔记/我的项目/程序/轻棂/',
+          link: '/note/my project/application/轻棂/',
         },
         {
           text: '浮雨',
-          link: '/文档笔记/我的项目/程序/浮雨/',
+          link: '/note/my project/application/浮雨/',
         },
       ],
     },
@@ -88,7 +88,7 @@ const 我的项目 =defineCollection({
 const 优质项目 = defineCollection ({
   title: '优质项目' ,
   type: 'doc',
-  dir: '/文档笔记/优质项目/',
+  dir: '/note/greatproject/',
   sidebar: 
   [ // 手动配置导航项
     { 
@@ -105,8 +105,8 @@ const 优质项目 = defineCollection ({
 const 指导笔记 = defineCollection({ 
   title: '指导笔记' ,
   type: 'doc',
-  dir: '/文档笔记/指导笔记/',
-  linkPrefix: '/文档笔记/指导笔记/',
+  dir: '/note/teaching note/',
+  linkPrefix: '/note/teaching note/',
   sidebar:[ {   //'auto',
                 // 手动配置导航项
               text: '引子',
@@ -114,9 +114,9 @@ const 指导笔记 = defineCollection({
               icon: 'uil:location-arrow',
             },
             {
-              text: '前端',
+              text: 'site',
               icon: '',
-              prefix: '前端/',
+              prefix: 'site/',
               items:[ {
                       text: 'Valaxy',
                       icon: '' ,
@@ -185,7 +185,7 @@ const 指导笔记 = defineCollection({
             {
               text: '程序',
               icon: '',
-              prefix: '程序/',
+              prefix: 'application/',
               items: 'auto'
             },
           ],
@@ -220,13 +220,13 @@ const 博客文章 = defineCollection({
 const 迭变 = defineCollection({
   title: '迭变' ,
   type: 'doc',
-  dir: '/文档笔记/我的项目/大型项目/迭变/',
-  linkPrefix: '/文档笔记/我的项目/大型项目/迭变/',
+  dir: '/note/my project/big project/迭变/',
+  linkPrefix: '/note/my project/big project/迭变/',
   sidebar: 
   [ // 手动配置导航项
     { 
       text: '介绍',
-      link: '/文档笔记/我的项目/大型项目/迭变/',
+      link: '/note/my project/big project/迭变/',
       icon: 'mdi:tooltip-text-outline' 
     },
     {
@@ -279,8 +279,8 @@ const 迭变 = defineCollection({
 const 浮雨 = defineCollection({
   title: '浮雨' ,
   type: 'doc',
-  linkPrefix: '/文档笔记/我的项目/程序/浮雨/',
-  dir: '/文档笔记/我的项目/程序/浮雨/',
+  linkPrefix: '/note/my project/application/浮雨/',
+  dir: '/note/my project/application/浮雨/',
   sidebar: 
   [ // 手动配置导航项
     { 
@@ -297,8 +297,8 @@ const 浮雨 = defineCollection({
 const 四季游棂 = defineCollection({
   title: '四季游棂' ,
   type: 'doc',
-  linkPrefix: '/文档笔记/我的项目/四季游棂/',
-  dir: '/文档笔记/我的项目/四季游棂/',
+  linkPrefix: '/note/my project/season tours/',
+  dir: '/note/my project/season tours/',
   sidebar: 
   [ // 手动配置导航项
     { 
@@ -315,8 +315,8 @@ const 四季游棂 = defineCollection({
 const 轻棂 = defineCollection({
   title: '轻棂' ,
   type: 'doc',
-  linkPrefix: '/文档笔记/我的项目/程序/轻棂/',
-  dir: '/文档笔记/我的项目/程序/轻棂/',
+  linkPrefix: '/note/my project/application/轻棂/',
+  dir: '/note/my project/application/轻棂/',
   sidebar: 
   [ // 手动配置导航项
     { 

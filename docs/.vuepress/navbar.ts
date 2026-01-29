@@ -19,17 +19,17 @@ export const zhNavbar = defineNavbarConfig([
           {
             text: '我的项目',
             icon: 'material-symbols:deployed-code',
-            link: '/文档笔记/我的项目/README/'
+            link: '/note/my project/README/'
           },
           {
             text: '优质项目',
             icon: 'material-symbols:auto-awesome-rounded',
-            link: '/文档笔记/优质项目/README/'
+            link: '/note/greatproject/README/'
           },
           {
             text: '指导笔记',
             icon: 'material-symbols:co-present-sharp',
-            link: '/文档笔记/指导笔记/README/'
+            link: '/note/teaching note/README/'
           }
         ]
       }
@@ -53,17 +53,17 @@ export const zhNavbar = defineNavbarConfig([
           {
             text: '诗歌',
             icon:'material-symbols:book-2-rounded',
-            link:'/作品/诗歌/导航/',
+            link:'/作品/诗歌/lead/',
           },
           {
             text: '次级诗歌',
             icon: 'material-symbols:book-4-spark-rounded',
-            link: '/作品/次级诗歌/导航/'
+            link: '/作品/次级诗歌/lead/'
           },
           {
             text: '歌词',
             icon: 'material-symbols:queue-music-rounded',
-            link: '/作品/歌词/导航/'
+            link: '/作品/歌词/lead/'
           },
         ],
       },
@@ -75,12 +75,12 @@ export const zhNavbar = defineNavbarConfig([
           {
             text: '收集',
             icon: 'material-symbols:bookmark-star-sharp',
-            link: '/文章导航/其他/收集/导航/'
+            link: '/lead/other/collection/lead/'
           },
           {
             text: '杂物',
             icon: 'material-symbols:database-sharp',
-            link: '/文章导航/其他/杂物/导航/'
+            link: '/lead/other/sunderies/lead/'
           },
         ]
       },
@@ -140,7 +140,7 @@ export const zhNavbar = defineNavbarConfig([
       {
         text: '班级相关',
         icon: 'material-symbols:auto-awesome-mosaic',
-        link: '/其他/杂物/班级相关/README/'
+        link: '/other/sunderies/class/README/'
       },
     ]
   },

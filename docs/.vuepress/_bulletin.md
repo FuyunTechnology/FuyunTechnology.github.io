@@ -1,7 +1,7 @@
 ---
 title: 公告
 createTime: 2025/08/23 12:40:34
-permalink: /其他/杂物/bulletin.md
+permalink: /other/sunderies/bulletin.md
 ---
 
 此站点还在==早期建设中==,短期内会有极大变更

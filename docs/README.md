@@ -36,17 +36,17 @@ config:
         title: 我的项目
         icon: material-symbols:deployed-code
         details: 参观我的项目笔记
-        link: '/文档笔记/我的项目/README/'
+        link: '/note/my project/README/'
       -
-        title: 优质项目
+        title: 优质项目t
         icon: material-symbols:auto-awesome-rounded
         details: 了解我收藏的优质项目
-        link: '/文档笔记/优质项目/README/'
+        link: '/note/greatproject/README/'
       -
         title: 指导笔记
         icon: material-symbols:co-present-sharp
         details: 查看其他项目的指导笔记
-        link: '/文档笔记/指导笔记/README/'
+        link: '/note/teaching note/README/'
       -
         title: 文学作品
         icon: material-symbols:article-outline-rounded
