@@ -1,7 +1,7 @@
 ---
 title: Yun
 createTime: 2026/01/11 17:51:34
-permalink: /note/my project/big project/迭变/角色/Yun/
+permalink: /note/my project/big project/iteration/character/Yun/
 ---
 
 
