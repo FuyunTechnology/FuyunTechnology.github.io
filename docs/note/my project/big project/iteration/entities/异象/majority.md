@@ -1,7 +1,7 @@
 ---
 title: majority
 createTime: 2026/01/29 15:27:36
-permalink: /note/my project/da-xing-xiang-mu/die-bian/shi-ti/yi-xiang/majority/
+permalink: note/my project/big project/iteration/entities/异象/majority/
 ---
 # Emotional.Spirit-Crystallization
 
