@@ -113,20 +113,13 @@ config:
 
 ::::: card title="语文" icon="pajamas:highlight"
 
-选必上~选必中三单元。默写选必上及选必中第三单元及古诗词诵读课标推荐篇目
+
 
 :::::
 
 ::::: card title="数学" icon="pajamas:formula "
 
 1. **向后预习课程,==预习导数=={.danger}**
-
-:::: collapse accordion
-- 解题觉醒完成至42页.考试之前写完,不写4.4(但4,4的真题觉醒要写)
-  - 周四 ==写完4.4真题觉醒==
-::::
-
-必修一,二：20%；选必一+选必二第四章+第五章（5.1，5.2)
 
 :::::
 
@@ -151,25 +144,23 @@ config:
 
 ::::: card title="英语" icon="material-symbols:book-6-outline-rounded"
 
-必修一~选必二
+
 
 :::::
 
 ::::: card title="物理" icon="pajamas:rocket-launch"
 
-必修一，二20%；必修三+选必一80%
 
 :::::
 
 ::::: card title="化学" icon="pajamas:issue-type-test-case"
 
-必修一，二20%；选必一+选必二第一，二章80%
 
 :::::
 
 ::::: card title="生物" icon="pajamas:nature"
 
-必修一，二20%选必一+选必二80%
+
 
 :::::
 

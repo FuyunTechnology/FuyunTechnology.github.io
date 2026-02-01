@@ -13,7 +13,7 @@
     "vp-update": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "@iconify-json/ri": "^1.2.7",
+    "@iconify-json/ri": "^1.2.9",
     "@vuepress/bundler-vite": "2.0.0-rc.26",
     "http-server": "^14.1.1",
     "typescript": "^5.9.3",
@@ -38,6 +38,6 @@
     "flowchart.ts": "^3.0.1",
     "mermaid": "^11.12.2",
     "pinyin-pro": "^3.28.0",
-    "pyodide": "^0.29.2"
+    "pyodide": "^0.29.3"
   }
 }
