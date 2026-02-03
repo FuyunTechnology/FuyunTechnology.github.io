@@ -120,6 +120,7 @@ config:
 ::::: card title="数学" icon="pajamas:formula "
 
 1. **向后预习课程,==预习导数=={.danger}**
+2. **解题觉醒完成4.3.1**
 
 :::::
 

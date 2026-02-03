@@ -30,51 +30,50 @@ outline: 'deep'
 
    ==下载速度慢请看这里=={.tip}[+镜像]
 
-[+镜像]: 点击此处跳转镜像网站:[镜像仓库](https://bgithub.xyz/Fuyunxinyu/fuyunxinyu.github.io)
 3. 下载完之后再解压压缩包,解压到合适的地方.
 
-   ::: danger
-   路径不得含有中文等其他字符
-   :::
+::: danger
+路径不得含有中文等其他字符
+:::
 4. 在文件夹下打开`cmd`,输入以下指令:
 
-   安装依赖:
+安装依赖:
 
-   ```powershell
-   npm i -g pnpm
-   ```
+```powershell
+npm i -g pnpm
+```
 
-   安装包体:
+安装包体:
 
-   ```powershell
-   pnpm istall
-   ```
+```powershell
+pnpm istall
+```
 
-   安装插件:
-   ::: code-tabs
+安装插件:
+::: code-tabs
 
-   @tab 通用组件
+@tab 通用组件
 
-   ```powershell
-   pnpm add valaxy-addon-components
-   ```
+```powershell
+pnpm add valaxy-addon-components
+```
 
-   @tab 相册组件
+@tab 相册组件
 
-   ```powershell
-   npm i valaxy-addon-lightgallery
-   ```
+```powershell
+npm i valaxy-addon-lightgallery
+```
 
-   @tab 统计组件
+@tab 统计组件
 
-   ```powershell
-   pnpm add valaxy-addon-vercount
-   ```
+```powershell
+pnpm add valaxy-addon-vercount
+```
 
-   :::
+:::
 5. 打开文件`valaxy.config.ts`和`config.ts`,对照里面的注释,==自己进行修改==把
-   ::::
-   :::::
+::::
+:::::
 
 ### valaxy.config.ts:
 
@@ -292,4 +291,6 @@ Valaxy拥有对文章加密的功能,不过需要谨慎使用,不要把重要数
 
 # 尾声
 
-到此,Valaxy的配置项也说得差不多了,下一步,就是进行==站点部署=={.tip}了
+到此,Valaxy的配置项也说得差不多了,下一步就是进行==站点部署=={.tip}了
+
+[+镜像]: 点击此处跳转镜像网站:[镜像仓库](https://bgithub.xyz/Fuyunxinyu/fuyunxinyu.github.io)
