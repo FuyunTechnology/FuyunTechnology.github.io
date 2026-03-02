@@ -199,21 +199,20 @@ export default defineUserConfig({
        include: false,      // 在 Markdown 文件中导入其他 markdown 文件内容
        imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
        
+       encrypt: true,   //启用加密语法
+
        /*env: {
         // 引用链接
         references: {
-          vuepress: 'https://v2.vuepress.vuejs.org/',
-          plume: 'https://theme-plume.vuejs.press/'
+          vuepress: 'https://v2.vuepress.vuejs.org/'
         },
         // 缩写词
         abbreviations: {
-          HTML: 'Hypertext Markup Language',
-
+          HTML: 'Hypertext Markup Language'
         },
         // 内容注释
         annotations: {
-          vuepress: 'VuePress 是一个 [静态站点生成器](https://en.wikipedia.org/wiki/Static_site_generator) (SSG) 。专为构建快速、以内容为中心的站点而设计。',
-
+          vuepress: 'VuePress 是一个 [静态站点生成器](https://en.wikipedia.org/wiki/Static_site_generator) (SSG) 。专为构建快速、以内容为中心的站点而设计。'
         }
       }
         */

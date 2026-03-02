@@ -107,6 +107,10 @@ config:
 
   宣誓人：2400班全体成员
 
+- 每日一题 
+  ## 已知实数x,y,z满足x+y+z=0,证明:$\frac {x(x+2)}{2x^2 +1} +\frac {y(y+2)}{2y^2 +1} +\frac {z(z+2)}{2z^2 +1} \geq 0$,并指出等号成立的条件.
+
+
 :::::
 
 :::::: card-masonry gap="16" cols='{sm: 1, md: 3, lg: 3}'
@@ -117,31 +121,20 @@ config:
 
 :::::
 
+
+
+
 ::::: card title="数学" icon="pajamas:formula "
 
-1. **向后预习课程,==预习导数=={.danger}**
-2. **解题觉醒完成4.3.1**
+1. **向后预习课程**
+2. **解题觉醒完成至最值**
+3. **张明煊准备每日一题**(解三角形,圆锥曲线,数列,导数相关题目)
+
 
 :::::
 
-::::: card
-:::: collapse accordion
 
-- 内务
 
-  ::: table hl-cells="danger:(4,2),(5,2),(7,2)"
-
-  | 内务 |  一  |  二  |  三  |  四  |  五  |  六  |
-  | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
-  | 317  |      |      |      |      |      |      |
-  | 318  |      |      |      |      |      |      |
-  | 319  |      |      |      |      |      |      |
-  | 320  |      |      |      |      |      |      |
-  | 319  |      |      |      |      |      |      |
-  | 320  |      |      |      |      |      |      |
-
-  :::
-:::::
 
 ::::: card title="英语" icon="material-symbols:book-6-outline-rounded"
 
@@ -149,15 +142,26 @@ config:
 
 :::::
 
+
+
+
 ::::: card title="物理" icon="pajamas:rocket-launch"
 
 
+
 :::::
+
+
+
 
 ::::: card title="化学" icon="pajamas:issue-type-test-case"
 
 
+
 :::::
+
+
+
 
 ::::: card title="生物" icon="pajamas:nature"
 
@@ -258,4 +262,5 @@ config:
 
 [+每日一题]:
    <ImageCard image="/image/Other/Homework.png"  width="350px"  />
+   <Badge type="danger" text="寒假作业" />
 
