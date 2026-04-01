@@ -60,7 +60,7 @@ const 我的项目 =defineCollection({
       [
         {
           text: '迭变',
-          link: '/note/my project/big project/iteration/',
+          link: '/note/my project/big project/iteration/iteration-1/',
         }
       ],
     },
@@ -220,13 +220,13 @@ const 博客文章 = defineCollection({
 const 迭变 = defineCollection({
   title: '迭变' ,
   type: 'doc',
-  dir: '/note/my project/big project/iteration/',
-  linkPrefix: '/note/my project/big project/iteration/',
+  dir: '/note/my project/big project/iteration/iteration-1/',
+  linkPrefix: '/note/my project/big project/iteration/iteration-1/',
   sidebar: 
   [ // 手动配置导航项
     { 
-      text: '介绍',
-      link: '/note/my project/big project/iteration/',
+      text: '简介和概述',
+      link: '/note/my project/big project/iteration/iteration-1/',
       icon: 'mdi:tooltip-text-outline' 
     },
     {
@@ -235,12 +235,12 @@ const 迭变 = defineCollection({
       items:[ {
                   text: '角色',
                   icon: '',
-                  link: 'character/'
+                  link: 'role/'
                 },
                 {
                   text: '人物',
                   icon: '',
-                  link: '人物/'
+                  link: 'character/'
                 },
                 {
                   text: '物品',
@@ -263,9 +263,9 @@ const 迭变 = defineCollection({
                   link: 'plot/'
                 },
                 {
-                  text: '机构',
+                  text: '组织',
                   icon: '',
-                  link: '机构/'
+                  link: 'organization/'
                 },
                 
               ]
