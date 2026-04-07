@@ -118,7 +118,7 @@ config:
 
 ::::: card title="语文" icon="pajamas:highlight"
 
-1. **课时陈情表和一单元检测试题(含作文)以及湘教考苑的两套试题(不含作文)**<Badge type="danger" text="假期作业" />
+
 
 :::::
 
@@ -127,10 +127,9 @@ config:
 
 ::::: card title="数学" icon="pajamas:formula "
 
-1. **毛雅妮准备每日一题(解三角形,圆锥曲线,数列,导数相关题目)**
+1. ==毛雅妮=={.danger}**准备每日一题(解三角形,圆锥曲线,数列,导数相关题目)**
 2. **解题觉醒选必二/选必三6.1**
 3. **更正月考试卷**
-4. **两张试卷,解题觉醒6.2**<Badge type="danger" text="假期作业" />
 
 :::::
 
@@ -161,7 +160,7 @@ config:
 
 ::::: card title="英语" icon="material-symbols:book-6-outline-rounded"
 
-1. **47期周报**<Badge type="danger" text="假期作业" />
+
 
 :::::
 
@@ -170,7 +169,7 @@ config:
 
 ::::: card title="物理" icon="pajamas:rocket-launch"
 
-1. **课时除了章末检测以外,电磁感应全部写完**<Badge type="danger" text="假期作业" />
+
 
 :::::
 
@@ -179,7 +178,7 @@ config:
 
 ::::: card title="化学" icon="pajamas:issue-type-test-case"
 
-1. **学法的p78页以后内容**<Badge type="danger" text="假期作业" />
+
 
 :::::
 
@@ -188,7 +187,7 @@ config:
 
 ::::: card title="生物" icon="pajamas:nature"
 
-1. **学法32-48**<Badge type="danger" text="假期作业" />
+
 
 :::::
 
