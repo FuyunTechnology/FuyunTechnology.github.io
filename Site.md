@@ -1,3 +1,5 @@
 [必应](https://bing.com)
 
-[DeepSeek](https://chat.deeepseek.com)
+[DeepSeek](www.chat.deeepseek.com)
+
+(ZhiHu)[www.zhihu.com)
